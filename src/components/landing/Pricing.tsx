@@ -37,6 +37,16 @@ export function Pricing() {
               <h3 className="text-2xl font-bold">PLANO BÁSICO:</h3>
             </div>
             <div className="p-6 flex flex-col flex-grow">
+               <div className="flex justify-center my-4">
+                 <Image
+                    src="https://i.imgur.com/40oOK5X.png"
+                    alt="Mockup do eBook"
+                    width={200}
+                    height={200}
+                    className="rounded-lg"
+                    data-ai-hint="ebook cover"
+                />
+              </div>
               <p className="text-center font-bold text-lg uppercase">PAGAMENTO ÚNICO</p>
               <p className="text-center text-6xl font-extrabold text-[#24C55C] my-4">R$10</p>
               
@@ -71,15 +81,15 @@ export function Pricing() {
             </div>
             <div className="bg-red-600 text-white text-center py-3 rounded-t-md">
               <h3 className="text-2xl font-bold">PLANO COMPLETO:</h3>
-              <p className="text-lg">(MELHOR NEGÓCIO)</p>
             </div>
-            <div className="p-6 flex flex-col flex-grow">
+            <p className="text-center font-semibold text-black mt-2">(MELHOR NEGÓCIO)</p>
+            <div className="p-6 pt-2 flex flex-col flex-grow">
               <div className="flex justify-center my-4">
                  <Image
-                    src="https://i.imgur.com/FLcLQWF.png"
+                    src="https://i.imgur.com/kk1sR2G.png"
                     alt="Mockup do eBook e Bônus"
-                    width={300}
-                    height={300}
+                    width={250}
+                    height={250}
                     className="rounded-lg"
                     data-ai-hint="ebook cover bonuses"
                 />
@@ -107,7 +117,7 @@ export function Pricing() {
               </div>
 
               <div className="mt-auto">
-                <Button className="w-full bg-[#24C55C] hover:bg-[#1fa34c] text-white font-bold text-xl h-auto py-4 transform hover:scale-105 transition-transform">
+                <Button className="w-full bg-[#24C55C] hover:bg-[#1fa34c] text-white font-bold text-lg md:text-xl h-auto py-4 transform hover:scale-105 transition-transform">
                   SIM! QUERO ESSA SUPER OFERTA!
                 </Button>
                 <p className="text-center text-slate-600 mt-4 text-sm">

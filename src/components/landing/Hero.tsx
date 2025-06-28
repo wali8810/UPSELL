@@ -46,7 +46,7 @@ export function Hero() {
 
           <div className="mt-10 w-full max-w-xs md:max-w-sm">
             <Image
-              src="https://i.imgur.com/FLcLQWF.png"
+              src="https://i.imgur.com/40oOK5X.png"
               alt="Mockup do eBook 'As 26 Batidas Mais Poderosas'"
               width={500}
               height={500}

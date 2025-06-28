@@ -7,7 +7,7 @@ export function SecondaryMockup() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-4xl">
         <div className="md:w-1/3 flex-shrink-0">
           <Image 
-            src="https://i.imgur.com/ZZK7Oy6.png"
+            src="https://i.imgur.com/RsDHkPQ.png"
             alt="Capa do eBook em um tablet"
             width={400}
             height={400}
