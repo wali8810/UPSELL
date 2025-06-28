@@ -19,11 +19,11 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section className="py-16 md:py-24 bg-card/10">
+    <section className="py-16 md:py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">Veja o que dizem nossos leitores</h2>
-          <p className="text-muted-foreground mt-2">Resultados reais de quem já está transformando o som do violão.</p>
+          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-slate-800">Veja o que dizem nossos leitores</h2>
+          <p className="text-slate-600 mt-2">Resultados reais de quem já está transformando o som do violão.</p>
         </div>
         <Carousel 
           opts={{
@@ -36,7 +36,7 @@ export function Testimonials() {
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="overflow-hidden bg-card/80 border-border rounded-lg">
+                  <Card className="overflow-hidden rounded-lg bg-white border border-slate-200 shadow-sm">
                     <CardContent className="p-0">
                       <Image
                         src={testimonial.src}
@@ -52,8 +52,8 @@ export function Testimonials() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="hidden sm:flex" />
-          <CarouselNext className="hidden sm:flex" />
+          <CarouselPrevious className="hidden sm:flex bg-white text-slate-800 hover:bg-slate-200 border-slate-300" />
+          <CarouselNext className="hidden sm:flex bg-white text-slate-800 hover:bg-slate-200 border-slate-300" />
         </Carousel>
       </div>
     </section>

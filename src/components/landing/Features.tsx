@@ -10,15 +10,15 @@ const features = [
 
 export function Features() {
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-16 md:py-24 bg-slate-50 text-slate-800">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">O QUE VOCÊ VAI DOMINAR:</h2>
             <ul className="space-y-4 text-left">
                 {features.map((feature, index) => (
-                    <li key={index} className="flex items-center text-lg p-4 rounded-lg bg-card/80 border border-border transition-colors hover:border-primary/50">
+                    <li key={index} className="flex items-center text-lg p-4 rounded-lg bg-white border border-slate-200 shadow-sm transition-all hover:shadow-md hover:border-primary/50">
                         <Check className="h-6 w-6 text-green-500 mr-4 shrink-0" />
-                        <span>{feature}</span>
+                        <span className="text-slate-700">{feature}</span>
                     </li>
                 ))}
             </ul>

@@ -38,15 +38,15 @@ export function Hero() {
             />
           </div>
           
-          <div className="mt-8 flex flex-col items-center space-y-4">
-            <div className="bg-card/50 backdrop-blur-sm p-4 rounded-lg border border-border">
+          <div className="mt-8 flex flex-col items-center space-y-4 w-full max-w-xs">
+            <div className="bg-card/50 backdrop-blur-sm p-4 rounded-lg border border-border w-full">
                 <p className="text-lg text-muted-foreground">DE <span className="line-through">R$67,00</span> POR APENAS</p>
-                <div className="flex items-center justify-center gap-4">
-                    <p className="text-5xl font-bold text-accent">R$16,90</p>
+                <div className="flex items-baseline justify-center gap-2">
+                    <span className="text-5xl font-bold text-accent">R$16,90</span>
                 </div>
             </div>
             
-            <a href="#plans" className="w-full max-w-xs">
+            <a href="#plans" className="w-full">
               <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-black font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg">
                 QUERO APRENDER AGORA!
               </Button>
