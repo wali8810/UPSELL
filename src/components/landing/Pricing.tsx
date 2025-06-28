@@ -75,7 +75,6 @@ export function Pricing() {
                     <span className="text-muted-foreground line-through text-lg">De R$67,00</span>
                     <p className="text-4xl font-bold">R$16,90</p>
                 </div>
-                 <p className="mt-4 text-white uppercase text-center font-semibold text-xs tracking-wider">Atenção: A Promoção é LIMITADA e Acabará em Breve.</p>
             </CardHeader>
             <CardContent className="flex-grow">
               <div className="flex items-center justify-center text-sm text-white mb-4 gap-2 bg-white/10 p-2 rounded-md font-semibold">
@@ -91,8 +90,11 @@ export function Pricing() {
                 ))}
               </ul>
             </CardContent>
-            <CardFooter>
-              <Button className="w-full bg-[#00C853] hover:bg-[#00B148] text-black font-bold text-lg transform hover:scale-105 transition-transform animate-pulse-green">QUERO O PACOTE COMPLETO</Button>
+            <CardFooter className="flex-col items-center gap-4">
+               <Button className="w-full bg-[#00C853] hover:bg-[#00B148] text-white font-bold text-lg transform hover:scale-105 transition-transform animate-pulse-green">QUERO O PACOTE COMPLETO</Button>
+               <p className="mt-4 text-white uppercase text-center font-semibold text-xs tracking-wider">
+                Atenção: A Promoção é <strong>LIMITADA</strong> e <strong>Acabará em Breve</strong>.
+              </p>
             </CardFooter>
           </Card>
         </div>

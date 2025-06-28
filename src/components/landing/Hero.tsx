@@ -1,19 +1,35 @@
+"use client";
+
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "./CountdownTimer";
+import { useState, useEffect } from 'react';
 
 export function Hero() {
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => {
+    if (window.pageYOffset < window.innerHeight) {
+       setOffsetY(window.pageYOffset);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <section className="relative text-white flex items-center justify-center text-center min-h-[450px] md:min-h-[600px] py-16 md:py-24 overflow-hidden">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 z-0">
         <Image
           src="https://i.imgur.com/okdxZ1l.png"
           alt="Violão de madeira com iluminação suave ao fundo"
           layout="fill"
           objectFit="cover"
-          className="z-0 animate-zoom-in-out"
+          className="z-0"
           priority
           data-ai-hint="guitar concert stage"
+          style={{ transform: `translateY(${offsetY * 0.4}px)` }}
         />
         <div className="absolute inset-0 bg-black/70 z-10"></div>
       </div>
@@ -51,7 +67,7 @@ export function Hero() {
             <CountdownTimer />
 
             <a href="#plans" className="w-full">
-              <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-black font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
+              <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-white font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
                 QUERO APRENDER AGORA!
               </Button>
             </a>

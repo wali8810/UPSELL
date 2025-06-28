@@ -26,7 +26,7 @@ export function Guarantee() {
           </p>
           
           <a href="#plans" className="inline-block w-full max-w-md">
-            <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-black font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
+            <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-white font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
               LIBERAR MEU ACESSO AGORA
             </Button>
           </a>
