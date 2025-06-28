@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Guitar Rhythms Unleashed',
-  description: 'Master the 26 most used guitar strums and transform your sound from scratch!',
+  title: 'As 26 Batidas Mais Poderosas',
+  description: 'Domine 26 batidas universais e toque qualquer música com confiança em poucos dias.',
 };
 
 export default function RootLayout({

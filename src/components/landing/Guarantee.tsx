@@ -1,61 +1,50 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { CheckCircle } from "lucide-react";
+import { ShieldCheck, ThumbsUp, Lock } from "lucide-react";
 
 export function Guarantee() {
   return (
-    <section className="py-12 md:py-24 bg-background">
+    <section className="py-12 md:py-24">
       <div className="container mx-auto px-4 max-w-3xl">
-        <div className="text-center">
+        <div className="text-center bg-card/80 border border-border rounded-lg p-8 md:p-12">
           <h2 className="text-3xl md:text-4xl font-bold text-primary">PRODUTO COM RISCO ZERO!</h2>
-          <p className="text-xl md:text-2xl font-semibold mt-2 text-accent">GARANTIA INCONDICIONAL DE 7 DIAS</p>
+          <p className="text-xl md:text-2xl font-semibold mt-2">Sua Satisfação ou Seu Dinheiro de Volta</p>
           
           <div className="flex justify-center my-8">
             <Image 
               src="https://i.imgur.com/TYxqyrh.png" 
               alt="Selo de Garantia de 7 dias"
-              width={200}
-              height={200}
-              className="w-32 h-32 md:w-40 md:h-40"
+              width={150}
+              height={150}
+              className="w-28 h-28 md:w-36 md:h-36"
               data-ai-hint="guarantee seal"
             />
           </div>
 
-          <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-            Se por qualquer motivo você não gostar do conteúdo, devolvemos 100% do seu dinheiro — sem burocracia.
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-10">
+            Você tem 7 dias para testar o material. Se por qualquer motivo não ficar satisfeito, é só mandar um e-mail e devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.
           </p>
-
-          <div className="text-left max-w-md mx-auto space-y-3 mb-10">
-            <div className="flex items-center">
-              <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
-              <span>Entre em contato através do nosso suporte</span>
-            </div>
-            <div className="flex items-center">
-              <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
-              <span>Informe o motivo (opcional)</span>
-            </div>
-            <div className="flex items-center">
-              <CheckCircle className="h-5 w-5 text-green-500 mr-3" />
-              <span>Reembolso em até 5 dias úteis</span>
-            </div>
-          </div>
           
-          <div className="flex justify-center mb-8">
-             <Image 
-              src="https://i.imgur.com/vHqQ9sE.png" 
-              alt="Clique no botão abaixo para garantir o curso com desconto e segurança"
-              width={600}
-              height={150}
-              className="w-full max-w-lg"
-              data-ai-hint="security icons"
-            />
-          </div>
-
-          <a href="#plans">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white font-bold text-xl h-auto py-4 px-10 transform hover:scale-105 transition-transform duration-300">
+          <a href="#plans" className="inline-block w-full max-w-md">
+            <Button size="lg" className="bg-[#00C853] hover:bg-[#00B148] text-black font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg">
               LIBERAR MEU ACESSO AGORA
             </Button>
           </a>
+          
+          <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-6 text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="h-5 w-5" />
+              <span>Compra Segura</span>
+            </div>
+             <div className="flex items-center gap-2">
+              <ThumbsUp className="h-5 w-5" />
+              <span>Satisfação Garantida</span>
+            </div>
+             <div className="flex items-center gap-2">
+              <Lock className="h-5 w-5" />
+              <span>Privacidade Protegida</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -2,41 +2,41 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "Como vou receber o acesso ao material?",
-    answer: "O acesso é imediato após a confirmação da compra. Você receberá um e-mail com todas as instruções para acessar a área de membros."
+    question: "Em quanto tempo recebo o eBook?",
+    answer: "O acesso é imediato! Assim que o pagamento for confirmado, você receberá um e-mail com o link para baixar o seu PDF. Simples e rápido."
+  },
+  {
+    question: "Serve para violão acústico e elétrico?",
+    answer: "Sim! As técnicas de batida ensinadas no eBook funcionam perfeitamente para qualquer tipo de violão, seja ele acústico (nylon ou aço) ou elétrico."
+  },
+    {
+    question: "Mesmo que eu seja iniciante, vou conseguir aprender?",
+    answer: "Com certeza! O material foi criado pensando em iniciantes. As explicações são visuais, claras e diretas ao ponto, para que você aprenda sem dificuldades."
   },
   {
     question: "Por quanto tempo terei acesso?",
-    answer: "O acesso é vitalício! Você pode estudar no seu ritmo, quando e onde quiser, para sempre."
-  },
-  {
-    question: "O curso serve para quem nunca tocou violão?",
-    answer: "Sim! O método foi pensado para quem está começando do zero e também para quem já toca mas quer evoluir. As aulas são diretas ao ponto e fáceis de acompanhar."
+    answer: "O acesso é seu para sempre! Como é um arquivo PDF, você pode baixar e guardar em quantos dispositivos quiser para consultar quando precisar."
   },
   {
     question: "E se eu não gostar do conteúdo?",
-    answer: "Você tem uma garantia incondicional de 7 dias. Se por qualquer motivo não ficar satisfeito, basta pedir o reembolso e devolveremos 100% do seu dinheiro."
-  },
-  {
-    question: "Quais ritmos vou aprender?",
-    answer: "Você vai dominar batidas essenciais para os mais variados estilos, como pop, rock, sertanejo, MPB, forró e ritmos de louvor."
+    answer: "Você tem uma garantia incondicional de 7 dias. Se por qualquer motivo não ficar satisfeito, basta nos enviar um e-mail e devolveremos 100% do seu dinheiro."
   }
 ];
 
 export function Faq() {
   return (
-    <section className="py-12 md:py-24 bg-secondary">
+    <section className="py-12 md:py-24">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">
             <span role="img" aria-label="question mark">❓</span> Perguntas Frequentes
           </h2>
         </div>
-        <Accordion type="single" collapsible className="w-full">
+        <Accordion type="single" collapsible className="w-full bg-card/80 border border-border rounded-lg p-4">
           {faqItems.map((item, index) => (
-            <AccordionItem value={`item-${index}`} key={index}>
-              <AccordionTrigger className="text-lg text-left">{item.question}</AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
+            <AccordionItem value={`item-${index}`} key={index} className={index === faqItems.length - 1 ? "border-b-0" : ""}>
+              <AccordionTrigger className="text-lg text-left hover:no-underline">{item.question}</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground text-base">
                 {item.answer}
               </AccordionContent>
             </AccordionItem>

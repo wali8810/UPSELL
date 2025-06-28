@@ -11,7 +11,7 @@ import { Footer } from '@/components/landing/Footer';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-background text-foreground">
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-[#231F1C] to-[#12100E] text-foreground">
       <main className="flex-grow">
         <Hero />
         <Audience />
