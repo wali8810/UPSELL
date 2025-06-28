@@ -88,8 +88,8 @@ export function Pricing() {
                  <Image
                     src="https://i.imgur.com/kk1sR2G.png"
                     alt="Mockup do eBook e Bônus"
-                    width={250}
-                    height={250}
+                    width={300}
+                    height={300}
                     className="rounded-lg"
                     data-ai-hint="ebook cover bonuses"
                 />
