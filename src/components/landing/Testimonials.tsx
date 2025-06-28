@@ -19,10 +19,10 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section className="py-12 md:py-24 bg-background/50">
+    <section className="py-16 md:py-24 bg-card/10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold">Veja o que dizem nossos leitores</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">Veja o que dizem nossos leitores</h2>
           <p className="text-muted-foreground mt-2">Resultados reais de quem já está transformando o som do violão.</p>
         </div>
         <Carousel 
@@ -43,7 +43,7 @@ export function Testimonials() {
                         alt={testimonial.alt}
                         width={400}
                         height={400}
-                        className="aspect-square w-full object-contain p-2"
+                        className="aspect-square w-full object-cover"
                         data-ai-hint="user testimonial social"
                       />
                     </CardContent>

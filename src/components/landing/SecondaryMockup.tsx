@@ -3,7 +3,7 @@ import { Smartphone, Tablet, Monitor } from "lucide-react";
 
 export function SecondaryMockup() {
   return (
-    <section className="py-12 md:py-24 bg-background/50">
+    <section className="py-16 md:py-24 bg-card/10">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-4xl">
         <div className="md:w-1/3 flex-shrink-0">
           <Image 
@@ -16,7 +16,7 @@ export function SecondaryMockup() {
           />
         </div>
         <div className="md:w-2/3 text-center md:text-left">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Direto ao Ponto, Sem Enrolação.</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4 uppercase tracking-wide">Direto ao Ponto, Sem Enrolação.</h2>
             <p className="text-lg text-muted-foreground mb-6">
                 Este não é mais um curso longo. É um guia <span className="text-primary font-semibold">prático em PDF</span> com as 26 batidas essenciais para você destravar no violão. Simples, visual e direto ao que funciona.
             </p>

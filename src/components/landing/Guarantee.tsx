@@ -4,10 +4,10 @@ import { ShieldCheck, ThumbsUp, Lock } from "lucide-react";
 
 export function Guarantee() {
   return (
-    <section className="py-12 md:py-24">
+    <section className="py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center bg-card/80 border border-border rounded-lg p-8 md:p-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">PRODUTO COM RISCO ZERO!</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide">Produto com Risco Zero!</h2>
           <p className="text-xl md:text-2xl font-semibold mt-2">Sua Satisfação ou Seu Dinheiro de Volta</p>
           
           <div className="flex justify-center my-8">

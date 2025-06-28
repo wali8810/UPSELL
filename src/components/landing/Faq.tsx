@@ -25,18 +25,18 @@ const faqItems = [
 
 export function Faq() {
   return (
-    <section className="py-12 md:py-24">
+    <section className="py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">
             <span role="img" aria-label="question mark">❓</span> Perguntas Frequentes
           </h2>
         </div>
-        <Accordion type="single" collapsible className="w-full bg-card/80 border border-border rounded-lg p-4">
+        <Accordion type="single" collapsible className="w-full bg-card/80 border border-border rounded-lg p-2 md:p-4">
           {faqItems.map((item, index) => (
             <AccordionItem value={`item-${index}`} key={index} className={index === faqItems.length - 1 ? "border-b-0" : ""}>
-              <AccordionTrigger className="text-lg text-left hover:no-underline">{item.question}</AccordionTrigger>
-              <AccordionContent className="text-muted-foreground text-base">
+              <AccordionTrigger className="text-lg text-left hover:no-underline px-4">{item.question}</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground text-base px-4">
                 {item.answer}
               </AccordionContent>
             </AccordionItem>

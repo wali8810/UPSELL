@@ -3,17 +3,17 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section className="relative text-white py-20 md:py-32 flex items-center justify-center text-center">
+    <section className="relative text-white py-24 md:py-40 flex items-center justify-center text-center">
       <div className="absolute inset-0">
         <Image
           src="https://placehold.co/1920x1080.png"
           alt="Pessoa tocando violão ao fundo"
           layout="fill"
           objectFit="cover"
-          className="z-0 opacity-10"
+          className="z-0 opacity-15"
           data-ai-hint="guitar playing background"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent z-10"></div>
       </div>
 
       <div className="relative z-20 container mx-auto px-4">
