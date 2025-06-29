@@ -95,4 +95,13 @@
       transform: scale(1);
     }
   }
+
+  .clip-path-bottom-diag {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  }
+  @media (max-width: 768px) {
+    .clip-path-bottom-diag {
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+    }
+  }
 }
