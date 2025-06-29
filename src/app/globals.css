@@ -95,13 +95,4 @@
       transform: scale(1);
     }
   }
-
-  .clip-path-wave {
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 75% 85%, 50% 80%, 25% 75%, 0 80%);
-  }
-  @media (max-width: 768px) {
-    .clip-path-wave {
-      clip-path: polygon(0 0, 100% 0, 100% 90%, 75% 94%, 50% 90%, 25% 94%, 0 90%);
-    }
-  }
 }
