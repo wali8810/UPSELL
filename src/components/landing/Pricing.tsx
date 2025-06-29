@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Check, X, Star } from "lucide-react";
 import Image from "next/image";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 
 const bonusData = [
   {
@@ -164,9 +165,15 @@ export function Pricing() {
 
               <div className="mt-auto">
                 <p className="text-center uppercase font-bold text-sm mb-3">CLIQUE NO BOTÃO ABAIXO PARA GARANTIR O <span className="text-destructive">MATERIAL COM 89% OFF!</span></p>
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg md:text-xl h-auto py-4 transform hover:scale-105 transition-transform">
-                  SIM! QUERO ESSA SUPER OFERTA!
-                </Button>
+                 <div className="flex justify-center">
+                   <HoverBorderGradient
+                      as="button"
+                      containerClassName="w-full rounded-md"
+                      className="w-full bg-primary text-primary-foreground font-bold text-lg md:text-xl h-auto py-4"
+                    >
+                      SIM! QUERO ESSA SUPER OFERTA!
+                    </HoverBorderGradient>
+                </div>
                 <p className="text-center text-muted-foreground mt-4 text-sm">
                   ATENÇÃO: A Promoção é <strong className="text-destructive font-bold">LIMITADA</strong> e <strong className="text-destructive font-bold">Acabará em Breve</strong>.
                 </p>
