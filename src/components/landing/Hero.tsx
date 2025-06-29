@@ -19,7 +19,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative text-white flex items-center justify-center text-center min-h-[450px] md:min-h-[600px] py-16 md:py-24 overflow-hidden clip-path-bottom-diag">
+    <section className="relative text-white flex items-center justify-center text-center min-h-[450px] md:min-h-[600px] pt-16 md:pt-24 pb-32 md:pb-48 overflow-hidden clip-path-bottom-diag">
       <div className="absolute inset-0 z-0">
         <Image
           src="https://i.imgur.com/okdxZ1l.png"
