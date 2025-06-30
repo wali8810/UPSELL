@@ -53,9 +53,9 @@ export function Pricing() {
   return (
     <section id="plans" className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8 max-w-5xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-center items-start gap-8 max-w-5xl mx-auto">
           
-          <div className="flex flex-col bg-card text-foreground rounded-lg shadow-lg w-full lg:w-1/2 p-1 border">
+          <div className="flex flex-col bg-card text-foreground rounded-lg shadow-lg w-full md:w-1/2 p-1 border">
             <div className="bg-muted text-center py-3 rounded-t-md">
               <h3 className="text-2xl font-bold">PLANO BÁSICO:</h3>
             </div>
@@ -91,21 +91,25 @@ export function Pricing() {
               </div>
 
               <div className="mt-auto pt-6">
-                <Button className="w-full bg-primary/80 hover:bg-primary/70 text-primary-foreground font-bold text-lg h-auto py-3">
-                  QUERO ESSA OPÇÃO!
-                </Button>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" className="block w-full">
+                  <Button className="w-full bg-primary/80 hover:bg-primary/70 text-primary-foreground font-bold text-lg h-auto py-3">
+                    QUERO ESSA OPÇÃO!
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
 
-          <div className="relative w-full lg:w-1/2 mt-8 md:mt-0">
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 z-20">
-                <Star className="h-4 w-4" fill="currentColor" />
-                <Star className="h-4 w-4" fill="currentColor" />
-                <Star className="h-4 w-4" fill="currentColor" />
-                <Star className="h-4 w-4" fill="currentColor" />
-                <Star className="h-4 w-4" fill="currentColor" />
-                <span className="ml-1">Mais Vendido</span>
+          <div className="relative w-full md:w-1/2 mt-8 md:mt-0">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+              <div className="bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1">
+                  <Star className="h-4 w-4" fill="currentColor" />
+                  <Star className="h-4 w-4" fill="currentColor" />
+                  <Star className="h-4 w-4" fill="currentColor" />
+                  <Star className="h-4 w-4" fill="currentColor" />
+                  <Star className="h-4 w-4" fill="currentColor" />
+                  <span className="ml-1">Mais Vendido</span>
+              </div>
             </div>
 
             <BackgroundGradient
@@ -156,13 +160,15 @@ export function Pricing() {
 
                 <div className="mt-auto">
                    <div className="flex justify-center">
-                     <HoverBorderGradient
-                        as="button"
-                        containerClassName="w-full rounded-md"
-                        className="w-full bg-primary text-primary-foreground font-bold text-lg md:text-xl h-auto py-4"
-                      >
-                        SIM! QUERO ESSA SUPER OFERTA!
-                      </HoverBorderGradient>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="block w-full">
+                       <HoverBorderGradient
+                          as="button"
+                          containerClassName="w-full rounded-md"
+                          className="w-full bg-primary text-primary-foreground font-bold text-lg md:text-xl h-auto py-4"
+                        >
+                          SIM! QUERO ESSA SUPER OFERTA!
+                        </HoverBorderGradient>
+                     </a>
                   </div>
                   <p className="text-center text-muted-foreground mt-4 text-sm">
                     ATENÇÃO: A Promoção é <strong className="text-destructive font-bold">LIMITADA</strong> e <strong className="text-destructive font-bold">Acabará em Breve</strong>.
