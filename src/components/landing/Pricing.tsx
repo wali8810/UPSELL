@@ -77,14 +77,14 @@ export function Pricing() {
               <div className="mb-6 flex justify-center">
                 <ul className="divide-y divide-border">
                   {basicPlanIncluded.map((item, index) => (
-                    <li key={`include-${index}`} className="flex items-center py-2">
-                      <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                      <span className="text-sm text-muted-foreground text-left" dangerouslySetInnerHTML={{ __html: item }} />
+                    <li key={`include-${index}`} className="flex items-start text-left py-2">
+                      <Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-1" />
+                      <span className="text-sm text-muted-foreground" dangerouslySetInnerHTML={{ __html: item }} />
                     </li>
                   ))}
                   {basicPlanExcluded.map((item, index) => (
-                    <li key={`exclude-${index}`} className="flex items-center py-2">
-                      <X className="h-5 w-5 text-red-500 mr-2 shrink-0" />
+                    <li key={`exclude-${index}`} className="flex items-start text-left py-2">
+                      <X className="h-5 w-5 text-red-500 mr-2 shrink-0 mt-1" />
                       <span className="text-sm text-red-500/70 italic"><del>{item}</del></span>
                     </li>
                   ))}
@@ -130,17 +130,17 @@ export function Pricing() {
               <div className="mb-6 flex justify-center">
                   <ul className="divide-y divide-border">
                     {completePlanIncluded.map((item, index) => (
-                      <li key={`complete-${index}`} className="flex items-center py-2">
-                        <Check className="h-5 w-5 text-primary mr-2 shrink-0" />
-                        <span className="text-sm text-muted-foreground text-left" dangerouslySetInnerHTML={{ __html: item }} />
+                      <li key={`complete-${index}`} className="flex items-start text-left py-2">
+                        <Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-1" />
+                        <span className="text-sm text-muted-foreground" dangerouslySetInnerHTML={{ __html: item }} />
                       </li>
                     ))}
                      {bonusData.map((bonus, index) => (
-                        <li key={index} className="flex items-start space-x-2 py-2">
-                            <Check className="h-5 w-5 text-primary shrink-0 mt-1" />
-                            <div className="text-left">
-                                <h4 className="font-bold text-primary/90 text-sm">Bônus 0{index + 1}: {bonus.title}</h4>
-                                <p className="text-muted-foreground text-sm">{bonus.description}</p>
+                        <li key={index} className="flex items-start text-left py-2">
+                            <Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-1" />
+                            <div className="text-sm text-left">
+                                <p className="font-bold text-primary/90">{`Bônus 0${index + 1}: ${bonus.title}`}</p>
+                                <p className="text-muted-foreground">{bonus.description}</p>
                             </div>
                         </li>
                     ))}
