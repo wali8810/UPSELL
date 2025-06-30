@@ -73,7 +73,7 @@ export function Hero() {
             
             <div className="mt-8 flex flex-col items-center space-y-6 w-full max-w-sm">
               <div className="bg-transparent rounded-lg w-full text-center">
-                  <p className="text-lg text-white/80">DE <span className="line-through">R$67,00</span> POR APENAS</p>
+                  <p className="text-lg text-white/80"><span className="text-destructive">DE <span className="line-through">R$67,00</span></span> POR APENAS</p>
                   <div className="flex items-baseline justify-center gap-2">
                       <span className="text-5xl font-bold text-white">R$19,90</span>
                   </div>
