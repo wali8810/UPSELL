@@ -25,7 +25,7 @@ export function Testimonials() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">Veja o que dizem nossos leitores</h2>
-          <p className="text-muted-foreground mt-2">Resultados reais de quem já está transformando o som do violão.</p>
+          <p className="text-muted-foreground mt-2">Resultados reais de quem já está <span className="text-accent underline">transformando o som do violão.</span></p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
