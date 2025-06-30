@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -22,7 +23,7 @@ const bonusData = [
   {
     title: "Bônus 3: Top 50 Sertanejo",
     description: "Descubra os melhores modões e sertanejo universitário com cifras completas.",
-    image: "https://i.imgur.com/T7lmnPm.png",
+    image: "https://i.imgur.com/JQQDJtj.png",
     alt: "Bônus Top 50 Sertanejo",
     value: "R$15,00",
     aiHint: "sertanejo sheet music"
@@ -30,7 +31,7 @@ const bonusData = [
   {
     title: "Bônus 4: Top 50 MPB",
     description: "Clássicos e contemporâneos da música brasileira reunidos em um único lugar.",
-    image: "https://i.imgur.com/JQQDJtj.png",
+    image: "https://i.imgur.com/T7lmnPm.png",
     alt: "Bônus Top 50 MPB",
     value: "R$22,00",
     aiHint: "mpb sheet music"
