@@ -36,7 +36,7 @@ export function Testimonials() {
                   alt={testimonial.alt}
                   width={400}
                   height={400}
-                  className="aspect-square w-full object-cover"
+                  className="aspect-square w-full object-contain p-4"
                   data-ai-hint="user testimonial social"
                 />
               </div>
