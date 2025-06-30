@@ -1,10 +1,10 @@
 import { CheckCircle2 } from "lucide-react";
 
 const audienceItems = [
-  "Nunca mais fique preso em batidas repetitivas",
-  "Ideal pra quem está começando do zero",
-  "Para quem quer acompanhar qualquer música com confiança",
-  "Impressione seus amigos em qualquer roda de violão",
+  "Compositores e Arranjadores: que escrevem suas próprias músicas ou fazem arranjos.",
+  "Músicos: que precisam expandir sua habilidade rítmica no violão.",
+  "Líderes de louvor: que buscam ampliar as opções de músicas para os cultos.",
+  "Estudantes: que possuem sede de conteúdo e querem adicionar novas técnicas ao seu repertório.",
 ];
 
 export function Audience() {

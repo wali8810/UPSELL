@@ -1,11 +1,9 @@
 import { Check } from "lucide-react";
 
 const features = [
-    "As 26 batidas de violão mais versáteis e usadas",
-    "Ritmos de pop, rock, sertanejo, reggae e mais",
-    "Aplicação prática em louvores e nas músicas que você ama",
-    "Técnicas que funcionam em qualquer violão (acústico ou elétrico)",
-    "Método 100% prático, focado em resultados rápidos",
+    "26 Ritmos e Batidas Essenciais: Explore uma variedade de ritmos cuidadosamente selecionados que abrangem diferentes estilos musicais, desde a valsa até o rock, passando por guarânia e muito mais.",
+    "Instruções Detalhadas: Receba instruções passo a passo para cada ritmo, com explicações claras e exemplos práticos que ajudarão você a dominar cada técnica com facilidade.",
+    "Material Inspirador: Mais do que um simples livro digital, este guia conecta você com a beleza da música e amplia seu repertório para performances, ensaios e momentos de prática pessoal.",
 ];
 
 export function Features() {

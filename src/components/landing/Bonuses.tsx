@@ -4,44 +4,44 @@ import { Badge } from "@/components/ui/badge";
 
 const bonusData = [
   {
-    title: "Bônus 1: O Ritmo e Leitura",
-    description: "Aprofunde seu conhecimento com exercícios práticos de ritmo e leitura para solidificar sua batida.",
+    title: "Bônus 1: Top 50 Gospel",
+    description: "Uma seleção exclusiva das melhores músicas gospel cifradas, ideal para louvores e momentos de adoração.",
     image: "https://i.imgur.com/BEK0mhM.png",
-    alt: "Bônus sobre ritmo e leitura",
+    alt: "Bônus Top 50 Gospel",
     value: "R$19,90",
-    aiHint: "music sheet exercise"
+    aiHint: "gospel sheet music"
   },
   {
-    title: "Bônus 2: Transições Suaves",
-    description: "Domine a arte de trocar de acordes sem esforço para que suas músicas fluam perfeitamente.",
+    title: "Bônus 2: Top 50 Rock Internacional",
+    description: "Grandes sucessos do rock britânico e americano, com cifras precisas para músicos de todos os níveis.",
     image: "https://i.imgur.com/PPugZ2o.png",
-    alt: "Bônus sobre transições de acordes",
+    alt: "Bônus Top 50 Rock Internacional",
     value: "R$27,00",
-    aiHint: "guitar chord transition"
+    aiHint: "rock music guitar"
   },
   {
-    title: "Bônus 3: Cifras com Batidas Marcadas",
-    description: "Uma coleção de cifras com as batidas marcadas para você aplicar o que aprendeu em músicas populares.",
+    title: "Bônus 3: Top 50 Sertanejo",
+    description: "Descubra os melhores modões e sertanejo universitário com cifras completas.",
     image: "https://i.imgur.com/T7lmnPm.png",
-    alt: "Bônus de cifras com batidas",
+    alt: "Bônus Top 50 Sertanejo",
     value: "R$15,00",
-    aiHint: "sheet music pdf"
+    aiHint: "sertanejo sheet music"
   },
   {
-    title: "Bônus 4: Coordenação Motora",
-    description: "Desenvolva a agilidade e a precisão dos seus dedos com exercícios focados em coordenação motora.",
+    title: "Bônus 4: Top 50 MPB",
+    description: "Clássicos e contemporâneos da música brasileira reunidos em um único lugar.",
     image: "https://i.imgur.com/JQQDJtj.png",
-    alt: "Bônus de exercícios de coordenação motora",
+    alt: "Bônus Top 50 MPB",
     value: "R$22,00",
-    aiHint: "hand exercise guitar"
+    aiHint: "mpb sheet music"
   },
   {
-    title: "Bônus 5: Caderno de Treinos",
-    description: "Organize seus estudos e acompanhe sua evolução com um caderno de treinos exclusivo.",
+    title: "Bônus 5: Rock / Pop Nacional",
+    description: "Clássicos inesquecíveis do rock e pop brasileiro, desde Legião Urbana até Jota Quest.",
     image: "https://i.imgur.com/urXcrKy.png",
-    alt: "Bônus de caderno de treinos",
+    alt: "Bônus Rock / Pop Nacional",
     value: "R$12,00",
-    aiHint: "progress journal"
+    aiHint: "brazilian rock music"
   }
 ];
 
