@@ -1,6 +1,5 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { motion } from "framer-motion";
 import React from "react";
 
 export const Highlight = ({
@@ -11,29 +10,13 @@ export const Highlight = ({
   className?: string;
 }) => {
   return (
-    <motion.span
-      initial={{
-        backgroundSize: "0% 100%",
-      }}
-      animate={{
-        backgroundSize: "100% 100%",
-      }}
-      transition={{
-        duration: 2,
-        ease: "linear",
-        delay: 0.5,
-      }}
-      style={{
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "left center",
-        display: "inline",
-      }}
+    <span
       className={cn(
-        `relative inline-block rounded-md bg-black text-accent px-2`,
+        `text-accent`,
         className
       )}
     >
       {children}
-    </motion.span>
+    </span>
   );
 };
