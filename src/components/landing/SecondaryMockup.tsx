@@ -18,7 +18,7 @@ export function SecondaryMockup() {
         <div className="md:w-2/3 text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-extrabold mb-4 uppercase tracking-wide">Direto ao Ponto, Sem Enrolação.</h2>
             <p className="text-lg text-muted-foreground mb-6">
-                Este não é mais um curso longo. É um guia <span className="text-white font-semibold">prático em PDF</span> com as 26 batidas essenciais para você destravar no violão. Simples, visual e direto ao que funciona.
+                Este não é mais um curso longo. É um guia <span className="text-accent font-semibold">prático em PDF</span> com as 26 batidas essenciais para você destravar no violão. Simples, visual e direto ao que funciona.
             </p>
             <div className="flex justify-center md:justify-start items-center gap-6">
                 <div className="flex items-center gap-2 text-foreground">

@@ -54,7 +54,7 @@ export function Pricing() {
   return (
     <section id="plans" className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8 max-w-5xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-5xl mx-auto">
           
           <div className="flex flex-col bg-card text-foreground rounded-lg shadow-lg w-full lg:w-1/2 p-1 border">
             <div className="bg-muted text-center py-3 rounded-t-md">
@@ -75,15 +75,15 @@ export function Pricing() {
               <p className="text-6xl font-extrabold text-primary my-4">R$10</p>
               
               <div className="mb-6 flex justify-center">
-                <ul className="divide-y divide-border">
+                <ul className="divide-y divide-border text-left inline-block">
                   {basicPlanIncluded.map((item, index) => (
-                    <li key={`include-${index}`} className="flex items-start text-left py-2">
+                    <li key={`include-${index}`} className="flex items-start py-2">
                       <Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-1" />
                       <span className="text-sm text-muted-foreground" dangerouslySetInnerHTML={{ __html: item }} />
                     </li>
                   ))}
                   {basicPlanExcluded.map((item, index) => (
-                    <li key={`exclude-${index}`} className="flex items-start text-left py-2">
+                    <li key={`exclude-${index}`} className="flex items-start py-2">
                       <X className="h-5 w-5 text-red-500 mr-2 shrink-0 mt-1" />
                       <span className="text-sm text-red-500/70 italic"><del>{item}</del></span>
                     </li>
@@ -128,15 +128,15 @@ export function Pricing() {
               </div>
               
               <div className="mb-6 flex justify-center">
-                  <ul className="divide-y divide-border">
+                  <ul className="divide-y divide-border text-left inline-block">
                     {completePlanIncluded.map((item, index) => (
-                      <li key={`complete-${index}`} className="flex items-start text-left py-2">
+                      <li key={`complete-${index}`} className="flex items-start py-2">
                         <Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-1" />
                         <span className="text-sm text-muted-foreground" dangerouslySetInnerHTML={{ __html: item }} />
                       </li>
                     ))}
                      {bonusData.map((bonus, index) => (
-                        <li key={index} className="flex items-start text-left py-2">
+                        <li key={index} className="flex items-start py-2">
                             <Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-1" />
                             <div className="text-sm text-left">
                                 <p className="font-bold text-primary/90">{`Bônus 0${index + 1}: ${bonus.title}`}</p>
