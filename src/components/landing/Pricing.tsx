@@ -80,10 +80,10 @@ export function Pricing() {
             <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">ESCOLHA A MELHOR OFERTA PARA VOCÊ</h2>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8 max-w-5xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 max-w-5xl mx-auto">
           
           {/* Plano Básico */}
-          <div className="w-full md:w-1/2 lg:w-[45%] flex">
+          <div className="w-full md:w-1/2 flex">
              <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8 w-full">
                 <div className="text-center mb-6">
                    <div className="bg-gray-800 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
@@ -121,7 +121,7 @@ export function Pricing() {
           </div>
 
           {/* Plano Completo */}
-          <div className="w-full md:w-1/2 lg:w-[45%] flex">
+          <div className="w-full md:w-1/2 flex">
             <div
               className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative"
             >
@@ -161,7 +161,7 @@ export function Pricing() {
               </ul>
 
               <div className="text-center my-4">
-                <p className="text-gray-500 line-through text-lg">Valor Total: R$147</p>
+                <p className="text-red-500 line-through text-lg">Valor Total: R$147</p>
                 <p className="uppercase font-bold text-gray-600 text-sm">HOJE PAGAMENTO ÚNICO...</p>
                 <p className="text-6xl font-extrabold text-red-500">R$14,90</p>
               </div>
