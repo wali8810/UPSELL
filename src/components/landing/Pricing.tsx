@@ -86,7 +86,7 @@ export function Pricing() {
           <div className="w-full md:w-1/2 lg:w-[45%] flex">
              <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8 w-full">
                 <div className="text-center">
-                  <div className="bg-gray-700 text-white rounded-full py-2 px-4 mb-4 inline-block self-center">
+                  <div className="bg-gray-700 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
                     <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
                   </div>
                   <p className="uppercase font-bold text-black text-lg mb-2">Pagamento único</p>
