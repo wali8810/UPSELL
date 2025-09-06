@@ -73,7 +73,7 @@ export function Bonuses() {
           {bonusData.map((bonus, index) => (
             <div
               key={index}
-              className="p-4 border-2 border-dashed border-pink-400 rounded-2xl"
+              className="p-4 border-2 border-dashed border-gray-300 rounded-2xl"
             >
               <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-2">
                 <div className="md:w-1/2 text-left space-y-2">
@@ -103,7 +103,7 @@ export function Bonuses() {
             </div>
           ))}
            <div
-              className="p-4 border-2 border-dashed border-pink-400 rounded-2xl"
+              className="p-4 border-2 border-dashed border-gray-300 rounded-2xl"
             >
               <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-2">
                 <div className="md:w-1/2 text-left space-y-2">
