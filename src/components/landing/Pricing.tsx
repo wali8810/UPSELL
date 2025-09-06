@@ -89,12 +89,6 @@ export function Pricing() {
                    <div className="bg-gray-700 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
                     <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
                   </div>
-                  <div className="text-center my-4">
-                    <div className="inline-block bg-red-500 text-white font-bold py-2 px-6 rounded-full -rotate-6 transform">
-                      <span className="block text-sm line-through">DE R$67,00</span>
-                      <span className="block text-2xl">POR R$19,90</span>
-                    </div>
-                  </div>
                 </div>
                 <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
                   {planoBasicoFeatures.included.map((item, index) => (
