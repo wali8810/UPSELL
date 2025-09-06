@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 import { CheckCircle } from 'lucide-react';
 
 const salesData = [
-  { name: 'Paola Mendoza', location: 'de São Paulo' },
-  { name: 'Ana Costa', location: 'de Minas Gerais' },
-  { name: 'Beatriz Almeida', location: 'do Rio de Janeiro' },
-  { name: 'Juan Carlos', location: 'do Chile' },
+  { name: 'Paola Mendoza' },
+  { name: 'Ana Costa' },
+  { name: 'Beatriz Almeida' },
+  { name: 'Juan Carlos' },
 ];
 
 export function SalesNotification() {
@@ -56,7 +56,7 @@ export function SalesNotification() {
       <div className="flex items-center gap-3 rounded-lg bg-card p-4 shadow-2xl border border-border">
         <CheckCircle className="h-6 w-6 text-primary" />
         <p className="text-sm text-foreground">
-          <strong>{currentSale.name}</strong> {currentSale.location} comprou há {timeAgo} minutos
+          <strong>{currentSale.name}</strong> comprou há {timeAgo} minutos
         </p>
       </div>
     </div>

@@ -62,7 +62,7 @@ export function Hero() {
 
             <div className="mt-10 w-full max-w-xs md:max-w-sm">
               <Image
-                src="https://picsum.photos/500/500"
+                src="https://imgur.com/ICZ20ja.png"
                 alt="Mockup do curso 'Cartões Decorados Lucrativos'"
                 width={500}
                 height={500}
@@ -75,14 +75,14 @@ export function Hero() {
             <div className="mt-8 flex flex-col items-center space-y-6 w-full max-w-sm">
                <CountdownTimer />
               <div className="bg-transparent rounded-lg w-full text-center">
-                  <p className="text-lg text-white/80"><span className="text-destructive">DE <span className="line-through">R$57,50</span></span> POR APENAS</p>
+                  <p className="text-lg text-white/80"><span className="text-destructive">DE <span className="line-through">R$67,00</span></span> POR APENAS</p>
                   <div className="flex items-baseline justify-center gap-2">
-                      <span className="text-5xl font-bold text-white">US$8</span>
+                      <span className="text-5xl font-bold text-white">R$19,90</span>
                   </div>
               </div>
               
               <a href="#plans" className="w-full">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink">
+                <Button size="lg" className="cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink">
                   COMECE HOJE MESMO!
                 </Button>
               </a>

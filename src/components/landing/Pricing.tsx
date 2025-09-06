@@ -1,8 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Check, X } from "lucide-react";
-import Image from "next/image";
-import { BackgroundGradient } from "@/components/ui/background-gradient";
-import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 import { Badge } from "@/components/ui/badge";
 
 const planoCompletoFeatures = [
@@ -26,6 +22,39 @@ const planoBasicoFeatures = {
   ]
 }
 
+const StarIcon = () => (
+  <svg
+    className="w-7 h-7 text-yellow-400"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z" />
+  </svg>
+);
+
+const CheckIcon = () => (
+  <svg
+    className="h-5 w-5 text-primary mr-2 shrink-0 mt-1"
+    viewBox="0 0 512 512"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+  </svg>
+);
+
+const XIcon = () => (
+  <svg
+    className="h-5 w-5 text-destructive/50 mr-2 shrink-0 mt-1"
+    viewBox="0 0 512 512"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" />
+  </svg>
+);
+
 
 export function Pricing() {
   return (
@@ -44,20 +73,20 @@ export function Pricing() {
               <div className="p-8 flex flex-col flex-grow text-center">
                 <h3 className="text-2xl font-bold uppercase mb-4">Plano Básico</h3>
                  <div className="text-center my-8">
-                  <p className="text-4xl font-extrabold text-primary">US$21,90</p>
+                  <p className="text-6xl font-bold" style={{ color: '#00BD39', lineHeight: '34px', letterSpacing: '-0.9px' }}>R$21,90</p>
                   <p className="uppercase font-bold text-foreground/70 text-sm">Pagamento único</p>
                 </div>
                 <ul className="text-left space-y-3 my-8 text-muted-foreground flex-grow">
                   {planoBasicoFeatures.included.map((item, index) => (
                     <li key={`basic-inc-${index}`} className="flex items-start">
-                      <Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-1" />
+                      <CheckIcon />
                       <span>{item}</span>
                     </li>
                   ))}
                   {planoBasicoFeatures.notIncluded.map((item, index) => (
-                     <li key={`basic-not-${index}`} className="flex items-start text-muted-foreground/50 line-through">
-                      <X className="h-5 w-5 text-destructive/50 mr-2 shrink-0 mt-1" />
-                      <span>{item}</span>
+                     <li key={`basic-not-${index}`} className="flex items-start text-muted-foreground/50">
+                      <XIcon />
+                      <span className="line-through">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -75,25 +104,31 @@ export function Pricing() {
 
           {/* Plano Completo */}
           <div className="w-full max-w-md">
-            <BackgroundGradient
-              containerClassName="w-full rounded-2xl h-full"
+            <div
               className="bg-card text-foreground rounded-2xl shadow-2xl flex flex-col h-full"
             >
-              <div className="p-8 flex flex-col flex-grow text-center relative">
+              <div className="p-8 flex flex-col flex-grow text-center relative" style={{ backgroundColor: '#FF3232', borderRadius: '20px' }}>
                 <Badge className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground font-bold border-none shadow-lg">MAIS VENDIDO</Badge>
                 
-                <h3 className="text-2xl font-bold uppercase mb-4 mt-5">Plano Completo</h3>
+                <div className="flex justify-center mt-5">
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                </div>
+                <h3 className="text-2xl font-bold uppercase mb-4 mt-2 text-white">Plano Completo</h3>
 
                 <div className="text-center my-8">
-                  <p className="text-red-500 line-through text-xl">Preço normal: US$57,50</p>
-                  <p className="text-6xl font-extrabold text-primary">US$8</p>
-                  <p className="uppercase font-bold text-foreground">Dólares Americanos</p>
+                  <p className="text-white line-through text-xl red-strike">Preço normal: US$57,50</p>
+                  <p className="text-6xl font-extrabold text-white">R$19,90</p>
+                  <p className="uppercase font-bold text-white">Pagamento único</p>
                 </div>
                 
-                <ul className="text-left space-y-3 my-8 text-muted-foreground flex-grow">
+                <ul className="text-left space-y-3 my-8 text-white flex-grow">
                   {planoCompletoFeatures.map((item, index) => (
                     <li key={`complete-${index}`} className="flex items-start">
-                      <Check className="h-5 w-5 text-primary mr-2 shrink-0 mt-1" />
+                      <CheckIcon />
                       <span dangerouslySetInnerHTML={{ __html: item }} />
                     </li>
                   ))}
@@ -102,18 +137,14 @@ export function Pricing() {
                 <div className="mt-auto">
                    <div className="flex justify-center">
                     <a href="https://pay.kirvano.com/278d35c1-ece3-4c43-90f3-f35474a70d92" target="_blank" rel="noopener noreferrer" className="block w-full">
-                       <HoverBorderGradient
-                          as="button"
-                          containerClassName="w-full rounded-md"
-                          className="w-full bg-primary text-primary-foreground font-bold text-lg md:text-xl h-auto py-4"
-                        >
+                       <button className="cta-button w-full">
                           SIM! QUERO ESSA SUPER OFERTA!
-                        </HoverBorderGradient>
+                        </button>
                      </a>
                   </div>
                 </div>
               </div>
-            </BackgroundGradient>
+            </div>
           </div>
         </div>
       </div>

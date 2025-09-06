@@ -4,19 +4,19 @@
 
 @layer base {
   :root {
-    --background: 34 67% 96%; /* #FAF4E8 */
+    --background: 28 80% 96%;
     --foreground: 222.2 84% 4.9%;
-    --card: 34 67% 98%;
+    --card: 28 80% 98%;
     --card-foreground: 222.2 84% 4.9%;
-    --popover: 34 67% 98%;
+    --popover: 28 80% 98%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 0 100% 71%; /* #FF6B6B */
+    --primary: 0 100% 71%;
     --primary-foreground: 355.7 100% 97.3%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 335 88% 48%; /* #E3125E */
+    --accent: 345 81% 47%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -38,7 +38,7 @@
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 335 88% 48%;
+    --accent: 345 81% 47%;
     --accent-foreground: 0 0% 10%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
@@ -94,5 +94,30 @@
     100% {
       transform: scale(1);
     }
+  }
+  .red-strike {
+    color: #FF0000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: line-through;
+  }
+  .cta-button {
+    text-underline-offset: 0.25ch;
+    display: inline-block;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    text-decoration: none;
+    width: auto;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    background-color: #47CB59;
+    box-shadow: 0px 0px 14px 0px rgba(0, 255, 12.2, 0.5);
   }
 }
