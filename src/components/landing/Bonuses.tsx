@@ -1,40 +1,50 @@
 import Image from "next/image";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 
 const bonusData = [
   {
-    title: "Bônus 1: Como vender nas redes sociais",
-    description: "Roteiros e exemplos para postar no Instagram, WhatsApp e marketplaces para atrair e fechar sua primeira venda em até 48 horas.",
+    bonusNumber: "#01",
+    title: (
+      <>
+        <b>
+          <span style={{ color: "#FF8F00" }}>23 NOVOS Modelos</span>
+        </b>{" "}
+        de Balões que Estão em Alta em 2025
+      </>
+    ),
+    originalPrice: "R$37,00",
     image: "https://imgur.com/E0QxgBv.png",
     alt: "Bônus sobre vendas nas redes sociais",
-    value: "US$10",
-    aiHint: "social media marketing"
   },
   {
-    title: "Bônus 2: Manual de Vendas Pronto para Usar",
-    description: "Guia rápido para oferecer suas criações sem sofrer na tentativa.",
+    bonusNumber: "#02",
+    title: (
+      <>
+        Lista de Fornecedores que Estão{" "}
+        <b>
+          <span style={{ color: "#FF8F00" }}>Vendendo 37% Abaixo</span>
+        </b>
+        <br />
+        do Valor de Mercado
+      </>
+    ),
+    originalPrice: "R$57,00",
     image: "https://imgur.com/hdbzMRu.png",
     alt: "Bônus manual de vendas",
-    value: "US$5",
-    aiHint: "sales guide book"
   },
   {
-    title: "Bônus 3: Guia de Inspiração e Venda Rápida",
-    description: "Acesso a uma variedade de ideias para criar novos designs e vender no mesmo dia.",
+    bonusNumber: "#03",
+    title: (
+      <>
+        <b>
+          <span style={{ color: "#FF8F00" }}>100 Artes Prontas</span>
+        </b>{" "}
+        de Balões Decorativos para Festas
+      </>
+    ),
+    originalPrice: "R$27,00",
     image: "https://imgur.com/eIcZkRK.png",
     alt: "Bônus guia de inspiração",
-    value: "US$15",
-    aiHint: "inspiration lightbulb ideas"
   },
-  {
-    title: "Bônus 4: Mini Curso de Publicidade e Vendas",
-    description: "Aprenda como promover facilmente seus produtos usando publicidade online.",
-    image: "https://imgur.com/0jFdKVH.png",
-    alt: "Bônus mini curso de publicidade",
-    value: "US$30",
-    aiHint: "online advertising"
-  }
 ];
 
 export function Bonuses() {
@@ -42,39 +52,85 @@ export function Bonuses() {
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4">
-                BÔNUS PARA <br/><u className="text-accent">PRIMEIRA VISITA</u>...
-            </h2>
-            <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2">
-                <span className="bg-yellow-400 text-black px-2 py-1">4 Bônus exclusivos</span> para quem adquirir o CURSO NESTA PÁGINA
-            </h3>
-            <h4 className="text-2xl font-bold uppercase text-destructive">
-                (<u>ISSO TERMINA HOJE!</u>)
-            </h4>
+          <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
+            BÔNUS PARA <br />
+            <u className="text-accent">PRIMEIRA VISITA</u>...
+          </h2>
+          <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
+            <span className="bg-yellow-400 text-black px-2 py-1">
+              4 Bônus exclusivos
+            </span>{" "}
+            para quem adquirir o CURSO NESTA PÁGINA
+          </h3>
+          <h4 className="text-2xl font-bold uppercase text-destructive font-montserrat">
+            <span style={{ color: "#FF0845" }}>
+              (<u>ISSO TERMINA HOJE!</u>)
+            </span>
+          </h4>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <div className="space-y-8 max-w-4xl mx-auto">
           {bonusData.map((bonus, index) => (
-            <Card key={index} className="bg-card border-border overflow-hidden transform hover:scale-105 transition-transform duration-300 flex flex-col shadow-lg">
-              <CardHeader className="p-0 relative">
-                <Image
-                  src={bonus.image}
-                  alt={bonus.alt}
-                  width={400}
-                  height={250}
-                  className="w-full h-auto object-cover"
-                  data-ai-hint={bonus.aiHint}
-                />
-              </CardHeader>
-              <CardContent className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold mb-2">{bonus.title}</h3>
-                <p className="text-muted-foreground flex-grow">{bonus.description}</p>
-                 <div className="mt-4 flex items-center justify-between">
-                  <span className="text-muted-foreground line-through">{bonus.value}</span>
-                  <Badge variant="default" className="bg-primary text-primary-foreground border-none font-bold">GRÁTIS</Badge>
+            <div
+              key={index}
+              className="p-4 border-2 border-dashed border-pink-400 rounded-2xl"
+            >
+              <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-2">
+                <div className="md:w-1/2 text-left space-y-2">
+                  <h3 className="text-2xl font-bold font-montserrat text-black">
+                    BÔNUS {bonus.bonusNumber}:
+                  </h3>
+                  <h4 className="text-2xl font-bold font-montserrat text-black">
+                    {bonus.title}
+                  </h4>
+                  <p className="text-xl text-red-500 font-montserrat">
+                    De: <s>{bonus.originalPrice}</s>
+                  </p>
+                  <p className="text-2xl font-bold text-green-500 font-montserrat">
+                    Por: <b>GRÁTIS</b>
+                  </p>
                 </div>
-              </CardContent>
-            </Card>
+                <div className="md:w-1/2 flex items-center justify-center">
+                  <Image
+                    src={bonus.image}
+                    alt={bonus.alt}
+                    width={350}
+                    height={450}
+                    className="w-auto h-auto"
+                  />
+                </div>
+              </div>
+            </div>
           ))}
+           <div
+              className="p-4 border-2 border-dashed border-pink-400 rounded-2xl"
+            >
+              <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-2">
+                <div className="md:w-1/2 text-left space-y-2">
+                  <h3 className="text-2xl font-bold font-montserrat text-black">
+                    BÔNUS #04:
+                  </h3>
+                  <h4 className="text-2xl font-bold font-montserrat text-black">
+                     <b><span style={{ color: "#FF8F00" }}>Técnica de Escritas</span></b> em Balões Decorados
+                  </h4>
+                  <p className="text-xl text-red-500 font-montserrat">
+                    De: <s>R$47,00</s>
+                  </p>
+                  <p className="text-2xl font-bold text-green-500 font-montserrat">
+                    Por: <b>GRÁTIS</b>
+                  </p>
+                </div>
+                <div className="md:w-1/2 flex items-center justify-center">
+                  <Image
+                    src="https://imgur.com/0jFdKVH.png"
+                    alt="Bônus mini curso de publicidade"
+                    width={350}
+                    height={450}
+                    className="w-auto h-auto"
+                  />
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </section>
