@@ -1,11 +1,10 @@
 import { Hero } from '@/components/landing/Hero';
 import { Audience } from '@/components/landing/Audience';
 import { Features } from '@/components/landing/Features';
-import { SecondaryMockup } from '@/components/landing/SecondaryMockup';
+import { SocialProof } from '@/components/landing/SocialProof';
 import { Bonuses } from '@/components/landing/Bonuses';
 import { Pricing } from '@/components/landing/Pricing';
 import { Testimonials } from '@/components/landing/Testimonials';
-import { Guarantee } from '@/components/landing/Guarantee';
 import { Faq } from '@/components/landing/Faq';
 import { Footer } from '@/components/landing/Footer';
 import { SalesNotification } from '@/components/landing/SalesNotification';
@@ -17,11 +16,10 @@ export default function Home() {
         <Hero />
         <Audience />
         <Features />
-        <SecondaryMockup />
+        <SocialProof />
         <Bonuses />
         <Testimonials />
         <Pricing />
-        <Guarantee />
         <Faq />
       </main>
       <Footer />

@@ -13,7 +13,7 @@ const planoCompletoBonus = [
     { text: "<b>Bônus 01:</b> <i>23 NOVOS Modelos de Balões que Estão em Alta em 2025</i>", icon: "check" },
     { text: "<b>Bônus 02:</b> <i>Lista de Fornecedores que Estão Vendendo 37% Abaixo do Valor de Mercado</i>", icon: "check" },
     { text: "<b>Bônus 03:</b> <i>100 Artes Prontas de Balões Decorativos para Festas</i>", icon: "check" },
-    { text: "<b>Bônus Extra:</b> <i>Técnica de Escritas em Balões Decorados</i>", icon: "check" },
+    { text: "<b>Bônus Extra:</b> <i>Técnica de Escritas em Balões Decorados</i>", icon: "gift" },
     { text: "<b>Grupo de Alunos:</b> <i>Grupo de Alunos Para Suporte e Trocas de Dicas e Experiências</i>", icon: "gift" },
     { text: "<b>Suporte VIP:</b> Ganhe um <i>Acompanhamento Individual via WhatsApp por 90 Dias</i>", icon: "gift" }
 ]
@@ -164,13 +164,13 @@ export function Pricing() {
                 <div className="text-center my-4">
                   <p className="text-gray-500 line-through text-lg">Valor Total: R$147</p>
                   <p className="uppercase font-bold text-gray-600 text-sm">HOJE PAGAMENTO ÚNICO...</p>
-                  <p className="text-6xl font-extrabold text-red-500">R$19</p>
+                  <p className="text-6xl font-extrabold text-red-500">R$14,90</p>
                 </div>
 
                 <div className="mt-auto">
                    <div className="flex justify-center flex-col items-center gap-4">
                     <a href="https://pay.kirvano.com/278d35c1-ece3-4c43-90f3-f35474a70d92" target="_blank" rel="noopener noreferrer" className="block w-full">
-                       <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg">
+                       <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-xl shadow-lg animate-pulse">
                           SIM! QUERO ESSA SUPER OFERTA!
                         </button>
                      </a>
