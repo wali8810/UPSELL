@@ -2,20 +2,20 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    src: "https://i.imgur.com/RSo4tUO.jpeg",
-    alt: "Depoimento de aluno satisfeito 1"
+    src: "https://picsum.photos/400/401",
+    alt: "Depoimento de aluna satisfeita 1"
   },
   {
-    src: "https://i.imgur.com/LVgGjrz.jpeg",
-    alt: "Depoimento de aluno satisfeito 2"
+    src: "https://picsum.photos/400/402",
+    alt: "Depoimento de aluna satisfeita 2"
   },
   {
-    src: "https://i.imgur.com/e1L0Ua7.jpeg",
-    alt: "Depoimento de aluno satisfeito 3"
+    src: "https://picsum.photos/400/403",
+    alt: "Depoimento de aluna satisfeita 3"
   },
   {
-    src: "https://i.imgur.com/Hx06IEj.png",
-    alt: "Depoimento de aluno satisfeito 4"
+    src: "https://picsum.photos/400/404",
+    alt: "Depoimento de aluna satisfeita 4"
   }
 ];
 
@@ -24,10 +24,9 @@ export function Testimonials() {
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">Veja o que dizem nossos leitores</h2>
-          <p className="text-muted-foreground mt-2">Resultados reais de quem já está <span className="text-accent underline">transformando o som do violão.</span></p>
+          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-foreground">Milhares de mulheres já treinam conosco. Veja o que elas dizem:</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="p-1">
               <div className="bg-card rounded-xl border border-border shadow-lg overflow-hidden">
@@ -36,7 +35,7 @@ export function Testimonials() {
                   alt={testimonial.alt}
                   width={400}
                   height={400}
-                  className="aspect-square w-full object-contain p-4"
+                  className="w-full h-auto object-cover"
                   data-ai-hint="user testimonial social"
                 />
               </div>

@@ -4,17 +4,17 @@ import { useState, useEffect } from 'react';
 import { CheckCircle } from 'lucide-react';
 
 const salesData = [
-  { name: 'Carlos Sousa', method: 'PIX', time: 7 },
-  { name: 'Mariana Silva', method: 'cartão', time: 10 },
-  { name: 'João Pereira', method: 'PIX', time: 5 },
-  { name: 'Ana Costa', method: 'cartão', time: 2 },
-  { name: 'Beatriz Almeida', method: 'PIX', time: 3 },
+  { name: 'Paola Mendoza', location: 'de São Paulo' },
+  { name: 'Ana Costa', location: 'de Minas Gerais' },
+  { name: 'Beatriz Almeida', location: 'do Rio de Janeiro' },
+  { name: 'Juan Carlos', location: 'do Chile' },
 ];
 
 export function SalesNotification() {
   const [isVisible, setIsVisible] = useState(false);
   const [currentSale, setCurrentSale] = useState(salesData[0]);
   const [isClient, setIsClient] = useState(false);
+  const [timeAgo, setTimeAgo] = useState(2);
 
   useEffect(() => {
     setIsClient(true);
@@ -25,8 +25,8 @@ export function SalesNotification() {
 
     const showNotification = () => {
       const randomIndex = Math.floor(Math.random() * salesData.length);
-      const randomTime = Math.floor(Math.random() * 15) + 1;
-      setCurrentSale({ ...salesData[randomIndex], time: randomTime });
+      setCurrentSale(salesData[randomIndex]);
+      setTimeAgo(Math.floor(Math.random() * 59) + 1);
       setIsVisible(true);
 
       setTimeout(() => {
@@ -56,7 +56,7 @@ export function SalesNotification() {
       <div className="flex items-center gap-3 rounded-lg bg-card p-4 shadow-2xl border border-border">
         <CheckCircle className="h-6 w-6 text-primary" />
         <p className="text-sm text-foreground">
-          <strong>{currentSale.name}</strong> comprou no {currentSale.method} há {currentSale.time} minutos
+          <strong>{currentSale.name}</strong> {currentSale.location} comprou há {timeAgo} minutos
         </p>
       </div>
     </div>

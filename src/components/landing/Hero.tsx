@@ -24,13 +24,13 @@ export function Hero() {
       <section className="relative text-white flex items-center justify-center text-center w-full min-h-[450px] md:min-h-[600px] overflow-hidden pt-16 md:pt-24 pb-20 md:pb-28">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://i.imgur.com/okdxZ1l.png"
-            alt="Violão de madeira com iluminação suave ao fundo"
+            src="https://picsum.photos/1200/800"
+            alt="Mesa de artesanato com cartões decorados e materiais de arte"
             layout="fill"
             objectFit="cover"
             className="z-0 animate-zoom-in-out"
             priority
-            data-ai-hint="guitar concert stage"
+            data-ai-hint="crafts table cards"
             style={{ transform: `translateY(${offsetY * 0.4}px)` }}
           />
           <div className="absolute inset-0 bg-black/70 z-10"></div>
@@ -52,38 +52,38 @@ export function Hero() {
             className="relative z-20 container mx-auto px-4"
         >
           <div className="max-w-4xl mx-auto flex flex-col items-center">
+             <p className="font-bold text-accent mb-2 uppercase tracking-wider">🚨 SOMENTE HOJE: Preço especial de lançamento</p>
             <h1 className="text-4xl md:text-6xl font-black uppercase tracking-wide leading-tight text-shadow">
-              Domine as <Highlight>26 Batidas Mais Poderosas</Highlight> e Revolucione seu Som no Violão em qualquer Estilo
+             Descubra como você pode ganhar de <Highlight>US$ 1.200 a US$ 1.800 por mês</Highlight> criando cartões decorados que se vendem sozinhos
             </h1>
             <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-white/80">
-              Descubra como dominar as 26 batidas mais tocadas de forma simples e prática.
+              Junte-se a mais de 1.200 empreendedores que já estão gerando receita com seus designs em casa.
             </p>
 
             <div className="mt-10 w-full max-w-xs md:max-w-sm">
               <Image
-                src="https://i.imgur.com/ICZ20ja.png"
-                alt="Mockup do eBook 'As 26 Batidas Mais Poderosas'"
+                src="https://picsum.photos/500/500"
+                alt="Mockup do curso 'Cartões Decorados Lucrativos'"
                 width={500}
                 height={500}
                 priority
-                className="rounded-lg"
-                data-ai-hint="ebook cover 3d"
+                className="rounded-lg shadow-lg"
+                data-ai-hint="ebook cover crafts"
               />
             </div>
             
             <div className="mt-8 flex flex-col items-center space-y-6 w-full max-w-sm">
+               <CountdownTimer />
               <div className="bg-transparent rounded-lg w-full text-center">
-                  <p className="text-lg text-white/80"><span className="text-destructive">DE <span className="line-through">R$67,00</span></span> POR APENAS</p>
+                  <p className="text-lg text-white/80"><span className="text-destructive">DE <span className="line-through">R$57,50</span></span> POR APENAS</p>
                   <div className="flex items-baseline justify-center gap-2">
-                      <span className="text-5xl font-bold text-white">R$19,90</span>
+                      <span className="text-5xl font-bold text-white">US$8</span>
                   </div>
               </div>
               
-              <CountdownTimer />
-
               <a href="#plans" className="w-full">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
-                  QUERO APRENDER AGORA!
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink">
+                  COMECE HOJE MESMO!
                 </Button>
               </a>
             </div>

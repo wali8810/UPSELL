@@ -4,8 +4,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'As 26 Batidas Mais Poderosas',
-  description: 'Domine 26 batidas universais e toque qualquer música com confiança em poucos dias.',
+  title: 'Curso de Cartões Decorados',
+  description: 'Ganhe de US$ 1.200 a US$ 1.800 por mês criando cartões decorados que se vendem sozinhos.',
 };
 
 export default function RootLayout({

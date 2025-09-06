@@ -7,29 +7,26 @@ export function Guarantee() {
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center bg-card border border-border rounded-lg p-8 md:p-12 shadow-2xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-destructive uppercase tracking-wide">Produto com Risco Zero!</h2>
-          <p className="text-xl md:text-2xl font-semibold mt-2 text-primary">Sua Satisfação ou Seu Dinheiro de Volta</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-destructive uppercase tracking-wide">Garantia de Satisfação!</h2>
           
           <div className="flex justify-center my-8">
             <Image 
-              src="https://i.imgur.com/TYxqyrh.png" 
+              src="https://picsum.photos/150/150"
               alt="Selo de Garantia de 7 dias"
               width={150}
               height={150}
-              className="w-28 h-28 md:w-36 md:h-36"
+              className="w-28 h-28 md:w-36 md:h-36 rounded-full"
               data-ai-hint="guarantee seal"
             />
           </div>
 
           <p className="text-muted-foreground max-w-2xl mx-auto mb-10">
-            Você tem 7 dias para testar o material. Se por qualquer motivo não ficar satisfeito, é só mandar um e-mail e devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.
+            Se, por algum motivo, você não gostar deste produto ou se ele não atender às suas expectativas, você terá uma garantia de reembolso de 7 dias. Sem e-mails inconvenientes, sem mensagens de texto. Basta solicitar a devolução pelo e-mail lamaestracreativa@gmail.com.
           </p>
           
-          <p className="text-center uppercase font-bold text-xl mb-4">CLIQUE NO BOTÃO ABAIXO PARA GARANTIR O <span className="text-destructive">MATERIAL COM 89% OFF!</span></p>
-
           <a href="#plans" className="inline-block w-full max-w-md">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green">
-              LIBERAR MEU ACESSO AGORA
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 w-full transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-pink">
+              EU QUERO AGORA!
             </Button>
           </a>
           

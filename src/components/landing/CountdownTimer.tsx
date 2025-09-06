@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 export function CountdownTimer() {
-  const [timeLeft, setTimeLeft] = useState(20 * 60);
+  const [timeLeft, setTimeLeft] = useState(6 * 60 + 54); // 6 minutos e 54 segundos
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -15,7 +15,6 @@ export function CountdownTimer() {
     if (!isVisible) return;
 
     if (timeLeft <= 0) {
-      // Logic to hide or handle timer end can be added here
       return;
     }
 
@@ -35,8 +34,8 @@ export function CountdownTimer() {
 
   return (
     <div className="text-center mt-4">
-      <p className="text-white/80 mb-2">
-        <span className="text-primary font-semibold">Oferta disponível</span> apenas pelos próximos minutos!
+      <p className="text-white/80 mb-2 uppercase font-bold text-accent">
+        🚨 A OFERTA TERMINA EM:
       </p>
       <div className="inline-block bg-black/70 backdrop-blur-sm text-white font-bold rounded-lg px-6 py-3 shadow-lg border border-white/30">
         <span className="text-4xl tracking-widest">

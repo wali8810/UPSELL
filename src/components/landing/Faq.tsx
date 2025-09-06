@@ -2,24 +2,24 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "Em quanto tempo recebo o eBook?",
-    answer: "O acesso é imediato! Assim que o pagamento for confirmado, você receberá um e-mail com o link para baixar o seu PDF. Simples e rápido."
+    question: "Em quantos dispositivos posso usar os arquivos?",
+    answer: "Você pode baixar e usar os arquivos em quantos dispositivos quiser: computador, tablet ou celular."
   },
   {
-    question: "Serve para violão acústico e elétrico?",
-    answer: "Sim! As técnicas de batida ensinadas no eBook funcionam perfeitamente para qualquer tipo de violão, seja ele acústico (nylon ou aço) ou elétrico."
-  },
-    {
-    question: "Mesmo que eu seja iniciante, vou conseguir aprender?",
-    answer: "Com certeza! O material foi criado pensando em iniciantes. As explicações são visuais, claras e diretas ao ponto, para que você aprenda sem dificuldades."
+    question: "Por quanto tempo e quantas vezes posso baixar as planilhas?",
+    answer: "O acesso é vitalício! Você pode baixar os materiais quantas vezes precisar, para sempre."
   },
   {
-    question: "Por quanto tempo terei acesso?",
-    answer: "O acesso é seu para sempre! Como é um arquivo PDF, você pode baixar e guardar em quantos dispositivos quiser para consultar quando precisar."
+    question: "Preciso de algum programa especial para abrir os arquivos?",
+    answer: "Não. Os arquivos são em formato PDF e podem ser abertos em qualquer dispositivo com um leitor de PDF, como o Adobe Reader, que é gratuito."
   },
   {
-    question: "E se eu não gostar do conteúdo?",
-    answer: "Você tem uma garantia incondicional de 7 dias. Se por qualquer motivo não ficar satisfeito, basta nos enviar um e-mail e devolveremos 100% do seu dinheiro."
+    question: "Existe uma garantia?",
+    answer: "Sim! Oferecemos uma garantia de satisfação de 7 dias. Se não ficar satisfeito, devolvemos 100% do seu dinheiro, sem complicações."
+  },
+  {
+    question: "Preciso de acesso à Internet para usar os arquivos?",
+    answer: "Você só precisa de internet para baixar os arquivos. Depois de salvos no seu dispositivo, você pode acessá-los a qualquer momento, mesmo offline."
   }
 ];
 
@@ -31,6 +31,7 @@ export function Faq() {
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">
             <span role="img" aria-label="question mark">❓</span> Perguntas Frequentes
           </h2>
+          <p className="text-muted-foreground mt-2">Esclareça todas as suas dúvidas</p>
         </div>
         <Accordion type="single" collapsible className="w-full bg-card border border-border rounded-lg p-2 md:p-4 shadow-lg">
           {faqItems.map((item, index) => (
