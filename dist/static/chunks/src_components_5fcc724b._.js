@@ -251,20 +251,20 @@ function Hero() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/Hero.tsx",
-                        lineNumber: 26,
+                        lineNumber: 27,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-black/70 z-10"
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/Hero.tsx",
-                        lineNumber: 36,
+                        lineNumber: 37,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/landing/Hero.tsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -298,7 +298,7 @@ function Hero() {
                             children: "🚨 SOMENTE HOJE: Preço especial de lançamento"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Hero.tsx",
-                            lineNumber: 55,
+                            lineNumber: 56,
                             columnNumber: 14
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -309,14 +309,14 @@ function Hero() {
                                     children: "US$ 1.200 a US$ 1.800 por mês"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Hero.tsx",
-                                    lineNumber: 57,
+                                    lineNumber: 58,
                                     columnNumber: 48
                                 }, this),
                                 " criando cartões decorados que se vendem sozinhos"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Hero.tsx",
-                            lineNumber: 56,
+                            lineNumber: 57,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -324,13 +324,13 @@ function Hero() {
                             children: "Junte-se a mais de 1.200 empreendedores que já estão gerando receita com seus designs em casa."
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Hero.tsx",
-                            lineNumber: 59,
+                            lineNumber: 60,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mt-10 w-full max-w-xs md:max-w-sm",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://i.imgur.com/C8k9wmT.png",
+                                src: "https://imgur.com/3nS8KCV.png",
                                 alt: "Mockup do curso e bônus",
                                 width: 500,
                                 height: 500,
@@ -339,12 +339,12 @@ function Hero() {
                                 "data-ai-hint": "course bundle mockup"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/Hero.tsx",
-                                lineNumber: 64,
+                                lineNumber: 65,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Hero.tsx",
-                            lineNumber: 63,
+                            lineNumber: 64,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -352,7 +352,7 @@ function Hero() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$landing$2f$CountdownTimer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CountdownTimer"], {}, void 0, false, {
                                     fileName: "[project]/src/components/landing/Hero.tsx",
-                                    lineNumber: 76,
+                                    lineNumber: 77,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -370,20 +370,20 @@ function Hero() {
                                                             children: "R$67,00"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/Hero.tsx",
-                                                            lineNumber: 78,
+                                                            lineNumber: 79,
                                                             columnNumber: 94
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/landing/Hero.tsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 79,
                                                     columnNumber: 56
                                                 }, this),
                                                 " POR APENAS"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Hero.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 79,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -393,18 +393,18 @@ function Hero() {
                                                 children: "R$19,90"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Hero.tsx",
-                                                lineNumber: 80,
+                                                lineNumber: 81,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Hero.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 80,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Hero.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 78,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -416,35 +416,35 @@ function Hero() {
                                         children: "COMECE HOJE MESMO!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Hero.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 86,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Hero.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 85,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Hero.tsx",
-                            lineNumber: 75,
+                            lineNumber: 76,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Hero.tsx",
-                    lineNumber: 54,
+                    lineNumber: 55,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/landing/Hero.tsx",
-                lineNumber: 39,
+                lineNumber: 40,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/landing/Hero.tsx",
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 7
     }, this);
 }

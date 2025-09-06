@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -62,7 +63,7 @@ export function Hero() {
 
             <div className="mt-10 w-full max-w-xs md:max-w-sm">
               <Image
-                src="https://i.imgur.com/C8k9wmT.png"
+                src="https://imgur.com/3nS8KCV.png"
                 alt="Mockup do curso e bônus"
                 width={500}
                 height={500}
