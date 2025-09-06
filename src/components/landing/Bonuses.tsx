@@ -42,9 +42,15 @@ export function Bonuses() {
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">
-            <span role="img" aria-label="gift">🎁</span> E com sua compra HOJE você leva <span className="text-accent underline">BÔNUS GRÁTIS</span>
-          </h2>
+            <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4">
+                BÔNUS PARA <br/><u className="text-accent">PRIMEIRA VISITA</u>...
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2">
+                <span className="bg-yellow-400 text-black px-2 py-1">4 Bônus exclusivos</span> para quem adquirir o CURSO NESTA PÁGINA
+            </h3>
+            <h4 className="text-2xl font-bold uppercase text-destructive">
+                (<u>ISSO TERMINA HOJE!</u>)
+            </h4>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {bonusData.map((bonus, index) => (

@@ -1736,6 +1736,10 @@ body {
   letter-spacing: .1em;
 }
 
+.tracking-tighter {
+  letter-spacing: -.05em;
+}
+
 .text-accent {
   color: hsl(var(--accent));
 }

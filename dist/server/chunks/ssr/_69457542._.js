@@ -828,34 +828,69 @@ function Bonuses() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-center mb-12",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl md:text-4xl font-extrabold uppercase tracking-wide",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                role: "img",
-                                "aria-label": "gift",
-                                children: "🎁"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                lineNumber: 46,
-                                columnNumber: 13
-                            }, this),
-                            " E com sua compra HOJE você leva ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-accent underline",
-                                children: "BÔNUS GRÁTIS"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                lineNumber: 46,
-                                columnNumber: 90
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/landing/Bonuses.tsx",
-                        lineNumber: 45,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-4xl font-bold uppercase tracking-tighter leading-tight mb-4",
+                            children: [
+                                "BÔNUS PARA ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    fileName: "[project]/src/components/landing/Bonuses.tsx",
+                                    lineNumber: 46,
+                                    columnNumber: 28
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("u", {
+                                    className: "text-accent",
+                                    children: "PRIMEIRA VISITA"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/landing/Bonuses.tsx",
+                                    lineNumber: 46,
+                                    columnNumber: 33
+                                }, this),
+                                "..."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/landing/Bonuses.tsx",
+                            lineNumber: 45,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: "text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "bg-yellow-400 text-black px-2 py-1",
+                                    children: "4 Bônus exclusivos"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/landing/Bonuses.tsx",
+                                    lineNumber: 49,
+                                    columnNumber: 17
+                                }, this),
+                                " para quem adquirir o CURSO NESTA PÁGINA"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/landing/Bonuses.tsx",
+                            lineNumber: 48,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                            className: "text-2xl font-bold uppercase text-destructive",
+                            children: [
+                                "(",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("u", {
+                                    children: "ISSO TERMINA HOJE!"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/landing/Bonuses.tsx",
+                                    lineNumber: 52,
+                                    columnNumber: 18
+                                }, this),
+                                ")"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/landing/Bonuses.tsx",
+                            lineNumber: 51,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/src/components/landing/Bonuses.tsx",
                     lineNumber: 44,
                     columnNumber: 9
@@ -876,12 +911,12 @@ function Bonuses() {
                                         "data-ai-hint": bonus.aiHint
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 59,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 58,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -892,7 +927,7 @@ function Bonuses() {
                                             children: bonus.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 69,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -900,7 +935,7 @@ function Bonuses() {
                                             children: bonus.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                            lineNumber: 64,
+                                            lineNumber: 70,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -911,7 +946,7 @@ function Bonuses() {
                                                     children: bonus.value
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 72,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Badge"], {
@@ -920,30 +955,30 @@ function Bonuses() {
                                                     children: "GRÁTIS"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 73,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 71,
                                             columnNumber: 18
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Bonuses.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 68,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/src/components/landing/Bonuses.tsx",
-                            lineNumber: 51,
+                            lineNumber: 57,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/Bonuses.tsx",
-                    lineNumber: 49,
+                    lineNumber: 55,
                     columnNumber: 9
                 }, this)
             ]
@@ -1942,7 +1977,7 @@ function Guarantee() {
                     className: "flex flex-col items-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            src: "https://imgur.com/1LO2YTS.png",
+                            src: "https://imgur.com/0Qvgg3V.png",
                             alt: "Selo de Garantia de 30 dias",
                             width: 250,
                             height: 250,
@@ -2076,7 +2111,7 @@ function Guarantee() {
                         className: "inline-block",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
-                            className: "cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green",
+                            className: "cta-button transform hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-green text-center",
                             children: "LIBERE SEU ACESSO AO CURSO"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
