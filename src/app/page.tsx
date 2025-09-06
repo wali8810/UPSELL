@@ -19,8 +19,8 @@ export default function Home() {
         <Features />
         <SecondaryMockup />
         <Bonuses />
-        <Pricing />
         <Testimonials />
+        <Pricing />
         <Guarantee />
         <Faq />
       </main>

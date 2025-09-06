@@ -483,6 +483,10 @@ body {
   top: 50%;
 }
 
+.-top-4 {
+  top: -1rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -620,6 +624,10 @@ body {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -1162,6 +1170,12 @@ body {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(.75rem * var(--tw-space-y-reverse));
+}
+
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1395,6 +1409,10 @@ body {
 
 .fill-current {
   fill: currentColor;
+}
+
+.object-contain {
+  object-fit: contain;
 }
 
 .object-cover {
@@ -1771,6 +1789,18 @@ body {
 
 .text-white\/80 {
   color: #fffc;
+}
+
+.text-destructive\/50 {
+  color: hsl(var(--destructive) / .5);
+}
+
+.text-foreground\/70 {
+  color: hsl(var(--foreground) / .7);
+}
+
+.text-muted-foreground\/50 {
+  color: hsl(var(--muted-foreground) / .5);
 }
 
 .underline {
