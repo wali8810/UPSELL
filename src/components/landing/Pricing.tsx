@@ -83,14 +83,14 @@ export function Pricing() {
         <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8 max-w-5xl mx-auto">
           
           {/* Plano Básico */}
-          <div className="w-full md:w-1/2 lg:w-2/5 flex">
+          <div className="w-full md:w-1/2 lg:w-[45%] flex">
              <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-8 w-full">
-                <div className="bg-gray-700 text-white rounded-lg py-2 px-4 mb-4 inline-block self-start">
-                  <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
-                </div>
-                <p className="uppercase font-bold text-gray-500 text-sm mb-4">Pagamento único</p>
-                 <div className="text-left my-4">
-                  <p className="text-6xl font-bold text-green-500">R$10</p>
+                <div className="text-center">
+                  <div className="bg-gray-700 text-white rounded-full py-2 px-4 mb-4 inline-block self-center">
+                    <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
+                  </div>
+                  <p className="uppercase font-bold text-black text-lg mb-2">Pagamento único</p>
+                  <p className="text-6xl font-bold text-green-500 mb-4">R$10</p>
                 </div>
                 <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
                   {planoBasicoFeatures.included.map((item, index) => (
@@ -121,7 +121,7 @@ export function Pricing() {
           </div>
 
           {/* Plano Completo */}
-          <div className="w-full md:w-1/2 lg:w-2/5 flex">
+          <div className="w-full md:w-1/2 lg:w-[45%] flex">
             <div
               className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative"
             >
