@@ -65,15 +65,6 @@ export function Bonuses() {
               className="p-4 border-2 border-dashed border-gray-300 rounded-2xl"
             >
               <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-2">
-                <div className="md:w-1/2 flex items-center justify-center">
-                  <Image
-                    src={bonus.image}
-                    alt={bonus.alt}
-                    width={350}
-                    height={450}
-                    className="w-auto h-auto"
-                  />
-                </div>
                 <div className="md:w-1/2 text-left space-y-2">
                   <h3 className="text-3xl font-bold font-montserrat text-black">
                     BÔNUS {bonus.bonusNumber}:
@@ -88,6 +79,15 @@ export function Bonuses() {
                   <p className="font-montserrat text-lg font-bold">
                     <span className="text-green-500">Por: GRÁTIS</span>
                   </p>
+                </div>
+                <div className="md:w-1/2 flex items-center justify-center">
+                  <Image
+                    src={bonus.image}
+                    alt={bonus.alt}
+                    width={350}
+                    height={450}
+                    className="w-auto h-auto"
+                  />
                 </div>
               </div>
             </div>
