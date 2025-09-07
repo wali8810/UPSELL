@@ -38,13 +38,13 @@ export function Testimonials() {
         <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {testimonials.map((testimonial, index) => (
-                    <div key={index}>
+                    <div key={index} className="border border-border rounded-lg p-2">
                         <Image
                         src={testimonial.src}
                         alt={testimonial.alt}
                         width={testimonial.width}
                         height={testimonial.height}
-                        className="w-full h-auto object-cover"
+                        className="w-full h-auto object-cover rounded"
                         data-ai-hint="user testimonial social"
                         unoptimized
                         />
