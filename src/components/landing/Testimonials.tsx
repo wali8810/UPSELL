@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    src: "https://picsum.photos/400/401",
+    src: "https://imgur.com/j1TOXF9.png",
     alt: "Depoimento de aluna satisfeita 1"
   },
   {
-    src: "https://picsum.photos/400/402",
+    src: "https://imgur.com/q2zw7x9.png",
     alt: "Depoimento de aluna satisfeita 2"
   },
   {
-    src: "https://picsum.photos/400/403",
+    src: "https://imgur.com/eyRUvyM.png",
     alt: "Depoimento de aluna satisfeita 3"
   },
   {
-    src: "https://imgur.com/Hx06IEj.png",
+    src: "https://imgur.com/or4Na3a.png",
     alt: "Depoimento de aluna satisfeita 4"
   }
 ];
