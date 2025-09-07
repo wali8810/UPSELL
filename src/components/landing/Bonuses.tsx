@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 const bonusData = [
@@ -21,6 +22,13 @@ const bonusData = [
     description: "Acesso a uma variedade de ideias para criar novos designs.",
     image: "https://imgur.com/eIcZkRK.png",
     alt: "Bônus guia de inspiração",
+  },
+  {
+    bonusNumber: "#04",
+    title: "Mini curso de publicidade e vendas",
+    description: "Aprenda como promover facilmente seus produtos usando publicidade online.",
+    image: "https://imgur.com/0jFdKVH.png",
+    alt: "Bônus mini curso de publicidade e vendas",
   },
 ];
 
