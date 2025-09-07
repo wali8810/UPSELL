@@ -777,6 +777,14 @@ body {
   height: 100px;
 }
 
+.h-\[150px\] {
+  height: 150px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -803,6 +811,10 @@ body {
 
 .min-h-svh {
   min-height: 100svh;
+}
+
+.min-h-\[300px\] {
+  min-height: 300px;
 }
 
 .w-0 {
@@ -1286,6 +1298,10 @@ body {
 
 .border-t-2 {
   border-top-width: 2px;
+}
+
+.border-t-4 {
+  border-top-width: 4px;
 }
 
 .border-dashed {

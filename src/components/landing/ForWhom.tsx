@@ -45,18 +45,13 @@ const CheckIcon = () => (
 export function ForWhom() {
     return (
         <>
-            <section className="relative text-white" style={{backgroundImage: 'linear-gradient(140deg, #FF8901 0%, #F70693 100%)', paddingTop: '30px', paddingBottom: '0px', marginTop: '-7px'}}>
-                <div className="absolute bottom-0 left-0 w-full h-[100px] -mb-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" className="w-full h-full">
-                        <path className="text-white" fill="currentColor" d="M0,6V0h1000v100L0,6z"></path>
-                    </svg>
-                </div>
-                <div className="container mx-auto px-4">
-                    <div className="text-center py-12">
-                        <h2 className="text-2xl md:text-3xl font-bold uppercase tracking-tight text-white mb-4">DO ZERO à PRIMEIRA DECORAÇÃO COM <span style={{color:"#000000",backgroundColor:"#47CB59"}} className="px-2">BALÕES LUCRATIVOS</span></h2>
-                        <p className="text-lg text-white/90">O passo a passo que 750 Mulheres Usam Para ganhar&nbsp;<b>R$2.700,00 Por semana</b> Trabalhando 3-4 Horas</p>
-                    </div>
-                </div>
+            <section className="relative w-full h-[400px] overflow-hidden">
+              <div className="absolute inset-0 w-full h-full" style={{
+                  backgroundImage: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2560 720' preserveAspectRatio='none'><defs><linearGradient id='heroGrad' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23FF7A00'/><stop offset='45%' stop-color='%23FF8A20'/><stop offset='100%' stop-color='%23F70693'/></linearGradient></defs><path d='M0,0 H2560 V512 L0,600 Z' fill='url(%23heroGrad)'/></svg>\")",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+              }}>
+              </div>
             </section>
 
             <section className="bg-white pt-10 pb-0">
@@ -123,3 +118,5 @@ export function ForWhom() {
         </>
     );
 }
+
+    
