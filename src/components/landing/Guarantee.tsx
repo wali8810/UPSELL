@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function Guarantee() {
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-8 bg-white">
         <div className="container mx-auto px-4 max-w-4xl text-center">
             <div className="flex flex-col items-center">
                 <Image 
