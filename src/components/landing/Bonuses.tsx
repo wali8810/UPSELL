@@ -74,7 +74,7 @@ export function Bonuses() {
                   </h4>
                   <p className="text-lg text-foreground/80 mt-2">{bonus.description}</p>
                    <p className="font-montserrat text-lg">
-                    <span className="text-red-500 line-through">De: {bonus.price}</span>
+                    <span className="text-red-500 line-through font-bold">De: {bonus.price}</span>
                   </p>
                   <p className="font-montserrat text-lg font-bold">
                     <span className="text-green-500">Por: GRÁTIS</span>
