@@ -84,7 +84,7 @@ export function ForWhom() {
             <section className="bg-white py-10">
                 <div className="container mx-auto px-4 text-center">
                     <div className="max-w-md mx-auto">
-                        <h2 className="text-4xl font-bold text-red-500"><s >DE R$59,90</s></h2>
+                        <h2 className="text-4xl font-bold text-red-500"><s>DE R$59,90</s></h2>
                         <h2 className="text-2xl font-bold uppercase mt-2 text-black">POR APENAS</h2>
                         <h2 className="text-7xl font-extrabold text-green-600 mt-1">R$10</h2>
                         <h2 className="text-3xl font-bold text-black mt-4">RISCO ZERO!</h2>
@@ -93,7 +93,7 @@ export function ForWhom() {
                                 QUERO APROVEITAR
                             </Button>
                         </a>
-                        <hr className="mt-8 border-gray-300" />
+                        <hr className="mt-8 border-t-2 border-black font-bold" />
                     </div>
                 </div>
             </section>
@@ -138,7 +138,7 @@ export function ForWhom() {
                         
                         <p className="text-gray-600 mb-8">Seguindo o curso, <b>você NÃO precisa de:</b> experiência, materiais caros ou passar horas trabalhando</p>
 
-                        <hr className="border-gray-300 my-8" />
+                        <hr className="border-t-2 border-black font-bold my-8" />
                     </div>
                 </div>
             </section>
