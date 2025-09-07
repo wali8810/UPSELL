@@ -1326,12 +1326,20 @@ body {
   border-color: rgb(250 204 21 / var(--tw-border-opacity, 1));
 }
 
+.border-yellow-400\/50 {
+  border-color: #facc1580;
+}
+
 .border-l-transparent {
   border-left-color: #0000;
 }
 
 .border-t-transparent {
   border-top-color: #0000;
+}
+
+.border-b-yellow-400\/30 {
+  border-bottom-color: #facc154d;
 }
 
 .bg-\[\#00110F\] {
@@ -1869,6 +1877,10 @@ body {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity, 1));
+}
+
+.text-yellow-200\/80 {
+  color: #fef08acc;
 }
 
 .underline {

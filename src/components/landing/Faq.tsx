@@ -28,16 +28,16 @@ export function Faq() {
     <section className="py-16 md:py-24 bg-black text-white">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide">
+          <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">
             <span role="img" aria-label="question mark">❓</span> Perguntas Frequentes
           </h2>
           <p className="text-muted-foreground mt-2">Esclareça todas as suas dúvidas</p>
         </div>
-        <Accordion type="single" collapsible className="w-full bg-black text-white border border-border rounded-lg p-2 md:p-4 shadow-lg">
+        <Accordion type="single" collapsible className="w-full bg-black text-yellow-400 border border-yellow-400/50 rounded-lg p-2 md:p-4 shadow-lg">
           {faqItems.map((item, index) => (
-            <AccordionItem value={`item-${index}`} key={index} className={index === faqItems.length - 1 ? "border-b-0" : ""}>
+            <AccordionItem value={`item-${index}`} key={index} className={index === faqItems.length - 1 ? "border-b-0" : "border-b-yellow-400/30"}>
               <AccordionTrigger className="text-lg text-left hover:no-underline px-4">{item.question}</AccordionTrigger>
-              <AccordionContent className="text-muted-foreground text-base px-4">
+              <AccordionContent className="text-yellow-200/80 text-base px-4">
                 {item.answer}
               </AccordionContent>
             </AccordionItem>
