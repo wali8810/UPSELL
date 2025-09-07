@@ -54,7 +54,7 @@ export function SalesNotification() {
       }`}
     >
       <div className="flex items-center gap-3 rounded-lg bg-card p-4 shadow-2xl border border-border">
-        <CheckCircle className="h-6 w-6 text-primary" />
+        <CheckCircle className="h-6 w-6 text-green-500" />
         <p className="text-sm text-foreground">
           <strong>{currentSale.name}</strong> comprou há {timeAgo} minutos
         </p>
