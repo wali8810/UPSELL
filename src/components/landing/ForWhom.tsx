@@ -77,7 +77,7 @@ export function ForWhom() {
 
                     <div className="mb-8">
                         <a href="#bonus">
-                            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
+                            <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
                                 QUERO APROVEITAR
                             </Button>
                         </a>
