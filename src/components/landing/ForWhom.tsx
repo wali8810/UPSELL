@@ -54,11 +54,11 @@ export function ForWhom() {
               }}>
               </div>
               <div className="relative container mx-auto px-4 text-center z-10">
-                <h2 className="text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1' }}>
+                <h2 className="text-4xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1' }}>
                     Do zero ao seu primeiro<br/>
                      <span style={{color: '#fff', backgroundColor: '#47CB59'}}>cartão decorativo lucrativo</span>
                 </h2>
-                <p className="mt-4 text-xl font-semibold uppercase text-white" style={{ fontFamily: '"Montserrat", Sans-serif' }}>
+                <p className="mt-4 text-lg md:text-xl font-semibold uppercase text-white" style={{ fontFamily: '"Montserrat", Sans-serif' }}>
                     O passo a passo que mais de 1.200 pessoas usam para ganhar até R$3.000,00 por mês criando em casa
                 </p>
                 <div className="mt-8 flex justify-center">
@@ -77,10 +77,10 @@ export function ForWhom() {
             <section className="bg-white pt-10 pb-0">
                 <div className="container mx-auto px-4 text-center">
                     <div className="max-w-md mx-auto">
-                        <h2 className="text-4xl font-bold text-red-500"><s>DE R$59,90</s></h2>
-                        <h2 className="text-2xl font-bold uppercase mt-2 text-black">POR APENAS</h2>
-                        <h2 className="text-7xl font-extrabold text-green-600 mt-1">R$14,90</h2>
-                        <h2 className="text-3xl font-bold text-black mt-4">RISCO ZERO!</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold text-red-500"><s>DE R$59,90</s></h2>
+                        <h2 className="text-xl md:text-2xl font-bold uppercase mt-2 text-black">POR APENAS</h2>
+                        <h2 className="text-6xl md:text-7xl font-extrabold text-green-600 mt-1">R$14,90</h2>
+                        <h2 className="text-2xl md:text-3xl font-bold text-black mt-4">RISCO ZERO!</h2>
                         <a href="#plans" className="mt-6 inline-block">
                             <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 px-8 rounded-lg shadow-lg animate-pulse-green">
                                 QUERO APROVEITAR
@@ -108,7 +108,7 @@ export function ForWhom() {
 
                         <div className="space-y-4 my-8"></div>
 
-                        <h2 className="text-2xl font-bold uppercase text-black bg-yellow-400 inline-block px-4 py-2 mb-8">
+                        <h2 className="text-xl md:text-2xl font-bold uppercase text-black bg-yellow-400 inline-block px-4 py-2 mb-8">
                             VEJA O QUE VOCÊ VAI RECEBER:
                         </h2>
 

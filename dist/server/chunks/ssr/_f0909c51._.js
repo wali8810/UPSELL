@@ -1598,7 +1598,7 @@ function ForWhom() {
                         className: "relative container mx-auto px-4 text-center z-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-5xl font-extrabold uppercase tracking-tighter text-white",
+                                className: "text-4xl md:text-5xl font-extrabold uppercase tracking-tighter text-white",
                                 style: {
                                     fontFamily: '"Montserrat", Sans-serif',
                                     letterSpacing: '-0.9px',
@@ -1629,7 +1629,7 @@ function ForWhom() {
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-4 text-xl font-semibold uppercase text-white",
+                                className: "mt-4 text-lg md:text-xl font-semibold uppercase text-white",
                                 style: {
                                     fontFamily: '"Montserrat", Sans-serif'
                                 },
@@ -1678,13 +1678,13 @@ function ForWhom() {
                         className: "max-w-md mx-auto",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-4xl font-bold text-red-500",
+                                className: "text-3xl md:text-4xl font-bold text-red-500",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("s", {
                                     children: "DE R$59,90"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
                                     lineNumber: 80,
-                                    columnNumber: 73
+                                    columnNumber: 85
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
@@ -1692,7 +1692,7 @@ function ForWhom() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-2xl font-bold uppercase mt-2 text-black",
+                                className: "text-xl md:text-2xl font-bold uppercase mt-2 text-black",
                                 children: "POR APENAS"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
@@ -1700,7 +1700,7 @@ function ForWhom() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-7xl font-extrabold text-green-600 mt-1",
+                                className: "text-6xl md:text-7xl font-extrabold text-green-600 mt-1",
                                 children: "R$14,90"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
@@ -1708,7 +1708,7 @@ function ForWhom() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-3xl font-bold text-black mt-4",
+                                className: "text-2xl md:text-3xl font-bold text-black mt-4",
                                 children: "RISCO ZERO!"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
@@ -1818,7 +1818,7 @@ function ForWhom() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-2xl font-bold uppercase text-black bg-yellow-400 inline-block px-4 py-2 mb-8",
+                                className: "text-xl md:text-2xl font-bold uppercase text-black bg-yellow-400 inline-block px-4 py-2 mb-8",
                                 children: "VEJA O QUE VOCÊ VAI RECEBER:"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
