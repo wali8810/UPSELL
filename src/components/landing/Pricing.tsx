@@ -131,18 +131,18 @@ export function Pricing() {
                   <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-4 py-1 text-base">Mais Vendido</Badge>
               </div>
               
-              <div className="flex justify-center my-4">
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-              </div>
-              <div className="text-center mb-4">
-                  <div className="bg-red-500 text-white rounded-full py-2 px-4 mb-2 inline-block">
-                    <h3 className="text-xl font-bold uppercase">Plano Completo:</h3>
-                  </div>
-                  <p className="font-bold text-lg text-black uppercase">(MELHOR NEGÓCIO)</p>
+              <div className="text-center mb-4 pt-4">
+                <div className="flex justify-center mb-4">
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                </div>
+                <div className="bg-red-500 text-white rounded-full py-2 px-8 mb-2 inline-block">
+                  <h3 className="text-xl font-bold uppercase">Plano Completo:</h3>
+                </div>
+                <p className="font-bold text-lg text-black uppercase">(MELHOR NEGÓCIO)</p>
               </div>
               
               <Image src="https://imgur.com/ICZ20ja.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
