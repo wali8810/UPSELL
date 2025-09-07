@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Guarantee } from "./Guarantee";
 
 const testimonials = [
   {
@@ -71,8 +70,16 @@ export function Testimonials() {
                     </Button>
                   </a>
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold mb-4" style={{ fontFamily: '"Montserrat", Sans-serif', lineHeight: '34px', letterSpacing: '-0.9px' }}>Quanto Tempo Leva Para Receber Meu Acesso?</h3>
-              <div className="text-muted-foreground text-lg" style={{ fontFamily: '"Montserrat", Sans-serif' }}>
+               <h3 
+                className="text-2xl md:text-3xl font-bold mb-4" 
+                style={{ fontFamily: '"Montserrat", Sans-serif', lineHeight: '34px', letterSpacing: '-0.9px' }}
+              >
+                Quanto Tempo Leva Para Receber Meu Acesso?
+              </h3>
+              <div 
+                className="text-muted-foreground text-lg" 
+                style={{ fontFamily: '"Montserrat", Sans-serif' }}
+              >
                   <p>Após confirmar seu pedido, <strong>você receberá automaticamente</strong> no seu e-mail os dados de acesso para login e poderá começar seus estudos imediatamente.</p>
                   <p>Todo o material está hospedado em uma <strong>área de membros exclusiva</strong> para alunos, para que você possa acessar com segurança, quando e de onde estiver.</p>
               </div>
