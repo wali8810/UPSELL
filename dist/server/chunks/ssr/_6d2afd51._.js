@@ -1620,41 +1620,73 @@ function Testimonials() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mt-16 text-center max-w-3xl mx-auto",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-lg text-foreground/90 leading-relaxed",
-                                    children: "Imagina você faturar até R$5.000,00 por mês apenas criando cartões decorativos em casa? Com meu método, você não precisa investir quase nada em materiais, e já no primeiro mês pode alcançar esse resultado."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 57,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-4 text-lg text-foreground/90 leading-relaxed",
-                                    children: "Diferente de artesanatos demorados, os cartões decorativos são rápidos de fazer, estão super em alta no Brasil e qualquer pessoa pode aprender — mesmo sem experiência."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 60,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-4 text-lg text-foreground/90 leading-relaxed",
-                                    children: "Você recebe modelos prontos e vídeos passo a passo, para criar cartões lindos e começar a vender ainda hoje."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 63,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-4 text-lg text-muted-foreground",
-                                    children: "Dica: os cartões para chá revelação e chá de bebê estão entre os mais procurados e vendem muito rápido."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 66,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-lg text-foreground/90 leading-relaxed",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mb-4",
+                                        children: [
+                                            "Imagine que você faça apenas 10 pequenos eventos no mês decorando festas por ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                style: {
+                                                    color: '#ff8f00'
+                                                },
+                                                children: "R$500,00"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/landing/Testimonials.tsx",
+                                                lineNumber: 58,
+                                                columnNumber: 116
+                                            }, this),
+                                            " cada decoração!"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/landing/Testimonials.tsx",
+                                        lineNumber: 58,
+                                        columnNumber: 19
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mb-4",
+                                        children: [
+                                            "Isso traz um rendimento mensal de ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                style: {
+                                                    color: '#4fc700'
+                                                },
+                                                children: "R$5.000,00"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/landing/Testimonials.tsx",
+                                                lineNumber: 59,
+                                                columnNumber: 73
+                                            }, this),
+                                            " visto que os ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                children: "custos da produção são mínimos"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/landing/Testimonials.tsx",
+                                                lineNumber: 59,
+                                                columnNumber: 141
+                                            }, this),
+                                            "!"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/landing/Testimonials.tsx",
+                                        lineNumber: 59,
+                                        columnNumber: 19
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        children: "Dica: Você também pode decorar chá de revelação ou chá de bebê, que está em alta no Brasil."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/landing/Testimonials.tsx",
+                                        lineNumber: 60,
+                                        columnNumber: 19
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/landing/Testimonials.tsx",
+                                lineNumber: 57,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
                             lineNumber: 56,
                             columnNumber: 13
@@ -1669,21 +1701,21 @@ function Testimonials() {
                                         className: "inline-block",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                                             size: "lg",
-                                            className: "bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 transform hover:scale-105 transition-transform duration-300 shadow-lg",
+                                            className: "cta-button shadow-lg text-center h-auto py-4",
                                             children: "GARANTIR AGORA COM DESCONTO"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 67,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 66,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 65,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1691,7 +1723,7 @@ function Testimonials() {
                                     children: "Quanto Tempo Leva Para Receber Meu Acesso?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 72,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1702,14 +1734,14 @@ function Testimonials() {
                                             children: "você receberá automaticamente"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 74,
                                             columnNumber: 44
                                         }, this),
                                         " no seu e-mail os dados de acesso para login e poderá começar seus estudos imediatamente."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 73,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1720,20 +1752,20 @@ function Testimonials() {
                                             children: "área de membros exclusiva"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 77,
                                             columnNumber: 55
                                         }, this),
                                         " para alunos, para que você possa acessar com segurança, quando e de onde estiver."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 76,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 71,
+                            lineNumber: 64,
                             columnNumber: 13
                         }, this)
                     ]

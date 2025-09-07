@@ -54,24 +54,17 @@ export function Testimonials() {
             </div>
 
             <div className="mt-16 text-center max-w-3xl mx-auto">
-              <p className="text-lg text-foreground/90 leading-relaxed">
-                Imagina você faturar até R$5.000,00 por mês apenas criando cartões decorativos em casa? Com meu método, você não precisa investir quase nada em materiais, e já no primeiro mês pode alcançar esse resultado.
-              </p>
-              <p className="mt-4 text-lg text-foreground/90 leading-relaxed">
-                Diferente de artesanatos demorados, os cartões decorativos são rápidos de fazer, estão super em alta no Brasil e qualquer pessoa pode aprender — mesmo sem experiência.
-              </p>
-              <p className="mt-4 text-lg text-foreground/90 leading-relaxed">
-                Você recebe modelos prontos e vídeos passo a passo, para criar cartões lindos e começar a vender ainda hoje.
-              </p>
-              <p className="mt-4 text-lg text-muted-foreground">
-                Dica: os cartões para chá revelação e chá de bebê estão entre os mais procurados e vendem muito rápido.
-              </p>
+              <div className="text-lg text-foreground/90 leading-relaxed">
+                  <p className="mb-4">Imagine que você faça apenas 10 pequenos eventos no mês decorando festas por <strong style={{color: '#ff8f00'}}>R$500,00</strong> cada decoração!</p>
+                  <p className="mb-4">Isso traz um rendimento mensal de <strong style={{color: '#4fc700'}}>R$5.000,00</strong> visto que os <strong>custos da produção são mínimos</strong>!</p>
+                  <p>Dica: Você também pode decorar chá de revelação ou chá de bebê, que está em alta no Brasil.</p>
+              </div>
             </div>
 
             <div className="mt-16 text-center max-w-3xl mx-auto">
               <div className="mb-12">
                   <a href="#plans" className="inline-block">
-                    <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 transform hover:scale-105 transition-transform duration-300 shadow-lg">
+                    <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4">
                       GARANTIR AGORA COM DESCONTO
                     </Button>
                   </a>
