@@ -101,7 +101,7 @@ export function Pricing() {
                       </li>
                     ))}
                   </ul>
-                  <div className="border-b border-gray-200 my-3"></div>
+                  <div className="border-t border-gray-200 my-4"></div>
                   <ul className="text-left space-y-3 my-4 text-red-500">
                     {planoBasicoFeatures.notIncluded.map((item, index) => (
                        <li key={`basic-not-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
@@ -125,19 +125,19 @@ export function Pricing() {
           {/* Plano Completo */}
           <div className="w-full md:w-1/2 flex">
             <div
-              className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative"
+              className="bg-white text-black rounded-2xl shadow-2xl flex flex-col h-full border-4 border-yellow-400 p-8 w-full relative animate-pulse-yellow"
             >
                <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-4 py-1 text-base">Mais Vendido</Badge>
+                  <Badge className="bg-yellow-400 text-black font-bold border-none shadow-lg px-6 py-2 text-lg">Mais Vendido</Badge>
               </div>
               
-              <div className="text-center mb-4 pt-4">
-                <div className="flex justify-center mb-4">
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
+              <div className="text-center mb-4 mt-6">
+                 <div className="flex justify-center mb-4">
+                    <StarIcon />
+                    <StarIcon />
+                    <StarIcon />
+                    <StarIcon />
+                    <StarIcon />
                 </div>
                 <div className="bg-red-500 text-white rounded-full py-2 px-8 mb-2 inline-block">
                   <h3 className="text-xl font-bold uppercase">Plano Completo:</h3>

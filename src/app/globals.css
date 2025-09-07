@@ -80,6 +80,22 @@
     }
   }
 
+  .animate-pulse-yellow {
+    animation: pulse-yellow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-yellow {
+    0% {
+      box-shadow: 0 0 15px 5px rgba(250, 204, 21, 0.4);
+    }
+    50% {
+      box-shadow: 0 0 25px 10px rgba(250, 204, 21, 0.7);
+    }
+    100% {
+      box-shadow: 0 0 15px 5px rgba(250, 204, 21, 0.4);
+    }
+  }
+
   .animate-zoom-in-out {
     animation: zoom-in-out 30s ease-in-out infinite;
   }
