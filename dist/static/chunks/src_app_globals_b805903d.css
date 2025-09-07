@@ -953,6 +953,10 @@ body {
   max-width: 28rem;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -1495,6 +1499,11 @@ body {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#47CB59\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 203 89 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[radial-gradient\(circle_farthest-side_at_0_100\%\,\#ffb700\,transparent\)\,radial-gradient\(circle_farthest-side_at_100\%_0\,\#ff7b00\,transparent\)\,radial-gradient\(circle_farthest-side_at_100\%_100\%\,\#ff5733\,transparent\)\,radial-gradient\(circle_farthest-side_at_0_0\,\#ffc300\,\#141316\)\] {
   background-image: radial-gradient(circle farthest-side at 0 100%, #ffb700, #0000), radial-gradient(circle farthest-side at 100% 0, #ff7b00, #0000), radial-gradient(circle farthest-side at 100% 100%, #ff5733, #0000), radial-gradient(circle farthest-side at 0 0, #ffc300, #141316);
 }
@@ -1724,6 +1733,14 @@ body {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-left {
@@ -3273,6 +3290,11 @@ body {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:opacity-0 {
