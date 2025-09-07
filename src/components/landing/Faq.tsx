@@ -3,23 +3,23 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const faqItems = [
   {
     question: "Em quantos dispositivos posso usar os arquivos?",
-    answer: "Você pode baixar e usar os arquivos em quantos dispositivos quiser: computador, tablet ou celular."
+    answer: "Depois de baixar os arquivos, você pode copiá-los e compartilhá-los em todos os seus dispositivos."
   },
   {
     question: "Por quanto tempo e quantas vezes posso baixar as planilhas?",
-    answer: "O acesso é vitalício! Você pode baixar os materiais quantas vezes precisar, para sempre."
+    answer: "Você poderá acessar os arquivos quando quiser, sem limites de tempo ou acesso. Entendemos que, após a compra, o arquivo é seu e não há limites de tempo. O acesso é vitalício!"
   },
   {
     question: "Preciso de algum programa especial para abrir os arquivos?",
-    answer: "Não. Os arquivos são em formato PDF e podem ser abertos em qualquer dispositivo com um leitor de PDF, como o Adobe Reader, que é gratuito."
+    answer: "Basta usar um leitor de PDF para abrir e imprimir os arquivos. Atualmente, todos os dispositivos (PC, Android, iOS) suportam esse formato."
   },
   {
     question: "Existe uma garantia?",
-    answer: "Sim! Oferecemos uma garantia de satisfação de 7 dias. Se não ficar satisfeito, devolvemos 100% do seu dinheiro, sem complicações."
+    answer: "Oferecemos aos nossos clientes uma garantia de satisfação de um ano. Se, durante esse período, você não tiver acesso ao nosso produto ou tiver algum problema técnico, envie-nos um e-mail para obter assistência ou solicitar um reembolso total, sem perguntas. Queremos garantir que nossos clientes fiquem completamente satisfeitos com a compra."
   },
   {
     question: "Preciso de acesso à Internet para usar os arquivos?",
-    answer: "Você só precisa de internet para baixar os arquivos. Depois de salvos no seu dispositivo, você pode acessá-los a qualquer momento, mesmo offline."
+    answer: "Você só precisa de uma conexão com a internet para baixar os arquivos."
   }
 ];
 
