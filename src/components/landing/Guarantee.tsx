@@ -5,7 +5,7 @@ export function Guarantee() {
   return (
     <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4 max-w-4xl text-center">
-            <div className="flex flex-col items-center mb-12">
+            <div className="flex flex-col items-center">
                 <Image 
                     src="https://imgur.com/3nS8KCV.png"
                     alt="Selo de Garantia de 30 dias"
