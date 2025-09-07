@@ -1,7 +1,10 @@
 
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const planoCompletoFeatures = [
   "<b>Curso Completo: Cartão Decorativo</b>",
@@ -166,7 +169,13 @@ export function Pricing() {
               <div className="text-center my-4">
                 <p className="text-red-500 line-through text-lg">Valor Total: R$147</p>
                 <p className="uppercase font-bold text-black text-sm">HOJE PAGAMENTO ÚNICO...</p>
-                <p className="text-5xl md:text-6xl font-extrabold text-green-500">R$14,90</p>
+                <motion.p 
+                    whileInView={{ rotate: [0, -1.5, 1.5, -1.5, 1.5, 0] }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    viewport={{ once: true, amount: 0.8 }}
+                    className="text-5xl md:text-6xl font-extrabold text-green-500">
+                    R$14,90
+                </motion.p>
               </div>
 
               <div className="mt-auto">
@@ -186,3 +195,5 @@ export function Pricing() {
     </section>
   );
 }
+
+    
