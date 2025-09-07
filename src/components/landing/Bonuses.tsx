@@ -26,7 +26,7 @@ const bonusData = [
 
 export function Bonuses() {
   return (
-    <section className="pt-8 md:pt-12 pb-16 md:pb-24 bg-secondary">
+    <section className="py-8 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonus">
           <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
@@ -35,7 +35,7 @@ export function Bonuses() {
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
-              3 Bônus exclusivos
+              4 Bônus exclusivos
             </span>{" "}
             para quem adquirir o CURSO NESTA PÁGINA
           </h3>
