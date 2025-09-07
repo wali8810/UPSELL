@@ -1658,6 +1658,10 @@ body {
   padding-bottom: 2rem;
 }
 
+.pb-0 {
+  padding-bottom: 0;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1923,6 +1927,10 @@ body {
 
 .line-through {
   text-decoration-line: line-through;
+}
+
+.no-underline {
+  text-decoration-line: none;
 }
 
 .underline-offset-4 {
