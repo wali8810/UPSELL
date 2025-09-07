@@ -92,23 +92,24 @@ export function Pricing() {
                    <p className="font-bold text-lg uppercase text-black">Pagamento Único</p>
                   <p className="text-6xl font-extrabold text-green-500">R$10</p>
                 </div>
-                <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow">
-                  {planoBasicoFeatures.included.map((item, index) => (
-                     <li key={`basic-inc-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
-                      <CheckIcon />
-                      <span dangerouslySetInnerHTML={{ __html: item }} />
-                    </li>
-                  ))}
-                </ul>
-                <hr className="border-gray-200 my-4" />
-                <ul className="text-left space-y-3 my-4 text-red-500 flex-grow">
-                  {planoBasicoFeatures.notIncluded.map((item, index) => (
-                     <li key={`basic-not-${index}`} className="flex items-start">
-                      <XIcon />
-                      <span className="line-through" dangerouslySetInnerHTML={{ __html: item }} />
-                    </li>
-                  ))}
-                </ul>
+                <div className="flex-grow">
+                  <ul className="text-left space-y-3 my-4 text-gray-600">
+                    {planoBasicoFeatures.included.map((item, index) => (
+                       <li key={`basic-inc-${index}`} className="flex items-start pb-3 border-b border-gray-200 last:border-b-0">
+                        <CheckIcon />
+                        <span dangerouslySetInnerHTML={{ __html: item }} />
+                      </li>
+                    ))}
+                  </ul>
+                  <ul className="text-left space-y-3 my-4 text-red-500">
+                    {planoBasicoFeatures.notIncluded.map((item, index) => (
+                       <li key={`basic-not-${index}`} className="flex items-start">
+                        <XIcon />
+                        <span className="line-through" dangerouslySetInnerHTML={{ __html: item }} />
+                      </li>
+                    ))}
+                  </ul>
+                </div>
 
                 <div className="mt-auto">
                    <a href="https://pay.kirvano.com/268fafab-5986-464b-9c14-bcdfa52ce9a2" target="_blank" rel="noopener noreferrer" className="block w-full">
