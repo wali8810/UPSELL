@@ -35,7 +35,7 @@ export function Faq() {
         </div>
         <Accordion type="single" collapsible className="w-full bg-black text-yellow-400">
           {faqItems.map((item, index) => (
-            <AccordionItem value={`item-${index}`} key={index} className={index === faqItems.length - 1 ? "border-b-0" : "border-b border-white/30"}>
+            <AccordionItem value={`item-${index}`} key={index} className="border-b border-white/30">
               <AccordionTrigger className="text-lg text-left hover:no-underline py-6">{item.question}</AccordionTrigger>
               <AccordionContent className="text-white/80 text-base pb-6">
                 {item.answer}
