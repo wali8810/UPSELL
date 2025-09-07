@@ -929,6 +929,10 @@ body {
   max-width: 20rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -1594,6 +1598,11 @@ body {
   padding-bottom: 2rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1919,6 +1928,15 @@ body {
 
 .text-yellow-200\/80 {
   color: #fef08acc;
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-white\/90 {
+  color: #ffffffe6;
 }
 
 .underline {

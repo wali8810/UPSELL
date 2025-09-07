@@ -23,6 +23,9 @@ export function SalesNotification() {
   useEffect(() => {
     if (!isClient) return;
 
+    // This component is now being handled by the notiflix script
+    return;
+
     const showNotification = () => {
       const randomIndex = Math.floor(Math.random() * salesData.length);
       setCurrentSale(salesData[randomIndex]);

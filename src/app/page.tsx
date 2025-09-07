@@ -3,7 +3,6 @@ import { Pricing } from '@/components/landing/Pricing';
 import { Testimonials } from '@/components/landing/Testimonials';
 import { Faq } from '@/components/landing/Faq';
 import { Footer } from '@/components/landing/Footer';
-import { SalesNotification } from '@/components/landing/SalesNotification';
 import { ForWhom } from '@/components/landing/ForWhom';
 import { Guarantee } from '@/components/landing/Guarantee';
 
@@ -19,7 +18,6 @@ export default function Home() {
         <Faq />
       </main>
       <Footer />
-      <SalesNotification />
     </div>
   );
 }
