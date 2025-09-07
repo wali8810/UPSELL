@@ -163,7 +163,7 @@ export function Pricing() {
               <div className="text-center my-4">
                 <p className="text-red-500 line-through text-lg">Valor Total: R$147</p>
                 <p className="uppercase font-bold text-black text-sm">HOJE PAGAMENTO ÚNICO...</p>
-                <p className="text-6xl font-extrabold text-red-500">R$14,90</p>
+                <p className="text-6xl font-extrabold text-green-500">R$14,90</p>
               </div>
 
               <div className="mt-auto">
