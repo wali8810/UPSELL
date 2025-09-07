@@ -43,7 +43,7 @@ export function Bonuses() {
         <div className="text-center mb-12" id="bonus">
           <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
             BÔNUS PARA <br />
-            <u className="text-black no-underline" style={{textDecorationColor: 'black'}}>PRIMEIRA VISITA</u>...
+            <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMEIRA VISITA</u>...
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
