@@ -13,7 +13,7 @@ const bonusData = [
   {
     bonusNumber: "#02",
     title: "Manual de Vendas Pronto para Usar",
-    description: "Guia rápido para oferecer suas criações sem sofrer na tentativa.",
+    description: "Um Passo a passo simples para você montar e vender seus cartões em até 24 horas",
     image: "https://imgur.com/hdbzMRu.png",
     alt: "Bônus manual de vendas",
     price: "R$37,00",
