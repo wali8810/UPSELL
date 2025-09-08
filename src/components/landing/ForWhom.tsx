@@ -17,7 +17,7 @@ const whatYouGetItems = [
     },
     {
         icon: "💰",
-        title: "ECONOMIA",
+        title: "guia de precificação",
         description: "Dicas valiosas para fugir de gastos que aparentam ser “vantajosos” e acabam com o lucro"
     },
     {
