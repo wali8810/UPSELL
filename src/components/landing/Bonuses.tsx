@@ -21,7 +21,7 @@ const bonusData = [
   {
     bonusNumber: "#03",
     title: "Guia rápido para encontrar inspiração e vender no mesmo dia",
-    description: "Acesso a uma variedade de ideias para criar novos designs.",
+    description: "+100 modelos de cartões prontos para usar e se inspirar",
     image: "https://imgur.com/eIcZkRK.png",
     alt: "Bônus guia de inspiração",
     price: "R$57,00",
