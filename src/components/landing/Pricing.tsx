@@ -17,7 +17,6 @@ const planoCompletoBonus = [
     { text: "<b>Bônus 1: Como vender nas redes sociais</b><br/><i>Roteiros e exemplos prontos para postar no Instagram, WhatsApp e marketplaces e fechar sua primeira venda em até 48 horas.</i>", icon: "check" },
     { text: "<b>Bônus 2: Manual de Vendas Pronto para Usar</b><br/><i>Guia rápido para oferecer suas criações sem sofrer na tentativa.</i>", icon: "check" },
     { text: "<b>Bônus 3: Guia rápido para encontrar inspiração e vender no mesmo dia</b><br/><i>Acesso a uma variedade de ideias criativas para nunca travar na hora de criar.</i>", icon: "check" },
-    { text: "<b>Bônus 4: Mini curso de publicidade e vendas</b><br/><i>Aprenda como promover facilmente seus produtos usando anúncios e técnicas de marketing online.</i>", icon: "gift" },
     { text: "<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>", icon: "gift" },
     { text: "<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>", icon: "gift" }
 ]
@@ -33,7 +32,6 @@ const planoBasicoFeatures = {
     '<b>Bônus 1: Como vender nas redes sociais</b><br/><i>Roteiros e exemplos prontos para postar no Instagram, WhatsApp e marketplaces e fechar sua primeira venda em até 48 horas.</i>',
     '<b>Bônus 2: Manual de Vendas Pronto para Usar</b><br/><i>Guia rápido para oferecer suas criações sem sofrer na tentativa.</i>',
     '<b>Bônus 3: Guia rápido para encontrar inspiração e vender no mesmo dia</b><br/><i>Acesso a uma variedade de ideias criativas para nunca travar na hora de criar.</i>',
-    '<b>Bônus 4: Mini curso de publicidade e vendas</b><br/><i>Aprenda como promover facilmente seus produtos usando anúncios e técnicas de marketing online.</i>',
     '<b>Grupo de Alunos:</b> <i>Espaço exclusivo para suporte, troca de dicas e experiências.</i>',
     '<b>Suporte VIP:</b> <i>Acompanhamento individual via WhatsApp por 90 dias para acelerar seus resultados.</i>',
   ]

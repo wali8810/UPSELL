@@ -26,14 +26,6 @@ const bonusData = [
     alt: "Bônus guia de inspiração",
     price: "R$57,00",
   },
-  {
-    bonusNumber: "#04",
-    title: "Mini curso de publicidade e vendas",
-    description: "Aprenda como promover facilmente seus produtos usando publicidade online.",
-    image: "https://imgur.com/0jFdKVH.png",
-    alt: "Bônus mini curso de publicidade e vendas",
-    price: "R$67,00",
-  },
 ];
 
 export function Bonuses() {
@@ -47,7 +39,7 @@ export function Bonuses() {
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
-              4 Bônus exclusivos
+              3 Bônus exclusivos
             </span>{" "}
             para quem adquirir o CURSO NESTA PÁGINA
           </h3>
