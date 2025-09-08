@@ -63,7 +63,7 @@ export function ForWhom() {
                 </p>
                 <div className="mt-8 flex justify-center">
                     <Image
-                        src="https://imgur.com/pXzH23f.png"
+                        src="https://imgur.com/051Veff.png"
                         alt="Mockup do curso e bônus"
                         width={608}
                         height={405}
@@ -99,7 +99,7 @@ export function ForWhom() {
                         </h2>
                         <ul className="space-y-4 text-left mb-12 max-w-2xl mx-auto">
                             {forWhomItems.map((item, index) => (
-                                <li key={index} className="flex items-center text-lg">
+                                <li key={index} className="flex items-center text-lg md:text-xl">
                                     <CheckIcon />
                                     <span>{item}</span>
                                 </li>
@@ -114,7 +114,7 @@ export function ForWhom() {
 
                         <div className="text-left space-y-6 mb-8 max-w-2xl mx-auto">
                             {whatYouGetItems.map((item, index) => (
-                                <p key={index} className="flex items-start text-lg">
+                                <p key={index} className="flex items-start text-lg md:text-xl">
                                     <span className="text-2xl mr-3 w-8 text-center">{item.icon}</span>
                                     <span><span className="underline font-bold">{item.title}</span>: {item.description}</span>
                                  </p>
@@ -129,7 +129,7 @@ export function ForWhom() {
                             </a>
                         </div>
                         
-                        <p className="text-gray-600 mb-8">Seguindo o curso, <b>você NÃO precisa de:</b> experiência, materiais caros ou passar horas trabalhando</p>
+                        <p className="text-gray-600 mb-8 text-base md:text-lg">Seguindo o curso, <b>você NÃO precisa de:</b> experiência, materiais caros ou passar horas trabalhando</p>
 
                         <hr className="border-t-2 border-black font-bold w-full" />
                     </div>
