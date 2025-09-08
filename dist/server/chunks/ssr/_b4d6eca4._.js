@@ -511,7 +511,7 @@ function Testimonials() {
                                                 lineNumber: 59,
                                                 columnNumber: 47
                                             }, this),
-                                            " apenas criando cartões decorativos em casa? Com meu método, você não precisa investir quase nada em materiais, e já no primeiro mês pode alcançar esse resultado."
+                                            " apenas criando cartões decorativos em casa? Com meu método, você não precisa investir quase nada em materiais, e já no primeira semana você pode alcançar esse resultado."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
