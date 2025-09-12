@@ -1006,7 +1006,7 @@ function ForWhom() {
                                             color: '#fff',
                                             backgroundColor: '#47CB59'
                                         },
-                                        children: "cartão decorativo lucrativo"
+                                        children: "produto personalizado lucrativo"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
                                         lineNumber: 59,
@@ -1023,7 +1023,7 @@ function ForWhom() {
                                 style: {
                                     fontFamily: '"Montserrat", Sans-serif'
                                 },
-                                children: "O passo a passo que mais de 1.200 pessoas usam para ganhar até R$5.000,00 por mês criando em casa"
+                                children: "O mesmo passo a passo simples que já ajudou mais de 800 mulheres a criar peças irresistíveis em casa e lucrar até R$5.000 por mês — usando apenas uma impressora comum e um ferro de passar."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 61,

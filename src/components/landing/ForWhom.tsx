@@ -56,10 +56,10 @@ export function ForWhom() {
               <div className="relative container mx-auto px-4 text-center z-10">
                 <h2 className="text-3xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
                     Do zero ao seu primeiro<br/>
-                     <span style={{color: '#fff', backgroundColor: '#47CB59'}}>cartão decorativo lucrativo</span>
+                     <span style={{color: '#fff', backgroundColor: '#47CB59'}}>produto personalizado lucrativo</span>
                 </h2>
                 <p className="mt-4 text-lg md:text-xl font-semibold uppercase text-white" style={{ fontFamily: '"Montserrat", Sans-serif' }}>
-                    O passo a passo que mais de 1.200 pessoas usam para ganhar até R$5.000,00 por mês criando em casa
+                    O mesmo passo a passo simples que já ajudou mais de 800 mulheres a criar peças irresistíveis em casa e lucrar até R$5.000 por mês — usando apenas uma impressora comum e um ferro de passar.
                 </p>
                 <div className="mt-8 flex justify-center">
                     <Image
