@@ -4,22 +4,22 @@ import { Button } from "@/components/ui/button";
 
 const testimonials = [
   {
-    image: "https://imgur.com/6QpQwXi",
+    image: "https://i.imgur.com/6QpQwXi.png",
     text: "Hice 12 paños el fin de semana. ¡Vendí 10 en 3 horas! ¡Estoy en shock!",
     name: "Ana G.",
   },
   {
-    image: "https://imgur.com/qxUkZGZ",
+    image: "https://i.imgur.com/qxUkZGZ.png",
     text: "¡Nunca pensé que alguien pagaría por algo que hice con una plancha de ropa!",
     name: "Maria C.",
   },
     {
-    image: "https://imgur.com/RrstbbC",
+    image: "https://i.imgur.com/RrstbbC.png",
     text: "Empecé sin saber nada y ya estoy vendiendo mis creaciones. ¡El curso es increíble!",
     name: "Lucía M.",
   },
   {
-    image: "https://imgur.com/9KwVXA0",
+    image: "https://i.imgur.com/9KwVXA0.png",
     text: "¡El grupo de alumnas es fantástico! Todas se ayudan y dan muchos tips.",
     name: "Sofía P.",
   },
@@ -78,7 +78,7 @@ export function Testimonials() {
               <div className="mb-12">
                   <a href="#plans" className="inline-block">
                     <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-xl">
-                      GARANTIZAR AHORA CON DESCUENTO
+                      GARANTIZAR AHORA CON DESCONTO
                     </Button>
                   </a>
               </div>
