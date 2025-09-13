@@ -1,4 +1,3 @@
-
 "use client";
 
 import { Button } from "@/components/ui/button";
@@ -91,7 +90,7 @@ export function Pricing() {
                    <div className="bg-gray-800 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
                     <h3 className="text-xl font-bold uppercase">Plan Básico:</h3>
                   </div>
-                   <p className="font-bold text-lg uppercase text-black">Pagamento Único</p>
+                   <p className="font-bold text-lg uppercase text-black">Pago único</p>
                   <p className="text-5xl md:text-6xl font-extrabold text-green-500">$7.270</p>
                 </div>
                 <div className="flex-grow">
