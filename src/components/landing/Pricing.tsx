@@ -143,7 +143,7 @@ export function Pricing() {
                 <div className="bg-red-500 text-white rounded-full py-2 px-8 mb-2 inline-block">
                   <h3 className="text-xl font-bold uppercase">Plan completo:</h3>
                 </div>
-                <p className="font-bold text-lg text-black uppercase">(MELHOR NEGÓCIO)</p>
+                <p className="font-bold text-lg text-black uppercase">(MEJOR OFERTA)</p>
               </div>
               
               <Image src="https://imgur.com/I8fDFCF.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
