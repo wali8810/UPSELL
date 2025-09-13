@@ -74,7 +74,7 @@ export function ForWhom() {
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image
-                        src="https://imgur.com/I8fDFCF.png"
+                        src="https://imgur.com/EKCxH9x.png"
                         alt="Mockup do curso e bônus"
                         width={608}
                         height={405}
@@ -106,7 +106,7 @@ export function ForWhom() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-2xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
-                            ¿PARA QUIÉN ES EL MÉTODO ESTAMPA MÁGICA?
+                            ¿PARA QUIÉN ES EL MÉTODO MAGIC PRINT?
                         </h2>
                         <ul className="space-y-4 text-left mb-12 max-w-2xl mx-auto">
                             {forWhomItems.map((item, index) => (
@@ -145,7 +145,7 @@ export function ForWhom() {
                                     stopOnInteraction: false,
                                 }),
                                 ]}
-                                className="w-full max-w-3xl mx-auto"
+                                className="w-full max-w-xl mx-auto"
                             >
                                 <CarouselContent>
                                 {carouselImages.map((src, index) => (

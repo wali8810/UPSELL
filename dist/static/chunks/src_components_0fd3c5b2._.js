@@ -135,7 +135,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 ;
 const planoCompletoFeatures = [
-    "<b>Curso Completo: Estampa Mágica</b>",
+    "<b>Curso Completo: Magic Print</b>",
     "<b>Certificado Incluido</b>",
     "<b>Acceso vitalicio</b>",
     "<b>30 Días de Garantía</b>"
@@ -168,7 +168,7 @@ const planoCompletoBonus = [
 ];
 const planoBasicoFeatures = {
     included: [
-        "Curso Completo: Estampa Mágica",
+        "Curso Completo: Magic Print",
         "Certificado Incluido",
         "1 Año de Acceso",
         "30 Días de Garantía"
@@ -525,7 +525,7 @@ function Pricing() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "https://imgur.com/I8fDFCF.png",
+                                        src: "https://imgur.com/EKCxH9x.png",
                                         alt: "Mockup plano completo",
                                         width: 400,
                                         height: 300,
@@ -1278,7 +1278,7 @@ function ForWhom() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-8 flex justify-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "https://imgur.com/I8fDFCF.png",
+                                    src: "https://imgur.com/EKCxH9x.png",
                                     alt: "Mockup do curso e bônus",
                                     width: 608,
                                     height: 405,
@@ -1400,7 +1400,7 @@ function ForWhom() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-2xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide",
-                                children: "¿PARA QUIÉN ES EL MÉTODO ESTAMPA MÁGICA?"
+                                children: "¿PARA QUIÉN ES EL MÉTODO MAGIC PRINT?"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 108,
@@ -1513,7 +1513,7 @@ function ForWhom() {
                                                 stopOnInteraction: false
                                             })
                                         ],
-                                        className: "w-full max-w-3xl mx-auto",
+                                        className: "w-full max-w-xl mx-auto",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CarouselContent"], {
                                             children: carouselImages.map((src, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CarouselItem"], {
                                                     className: "basis-1/2",

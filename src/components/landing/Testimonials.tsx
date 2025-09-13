@@ -67,7 +67,7 @@ export function Testimonials() {
 
             <div className="mt-16 text-center max-w-3xl mx-auto">
               <div className="text-lg text-left text-foreground/90 leading-relaxed space-y-4">
-                  <p>Imagina ganar hasta <strong style={{color: '#4fc700'}}>$1.400 al mes</strong> creando tarjetas decorativas desde tu casa. Con mi método Estampa Mágica, no necesitas invertir casi nada en materiales, y en tu primera semana ya puedes obtener resultados reales.</p>
+                  <p>Imagina ganar hasta <strong style={{color: '#4fc700'}}>$1.400 al mes</strong> creando tarjetas decorativas desde tu casa. Con mi método Magic Print, no necesitas invertir casi nada en materiales, y en tu primera semana ya puedes obtener resultados reales.</p>
                   <p>A diferencia de otras manualidades que consumen mucho tiempo, las tarjetas decorativas son rápidas de hacer, están en tendencia en toda América Latina y cualquiera puede aprender, incluso sin experiencia previa.</p>
                   <p>Con el método, recibirás plantillas listas y videos paso a paso para crear tarjetas hermosas y empezar a vender hoy mismo.</p>
                   <p><strong>Un consejo estratégico:</strong> las tarjetas para baby shower y revelación de género son de las más buscadas y se venden muy rápido, así que son un excelente punto de partida para generar ingresos inmediatos.</p>

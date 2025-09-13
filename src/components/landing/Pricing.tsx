@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const planoCompletoFeatures = [
-  "<b>Curso Completo: Estampa Mágica</b>",
+  "<b>Curso Completo: Magic Print</b>",
   "<b>Certificado Incluido</b>",
   "<b>Acceso vitalicio</b>",
   "<b>30 Días de Garantía</b>",
@@ -23,7 +23,7 @@ const planoCompletoBonus = [
 
 const planoBasicoFeatures = {
   included: [
-    "Curso Completo: Estampa Mágica",
+    "Curso Completo: Magic Print",
     "Certificado Incluido",
     "1 Año de Acceso",
     "30 Días de Garantía"
@@ -148,7 +148,7 @@ export function Pricing() {
                 <p className="font-bold text-lg text-black uppercase">(MEJOR OFERTA)</p>
               </div>
               
-              <Image src="https://imgur.com/I8fDFCF.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
+              <Image src="https://imgur.com/EKCxH9x.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
 
               <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow text-sm md:text-base">
                 {planoCompletoFeatures.map((item, index) => (
