@@ -3,24 +3,24 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "Em quantos dispositivos posso usar os arquivos?",
-    answer: "Depois de baixar os arquivos, você pode copiá-los e compartilhá-los em todos os seus dispositivos."
+    question: "¿En cuántos dispositivos puedo usar los archivos?",
+    answer: "Una vez que descargues los archivos, puedes copiarlos y compartirlos en todos tus dispositivos."
   },
   {
-    question: "Por quanto tempo e quantas vezes posso baixar as planilhas?",
-    answer: "Você poderá acessar os arquivos quando quiser, sem limites de tempo ou acesso. Entendemos que, após a compra, o arquivo é seu e não há limites de tempo. O acesso é vitalício!"
+    question: "¿Por cuánto tiempo y cuántas veces puedo descargar las plantillas?",
+    answer: "Podrás acceder a los archivos cuando quieras, sin límites de tiempo o acceso. Entendemos que, después de la compra, el archivo es tuyo y no hay límites de tiempo. ¡El acceso es vitalicio!"
   },
   {
-    question: "Preciso de algum programa especial para abrir os arquivos?",
-    answer: "Basta usar um leitor de PDF para abrir e imprimir os arquivos. Atualmente, todos os dispositivos (PC, Android, iOS) suportam esse formato."
+    question: "¿Necesito algún programa especial para abrir los archivos?",
+    answer: "Solo necesitas un lector de PDF para abrir e imprimir los archivos. Actualmente, todos los dispositivos (PC, Android, iOS) soportan este formato."
   },
   {
-    question: "Existe uma garantia?",
-    answer: "Oferecemos aos nossos clientes uma garantia de satisfação de um ano. Se, durante esse período, você não tiver acesso ao nosso produto ou tiver algum problema técnico, envie-nos um e-mail para obter assistência ou solicitar um reembolso total, sem perguntas. Queremos garantir que nossos clientes fiquem completamente satisfeitos com a compra."
+    question: "¿Hay alguna garantía?",
+    answer: "Ofrecemos a nuestros clientes una garantía de satisfacción de 30 días. Si durante este período no estás satisfecho con nuestro producto, envíanos un correo electrónico para solicitar un reembolso completo, sin preguntas. Queremos asegurarnos de que nuestros clientes estén completamente satisfechos con su compra."
   },
   {
-    question: "Preciso de acesso à Internet para usar os arquivos?",
-    answer: "Você só precisa de uma conexão com a internet para baixar os arquivos."
+    question: "¿Necesito acceso a Internet para usar los archivos?",
+    answer: "Solo necesitas una conexión a internet para descargar los archivos."
   }
 ];
 
@@ -30,9 +30,9 @@ export function Faq() {
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-wide text-white">
-            <span role="img" aria-label="question mark">❓</span> Perguntas Frequentes
+            <span role="img" aria-label="question mark">❓</span> Preguntas Frecuentes
           </h2>
-          <p className="text-muted-foreground mt-2">Esclareça todas as suas dúvidas</p>
+          <p className="text-muted-foreground mt-2">Aclara todas tus dudas</p>
         </div>
         <Accordion type="single" collapsible className="w-full bg-black text-yellow-400">
           {faqItems.map((item, index) => (

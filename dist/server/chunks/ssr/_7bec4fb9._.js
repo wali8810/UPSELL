@@ -777,24 +777,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$a
 ;
 const faqItems = [
     {
-        question: "Em quantos dispositivos posso usar os arquivos?",
-        answer: "Depois de baixar os arquivos, você pode copiá-los e compartilhá-los em todos os seus dispositivos."
+        question: "¿En cuántos dispositivos puedo usar los archivos?",
+        answer: "Una vez que descargues los archivos, puedes copiarlos y compartirlos en todos tus dispositivos."
     },
     {
-        question: "Por quanto tempo e quantas vezes posso baixar as planilhas?",
-        answer: "Você poderá acessar os arquivos quando quiser, sem limites de tempo ou acesso. Entendemos que, após a compra, o arquivo é seu e não há limites de tempo. O acesso é vitalício!"
+        question: "¿Por cuánto tiempo y cuántas veces puedo descargar las plantillas?",
+        answer: "Podrás acceder a los archivos cuando quieras, sin límites de tiempo o acceso. Entendemos que, después de la compra, el archivo es tuyo y no hay límites de tiempo. ¡El acceso es vitalicio!"
     },
     {
-        question: "Preciso de algum programa especial para abrir os arquivos?",
-        answer: "Basta usar um leitor de PDF para abrir e imprimir os arquivos. Atualmente, todos os dispositivos (PC, Android, iOS) suportam esse formato."
+        question: "¿Necesito algún programa especial para abrir los archivos?",
+        answer: "Solo necesitas un lector de PDF para abrir e imprimir los archivos. Actualmente, todos los dispositivos (PC, Android, iOS) soportan este formato."
     },
     {
-        question: "Existe uma garantia?",
-        answer: "Oferecemos aos nossos clientes uma garantia de satisfação de um ano. Se, durante esse período, você não tiver acesso ao nosso produto ou tiver algum problema técnico, envie-nos um e-mail para obter assistência ou solicitar um reembolso total, sem perguntas. Queremos garantir que nossos clientes fiquem completamente satisfeitos com a compra."
+        question: "¿Hay alguna garantía?",
+        answer: "Ofrecemos a nuestros clientes una garantía de satisfacción de 30 días. Si durante este período no estás satisfecho con nuestro producto, envíanos un correo electrónico para solicitar un reembolso completo, sin preguntas. Queremos asegurarnos de que nuestros clientes estén completamente satisfechos con su compra."
     },
     {
-        question: "Preciso de acesso à Internet para usar os arquivos?",
-        answer: "Você só precisa de uma conexão com a internet para baixar os arquivos."
+        question: "¿Necesito acceso a Internet para usar los archivos?",
+        answer: "Solo necesitas una conexión a internet para descargar los archivos."
     }
 ];
 function Faq() {
@@ -818,7 +818,7 @@ function Faq() {
                                     lineNumber: 33,
                                     columnNumber: 13
                                 }, this),
-                                " Perguntas Frequentes"
+                                " Preguntas Frecuentes"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
@@ -827,7 +827,7 @@ function Faq() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-muted-foreground mt-2",
-                            children: "Esclareça todas as suas dúvidas"
+                            children: "Aclara todas tus dudas"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Faq.tsx",
                             lineNumber: 35,
@@ -904,7 +904,7 @@ function Footer() {
             className: "container mx-auto px-4 text-center",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-sm text-muted-foreground",
-                children: "© 2025 Curso de Cartões Decorados. Todos os direitos reservados."
+                children: "© 2025 Estampa Mágica. Todos los derechos reservados."
             }, void 0, false, {
                 fileName: "[project]/src/components/landing/Footer.tsx",
                 lineNumber: 5,
@@ -1000,7 +1000,7 @@ function Guarantee() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2",
-                                    children: "PRODUTO COM RISCO ZERO!"
+                                    children: "¡PRODUCTO CON RIESGO CERO!"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
                                     lineNumber: 19,
@@ -1009,13 +1009,13 @@ function Guarantee() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-2xl md:text-3xl font-bold mb-4",
                                     children: [
-                                        "O CURSO TEM GARANTIA ",
+                                        "EL CURSO TIENE GARANTÍA ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                                             lineNumber: 20,
-                                            columnNumber: 94
+                                            columnNumber: 97
                                         }, this),
-                                        "INCONDICIONAL DE 30 DIAS"
+                                        "INCONDICIONAL DE 30 DÍAS"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
@@ -1027,18 +1027,8 @@ function Guarantee() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "mb-4",
-                                            children: [
-                                                "Você está sob proteção do ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "Código de Defesa do Consumidor"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/landing/Guarantee.tsx",
-                                                    lineNumber: 22,
-                                                    columnNumber: 71
-                                                }, this),
-                                                " – LEI Nº 8.078, de 11 de setembro de 1990."
-                                            ]
-                                        }, void 0, true, {
+                                            children: "Estás protegido por las leyes de protección al consumidor."
+                                        }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                                             lineNumber: 22,
                                             columnNumber: 25
@@ -1046,15 +1036,15 @@ function Guarantee() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "mb-4",
                                             children: [
-                                                "Se por algum motivo você achar que não é para você ou não se adaptar, basta entrar em contato (Email: contato@cartoesdecorativos.shop) ",
+                                                "Si por alguna razón crees que no es para ti o no te adaptas, solo tienes que contactarnos (Email: contato@cartoesdecorativos.shop) ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                    children: "dentro do prazo de 30 dias"
+                                                    children: "dentro del plazo de 30 días"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Guarantee.tsx",
                                                     lineNumber: 23,
-                                                    columnNumber: 180
+                                                    columnNumber: 176
                                                 }, this),
-                                                " e solicitar o reembolso total do valor investido."
+                                                " y solicitar el reembolso total de tu inversión."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
@@ -1062,7 +1052,7 @@ function Guarantee() {
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Você receberá de volta cada centavo que pagou."
+                                            children: "Recibirás de vuelta cada centavo que pagaste."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                                             lineNumber: 24,
@@ -1096,14 +1086,14 @@ function Guarantee() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "text-2xl md:text-3xl font-bold mb-6",
                     children: [
-                        "CLIQUE NO BOTÃO ABAIXO PARA GARANTIR ",
+                        "¡HAZ CLIC EN EL BOTÓN DE ABAJO PARA ASEGURAR ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                             className: "text-destructive",
-                            children: "O CURSO COM 89% OFF!"
+                            children: "EL CURSO CON 89% DE DESCUENTO!"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                             lineNumber: 32,
-                            columnNumber: 54
+                            columnNumber: 62
                         }, this)
                     ]
                 }, void 0, true, {
@@ -1119,7 +1109,7 @@ function Guarantee() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
                             className: "cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-xl",
-                            children: "LIBERE SEU ACESSO AO CURSO"
+                            children: "LIBERA TU ACCESO AL CURSO"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Guarantee.tsx",
                             lineNumber: 37,
@@ -1137,7 +1127,7 @@ function Guarantee() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                     src: "https://imgur.com/VdsGY9a.png",
-                    alt: "Compra segura, satisfação garantida",
+                    alt: "Compra segura, satisfacción garantizada",
                     width: 500,
                     height: 100,
                     className: "mx-auto max-w-full h-auto",

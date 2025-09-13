@@ -16,12 +16,12 @@ export function Guarantee() {
                     data-ai-hint="satisfaction guarantee seal"
                 />
                 <div className="text-center mt-8">
-                    <h3 className="text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2">PRODUTO COM RISCO ZERO!</h3>
-                    <h4 className="text-2xl md:text-3xl font-bold mb-4">O CURSO TEM GARANTIA <br/>INCONDICIONAL DE 30 DIAS</h4>
+                    <h3 className="text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2">¡PRODUCTO CON RIESGO CERO!</h3>
+                    <h4 className="text-2xl md:text-3xl font-bold mb-4">EL CURSO TIENE GARANTÍA <br/>INCONDICIONAL DE 30 DÍAS</h4>
                     <div className="max-w-2xl mx-auto text-muted-foreground text-lg">
-                        <p className="mb-4">Você está sob proteção do <strong>Código de Defesa do Consumidor</strong> – LEI Nº 8.078, de 11 de setembro de 1990.</p>
-                        <p className="mb-4">Se por algum motivo você achar que não é para você ou não se adaptar, basta entrar em contato (Email: contato@cartoesdecorativos.shop) <b>dentro do prazo de 30 dias</b> e solicitar o reembolso total do valor investido.</p>
-                        <p>Você receberá de volta cada centavo que pagou.</p>
+                        <p className="mb-4">Estás protegido por las leyes de protección al consumidor.</p>
+                        <p className="mb-4">Si por alguna razón crees que no es para ti o no te adaptas, solo tienes que contactarnos (Email: contato@cartoesdecorativos.shop) <b>dentro del plazo de 30 días</b> y solicitar el reembolso total de tu inversión.</p>
+                        <p>Recibirás de vuelta cada centavo que pagaste.</p>
                     </div>
                 </div>
             </div>
@@ -29,20 +29,20 @@ export function Guarantee() {
             <hr className="border-border my-12" />
 
             <h2 className="text-2xl md:text-3xl font-bold mb-6">
-                CLIQUE NO BOTÃO ABAIXO PARA GARANTIR <strong className="text-destructive">O CURSO COM 89% OFF!</strong>
+                ¡HAZ CLIC EN EL BOTÓN DE ABAJO PARA ASEGURAR <strong className="text-destructive">EL CURSO CON 89% DE DESCUENTO!</strong>
             </h2>
 
             <div className="mb-8">
                 <a href="#plans" className="inline-block">
                   <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-xl">
-                    LIBERE SEU ACESSO AO CURSO
+                    LIBERA TU ACCESO AL CURSO
                   </Button>
                 </a>
             </div>
 
             <Image 
                 src="https://imgur.com/VdsGY9a.png"
-                alt="Compra segura, satisfação garantida"
+                alt="Compra segura, satisfacción garantizada"
                 width={500}
                 height={100}
                 className="mx-auto max-w-full h-auto"
