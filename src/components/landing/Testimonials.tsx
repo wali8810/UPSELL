@@ -77,7 +77,7 @@ export function Testimonials() {
             <div className="mt-16 text-center max-w-3xl mx-auto">
               <div className="mb-12">
                   <a href="#plans" className="inline-block">
-                    <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4 px-6 text-sm md:text-xl">
+                    <Button size="lg" className="cta-button shadow-lg text-center h-auto">
                       GARANTIZAR AHORA CON DESCONTO
                     </Button>
                   </a>
