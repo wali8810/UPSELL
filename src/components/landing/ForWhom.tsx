@@ -55,7 +55,7 @@ export function ForWhom() {
               </div>
               <div className="relative container mx-auto px-4 text-center z-10">
                 <h2 className="text-3xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
-                Cómo crear productos personalizados que se vendan en 48 horas usando solo una impresora normal y una plancha
+                Cómo crear <span className="bg-green-500 px-2">productos personalizados que se vendan en 48 horas</span> usando solo una impresora normal y una plancha
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image

@@ -994,8 +994,19 @@ function ForWhom() {
                                     letterSpacing: '-0.9px',
                                     lineHeight: '1.1'
                                 },
-                                children: "Cómo crear productos personalizados que se vendan en 48 horas usando solo una impresora normal y una plancha"
-                            }, void 0, false, {
+                                children: [
+                                    "Cómo crear ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "bg-green-500 px-2",
+                                        children: "productos personalizados que se vendan en 48 horas"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/landing/ForWhom.tsx",
+                                        lineNumber: 58,
+                                        columnNumber: 28
+                                    }, this),
+                                    " usando solo una impresora normal y una plancha"
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                 lineNumber: 57,
                                 columnNumber: 17
