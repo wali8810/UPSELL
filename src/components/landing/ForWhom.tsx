@@ -55,12 +55,8 @@ export function ForWhom() {
               </div>
               <div className="relative container mx-auto px-4 text-center z-10">
                 <h2 className="text-3xl md:text-5xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
-                    Do zero ao seu primeiro<br/>
-                     <span style={{color: '#fff', backgroundColor: '#47CB59'}}>produto personalizado lucrativo</span>
+                Cómo crear productos personalizados que se vendan en 48 horas usando solo una impresora normal y una plancha
                 </h2>
-                <p className="mt-4 text-lg md:text-xl font-semibold uppercase text-white" style={{ fontFamily: '"Montserrat", Sans-serif' }}>
-                    O mesmo passo a passo simples que já ajudou mais de 800 mulheres a criar peças irresistíveis em casa e lucrar até R$5.000 por mês — usando apenas uma impressora comum e um ferro de passar.
-                </p>
                 <div className="mt-8 flex justify-center">
                     <Image
                         src="https://imgur.com/051Veff.png"
