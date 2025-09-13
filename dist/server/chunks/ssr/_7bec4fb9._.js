@@ -47,14 +47,14 @@ const bonusData = [
     {
         bonusNumber: "#03",
         title: "Checklist de Impresión Perfecta",
-        image: "https://imgur.com/eIcZkRK.png",
+        image: "https://imgur.com/Q5sChOg.png",
         alt: "Bônus guia de inspiração",
         price: "$57.000"
     },
     {
         bonusNumber: "#04",
         title: "Guía Rápida de Aplicación con Plancha",
-        image: "",
+        image: "https://imgur.com/P07oK5g.png",
         alt: "Bônus aplicação com prancha",
         price: "$27.000"
     }
