@@ -3,37 +3,37 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const forWhomItems = [
-    "Para quem deseja trabalhar em casa, dedicando apenas algumas horas por semana e ainda assim conquistar liberdade de tempo.",
-    "Para quem sonha em ter um negócio lucrativo, que não depende da cidade ou região onde mora.",
-    "Para quem busca aproveitar a tendência que mais cresce em 2025: os cartões decorativos.",
-    "Para quem quer transformar papel em dinheiro e alcançar ganhos entre R$4.000,00 a R$7.000,00 por mês."
+    "Para quienes desean trabajar desde casa, dedicando solo unas horas a la semana y aun así lograr libertad de tiempo.",
+    "Para quienes sueñan con tener un negocio rentable, que no dependa de la ciudad o región donde viven.",
+    "Para quienes quieren aprovechar la tendencia que más crece en 2025: los productos personalizados con plancha.",
+    "Para quienes quieren transformar papel en dinero y obtener ganancias entre $800 y $1.400 por mes (aproximadamente, según tu inversión y tiempo)."
 ]
 
 const whatYouGetItems = [
     {
         icon: "🎯",
-        title: "ZERO AO AVANÇADO",
-        description: "Você vai receber o guia para criar lindas decorações com cartões e se tornar a profissional mais bem paga da sua cidade."
+        title: "DE PRINCIPIANTE A AVANÇADO",
+        description: "Recibirás la guía para crear productos personalizados increíbles y convertirte en la profesional mejor paga de tu zona."
     },
     {
         icon: "💰",
-        title: "GUIA DE PRECIFICAÇÃO",
-        description: "Dicas valiosas para fugir de gastos que aparentam ser “vantajosos” e acabam com o lucro"
+        title: "GUÍA DE PRECIO",
+        description: "Consejos valiosos para evitar gastos que parecen “ventajosos” pero que reducen tu ganancia."
     },
     {
         icon: "💎",
-        title: "SUPORTE INDIVIDUAL",
-        description: "Meu contato (particular) para esclarecer dúvidas e ganhar diversas dicas personalizadas"
+        title: "SOPORTE INDIVIDUAL",
+        description: "Mi contacto personal para aclarar dudas y brindarte consejos personalizados."
     },
     {
         icon: "🚀",
-        title: "GRUPO DE ALUNOS",
-        description: "Grupo exclusivo de alunos para trocas de dicas e experiências"
+        title: "GRUPO DE ALUMNAS",
+        description: "Grupo exclusivo para intercambio de tips y experiencias con otras emprendedoras."
     },
     {
         icon: "🧠",
-        title: "GUIA DE MATERIAIS",
-        description: "Como começar seu negócio com materiais de baixo custo que geram alta taxa de lucro"
+        title: "GUÍA DE MATERIALES",
+        description: "Cómo comenzar tu negocio usando materiales económicos que generan alta rentabilidad."
     }
 ]
 
@@ -59,7 +59,7 @@ export function ForWhom() {
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image
-                        src="https://imgur.com/I8fDFCF.png"
+                        src="https://imgur.com/oCI618G.png"
                         alt="Mockup do curso e bônus"
                         width={608}
                         height={405}
@@ -91,7 +91,7 @@ export function ForWhom() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-2xl md:text-4xl font-extrabold mb-8 uppercase tracking-wide">
-                            PARA QUEM É O MÉTODO ESTAMPA MÁGICA?
+                            ¿PARA QUIÉN ES EL MÉTODO ESTAMPA MÁGICA?
                         </h2>
                         <ul className="space-y-4 text-left mb-12 max-w-2xl mx-auto">
                             {forWhomItems.map((item, index) => (
@@ -105,7 +105,7 @@ export function ForWhom() {
                         <div className="space-y-4 my-8"></div>
 
                         <h2 className="text-xl md:text-2xl font-bold uppercase text-black bg-yellow-400 inline-block px-4 py-2 mb-8">
-                            VEJA O QUE VOCÊ VAI RECEBER:
+                            MIRA LO QUE RECIBIRÁS:
                         </h2>
 
                         <div className="text-left space-y-6 mb-8 max-w-2xl mx-auto">
@@ -120,12 +120,12 @@ export function ForWhom() {
                         <div className="mb-8">
                             <a href="#plans">
                                 <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-4 px-8 transform hover:scale-105 transition-transform duration-300 shadow-lg">
-                                    QUERO APROVEITAR
+                                    ¡QUIERO APROVECHAR!
                                 </Button>
                             </a>
                         </div>
                         
-                        <p className="text-gray-600 mb-8 text-sm md:text-base">Seguindo o curso, <b>você NÃO precisa de:</b> experiência, materiais caros ou passar horas trabalhando</p>
+                        <p className="text-gray-600 mb-8 text-sm md:text-base">Siguiendo este curso, <b>NO necesitas:</b> experiencia previa, materiales caros ni pasar horas trabajando.</p>
 
                         <hr className="border-t-2 border-black font-bold w-full" />
                     </div>
