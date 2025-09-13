@@ -530,7 +530,8 @@ function Pricing() {
                                         width: 400,
                                         height: 300,
                                         className: "w-full h-auto rounded-md my-4",
-                                        "data-ai-hint": "course mockup bundle"
+                                        "data-ai-hint": "course mockup bundle",
+                                        priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Pricing.tsx",
                                         lineNumber: 151,
@@ -1283,7 +1284,8 @@ function ForWhom() {
                                     width: 608,
                                     height: 405,
                                     className: "max-w-full h-auto",
-                                    "data-ai-hint": "course bundle mockup"
+                                    "data-ai-hint": "course bundle mockup",
+                                    priority: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
                                     lineNumber: 76,
@@ -1319,12 +1321,12 @@ function ForWhom() {
                                     children: "DE $59.900"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 92,
                                     columnNumber: 85
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 91,
+                                lineNumber: 92,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1332,7 +1334,7 @@ function ForWhom() {
                                 children: "POR SOLO"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 92,
+                                lineNumber: 93,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1340,7 +1342,7 @@ function ForWhom() {
                                 children: "$18.000"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 93,
+                                lineNumber: 94,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1348,7 +1350,7 @@ function ForWhom() {
                                 children: "¡RIESGO CERO!"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 94,
+                                lineNumber: 95,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1360,35 +1362,35 @@ function ForWhom() {
                                     children: "QUIERO APROVECHAR"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 97,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 95,
+                                lineNumber: 96,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                 className: "mt-8 border-t-2 border-black font-bold w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 100,
+                                lineNumber: 101,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                        lineNumber: 90,
+                        lineNumber: 91,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                    lineNumber: 89,
+                    lineNumber: 90,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                lineNumber: 88,
+                lineNumber: 89,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1403,7 +1405,7 @@ function ForWhom() {
                                 children: "¿PARA QUIÉN ES EL MÉTODO MAGIC PRINT?"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 108,
+                                lineNumber: 109,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1413,32 +1415,32 @@ function ForWhom() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CheckIcon, {}, void 0, false, {
                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 115,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: item
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 116,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 114,
                                         columnNumber: 33
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 111,
+                                lineNumber: 112,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "space-y-4 my-8"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 120,
+                                lineNumber: 121,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1446,7 +1448,7 @@ function ForWhom() {
                                 children: "MIRA LO QUE RECIBIRÁS:"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 122,
+                                lineNumber: 123,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1459,7 +1461,7 @@ function ForWhom() {
                                                 children: item.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 130,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1469,7 +1471,7 @@ function ForWhom() {
                                                         children: item.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 131,
                                                         columnNumber: 43
                                                     }, this),
                                                     ": ",
@@ -1477,18 +1479,18 @@ function ForWhom() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 131,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 129,
                                         columnNumber: 33
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 126,
+                                lineNumber: 127,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1499,7 +1501,7 @@ function ForWhom() {
                                         children: "Productos que puedes empezar a hacer hoy:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 136,
+                                        lineNumber: 137,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Carousel"], {
@@ -1526,41 +1528,42 @@ function ForWhom() {
                                                                 alt: `Example image ${index + 1}`,
                                                                 width: 400,
                                                                 height: 400,
-                                                                className: "w-full h-full object-cover rounded-lg"
+                                                                className: "w-full h-full object-cover rounded-lg",
+                                                                priority: true
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                                lineNumber: 155,
+                                                                lineNumber: 156,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                            lineNumber: 154,
+                                                            lineNumber: 155,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 154,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, index, false, {
                                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 153,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                            lineNumber: 150,
+                                            lineNumber: 151,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 138,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 135,
+                                lineNumber: 136,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1573,17 +1576,17 @@ function ForWhom() {
                                         children: "¡QUIERO APROVECHAR!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 174,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                    lineNumber: 171,
+                                    lineNumber: 173,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 170,
+                                lineNumber: 172,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1594,37 +1597,37 @@ function ForWhom() {
                                         children: "NO necesitas:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 178,
+                                        lineNumber: 180,
                                         columnNumber: 102
                                     }, this),
                                     " experiencia previa, materiales caros ni pasar horas trabajando."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 178,
+                                lineNumber: 180,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                 className: "border-t-2 border-black font-bold w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 180,
+                                lineNumber: 182,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                        lineNumber: 107,
+                        lineNumber: 108,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                    lineNumber: 106,
+                    lineNumber: 107,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                lineNumber: 105,
+                lineNumber: 106,
                 columnNumber: 13
             }, this)
         ]

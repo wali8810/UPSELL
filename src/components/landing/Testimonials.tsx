@@ -35,6 +35,7 @@ const TestimonialCard = ({ image, text, name }: { image: string, text: string, n
                 height={100}
                 className="rounded-full border-4 border-white object-cover"
                 data-ai-hint="woman avatar"
+                priority
             />
         </div>
         <div className="bg-[#5c2c2c] text-white rounded-xl p-6 pt-16 text-center shadow-lg">

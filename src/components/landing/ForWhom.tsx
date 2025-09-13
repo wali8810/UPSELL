@@ -80,6 +80,7 @@ export function ForWhom() {
                         height={405}
                         className="max-w-full h-auto"
                         data-ai-hint="course bundle mockup"
+                        priority
                     />
                 </div>
               </div>
@@ -158,6 +159,7 @@ export function ForWhom() {
                                                 width={400}
                                                 height={400}
                                                 className="w-full h-full object-cover rounded-lg"
+                                                priority
                                             />
                                         </div>
                                     </div>

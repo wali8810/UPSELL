@@ -14,6 +14,7 @@ export function Guarantee() {
                     height={250}
                     className="mx-auto"
                     data-ai-hint="satisfaction guarantee seal"
+                    priority
                 />
                 <div className="text-center mt-8">
                     <h3 className="text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2">¡PRODUCTO CON RIESGO CERO!</h3>
@@ -47,6 +48,7 @@ export function Guarantee() {
                 height={100}
                 className="mx-auto max-w-full h-auto"
                 data-ai-hint="secure purchase logos payment methods"
+                priority
             />
         </div>
     </section>

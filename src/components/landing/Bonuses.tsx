@@ -68,6 +68,7 @@ export function Bonuses() {
                       width={300}
                       height={300}
                       className="w-auto h-auto max-w-full rounded-lg"
+                      priority
                     />
                 </div>
               )}
