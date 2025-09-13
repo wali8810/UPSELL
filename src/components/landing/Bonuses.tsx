@@ -26,7 +26,7 @@ const bonusData = [
     {
     bonusNumber: "#04",
     title: "Guía Rápida de Aplicación con Plancha",
-    image: "https://imgur.com/I8fDFCF.png",
+    image: "",
     alt: "Bônus aplicação com prancha",
     price: "$27.000",
   },
@@ -60,15 +60,17 @@ export function Bonuses() {
               key={index}
               className="p-4 border-2 border-dashed border-gray-300 rounded-2xl flex flex-col items-center text-center"
             >
+              {bonus.image && (
                 <div className="w-full flex items-center justify-center mb-4">
-                  <Image
-                    src={bonus.image}
-                    alt={bonus.alt}
-                    width={300}
-                    height={300}
-                    className="w-auto h-auto max-w-full rounded-lg"
-                  />
+                    <Image
+                      src={bonus.image}
+                      alt={bonus.alt}
+                      width={300}
+                      height={300}
+                      className="w-auto h-auto max-w-full rounded-lg"
+                    />
                 </div>
+              )}
                 <div className="w-full text-center space-y-2">
                   <h3 className="text-xl md:text-2xl font-bold font-montserrat text-black">
                     BONO {bonus.bonusNumber}:

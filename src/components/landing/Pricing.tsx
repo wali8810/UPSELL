@@ -89,10 +89,10 @@ export function Pricing() {
              <div className="bg-white text-black rounded-2xl shadow-lg flex flex-col h-full border-2 border-gray-200 p-6 md:p-8 w-full">
                 <div className="text-center mb-6">
                    <div className="bg-gray-800 text-white rounded-full py-2 px-8 mb-4 inline-block self-center">
-                    <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
+                    <h3 className="text-xl font-bold uppercase">Plan Básico:</h3>
                   </div>
                    <p className="font-bold text-lg uppercase text-black">Pagamento Único</p>
-                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">R$10</p>
+                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">$7.270</p>
                 </div>
                 <div className="flex-grow">
                   <ul className="text-left space-y-3 my-4 text-gray-600 text-sm md:text-base">
@@ -142,12 +142,12 @@ export function Pricing() {
                     <StarIcon />
                 </div>
                 <div className="bg-red-500 text-white rounded-full py-2 px-8 mb-2 inline-block">
-                  <h3 className="text-xl font-bold uppercase">Plano Completo:</h3>
+                  <h3 className="text-xl font-bold uppercase">Plan completo:</h3>
                 </div>
                 <p className="font-bold text-lg text-black uppercase">(MELHOR NEGÓCIO)</p>
               </div>
               
-              <Image src="https://imgur.com/I8fDFCF.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
+              <Image src="https://imgur.com/ggAJSGi.png" alt="Mockup plano completo" width={400} height={300} className="w-full h-auto rounded-md my-4" data-ai-hint="course mockup bundle"/>
 
               <ul className="text-left space-y-3 my-4 text-gray-600 flex-grow text-sm md:text-base">
                 {planoCompletoFeatures.map((item, index) => (
@@ -172,7 +172,7 @@ export function Pricing() {
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                     viewport={{ once: true, amount: 0.8 }}
                     className="text-5xl md:text-6xl font-extrabold text-green-500">
-                    R$14,90
+                    $18.000
                 </motion.p>
               </div>
 

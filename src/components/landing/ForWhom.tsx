@@ -68,7 +68,7 @@ export function ForWhom() {
                 </h2>
                 <div className="mt-8 flex justify-center">
                     <Image
-                        src="https://imgur.com/oCI618G.png"
+                        src="https://imgur.com/I8fDFCF.png"
                         alt="Mockup do curso e bônus"
                         width={608}
                         height={405}
@@ -128,14 +128,14 @@ export function ForWhom() {
 
                         <div className="my-8">
                             <p className="font-bold underline text-lg mb-4">Productos que puedes empezar a hacer hoy:</p>
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-lg mx-auto">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
                                 {carouselImages.map((src, index) => (
                                     <div key={index} className="aspect-square">
                                         <Image
                                             src={src}
                                             alt={`Example image ${index + 1}`}
-                                            width={200}
-                                            height={200}
+                                            width={300}
+                                            height={300}
                                             className="w-full h-full object-cover rounded-lg"
                                         />
                                     </div>
