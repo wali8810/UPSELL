@@ -34,7 +34,7 @@ export function Guarantee() {
 
             <div className="mb-8">
                 <a href="#plans" className="inline-block">
-                  <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4 px-6 md:px-8 text-base md:text-xl">
+                  <Button size="lg" className="cta-button shadow-lg text-center h-auto py-4 px-6 text-base md:px-8 md:text-xl">
                     LIBERA TU ACCESO AL CURSO
                   </Button>
                 </a>
