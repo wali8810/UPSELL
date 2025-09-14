@@ -525,7 +525,7 @@ function Pricing() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "https://imgur.com/DJUDH2b",
+                                        src: "https://i.imgur.com/DJUDH2b.png",
                                         alt: "Mockup plano completo",
                                         width: 400,
                                         height: 300,
@@ -1206,11 +1206,11 @@ const whatYouGetItems = [
     }
 ];
 const carouselImages = [
-    "https://imgur.com/fK03XH9",
-    "https://imgur.com/g4ToCuB",
-    "https://imgur.com/teZxX0B",
-    "https://imgur.com/3ludoKY",
-    "https://imgur.com/x3Hd5WC"
+    "https://i.imgur.com/fK03XH9.png",
+    "https://i.imgur.com/g4ToCuB.png",
+    "https://i.imgur.com/teZxX0B.png",
+    "https://i.imgur.com/3ludoKY.png",
+    "https://i.imgur.com/x3Hd5WC.png"
 ];
 const CheckIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         "aria-hidden": "true",
@@ -1279,7 +1279,7 @@ function ForWhom() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-8 flex justify-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "https://imgur.com/DJUDH2b",
+                                    src: "https://i.imgur.com/DJUDH2b.png",
                                     alt: "Mockup do curso e bônus",
                                     width: 608,
                                     height: 405,

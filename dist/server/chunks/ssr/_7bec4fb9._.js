@@ -33,28 +33,28 @@ const bonusData = [
     {
         bonusNumber: "#01",
         title: "Kit de Estampas Prontas: 100 designs testados para usar agora mesmo!",
-        image: "https://imgur.com/ggAJSGi.png",
+        image: "https://i.imgur.com/ggAJSGi.png",
         alt: "Bônus de Kit de Estampas",
         price: "R$47,00"
     },
     {
         bonusNumber: "#02",
         title: "Mini Guia de Preços Inteligentes",
-        image: "https://imgur.com/hdbzMRu.png",
+        image: "https://i.imgur.com/hdbzMRu.png",
         alt: "Bônus manual de vendas",
         price: "R$37,00"
     },
     {
         bonusNumber: "#03",
         title: "Checklist de Impressão Perfeita",
-        image: "https://imgur.com/Q5sChOg.png",
+        image: "https://i.imgur.com/Q5sChOg.png",
         alt: "Bônus guia de inspiração",
         price: "R$57,00"
     },
     {
         bonusNumber: "#04",
         title: "Guia Rápido de Aplicação com Ferro de Passar",
-        image: "https://imgur.com/P07oK5g.png",
+        image: "https://i.imgur.com/P07oK5g.png",
         alt: "Bônus aplicação com prancha",
         price: "R$27,00"
     }
@@ -1010,7 +1010,7 @@ function Guarantee() {
                     className: "flex flex-col items-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            src: "https://imgur.com/3nS8KCV",
+                            src: "https://i.imgur.com/3nS8KCV.png",
                             alt: "Selo de Garantia de 30 dias",
                             width: 250,
                             height: 250,
@@ -1153,7 +1153,7 @@ function Guarantee() {
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    src: "https://imgur.com/VdsGY9a",
+                    src: "https://i.imgur.com/VdsGY9a.png",
                     alt: "Compra segura, métodos de pagamento",
                     width: 500,
                     height: 100,
