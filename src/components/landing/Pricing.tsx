@@ -166,7 +166,7 @@ export function Pricing() {
               </ul>
 
               <div className="text-center my-4">
-                <p className="text-red-500 line-through text-lg">Valor Total: 12€</p>
+                <p className="text-red-500 line-through text-lg">Valor Total: 29,90€</p>
                 <p className="uppercase font-bold text-black text-sm">HOJE PAGAMENTO ÚNICO...</p>
                 <motion.p 
                     whileInView={{ rotate: [0, -1.5, 1.5, -1.5, 1.5, 0] }}

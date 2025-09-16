@@ -601,7 +601,7 @@ function Pricing() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-red-500 line-through text-lg",
-                                                children: "Valor Total: 12€"
+                                                children: "Valor Total: 29,90€"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Pricing.tsx",
                                                 lineNumber: 169,
@@ -1318,7 +1318,7 @@ function ForWhom() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl md:text-4xl font-bold text-red-500",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("s", {
-                                    children: "DE 12€"
+                                    children: "DE 29,90€"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
                                     lineNumber: 92,
