@@ -1404,8 +1404,7 @@ function ForWhom() {
                                                                 alt: `Imagem de exemplo ${index + 1}`,
                                                                 width: 400,
                                                                 height: 400,
-                                                                className: "w-full h-full object-cover rounded-lg",
-                                                                priority: true
+                                                                className: "w-full h-full object-cover rounded-lg"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
                                                                 lineNumber: 156,
@@ -1452,17 +1451,17 @@ function ForWhom() {
                                         children: "QUERO APROVEITAR!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 174,
+                                        lineNumber: 173,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 172,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 172,
+                                lineNumber: 171,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1473,21 +1472,21 @@ function ForWhom() {
                                         children: "NÃO PRECISA de:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                        lineNumber: 180,
+                                        lineNumber: 179,
                                         columnNumber: 101
                                     }, this),
                                     " experiência prévia, materiais caros nem passar horas a trabalhar."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 180,
+                                lineNumber: 179,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                 className: "border-t-2 border-black font-bold w-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/ForWhom.tsx",
-                                lineNumber: 182,
+                                lineNumber: 181,
                                 columnNumber: 25
                             }, this)
                         ]

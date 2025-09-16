@@ -419,8 +419,7 @@ const TestimonialCard = ({ image, text, name })=>/*#__PURE__*/ (0, __TURBOPACK__
                     width: 100,
                     height: 100,
                     className: "rounded-full border-4 border-white object-cover",
-                    "data-ai-hint": "woman avatar",
-                    priority: true
+                    "data-ai-hint": "woman avatar"
                 }, void 0, false, {
                     fileName: "[project]/src/components/landing/Testimonials.tsx",
                     lineNumber: 30,
@@ -443,7 +442,7 @@ const TestimonialCard = ({ image, text, name })=>/*#__PURE__*/ (0, __TURBOPACK__
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                        lineNumber: 41,
+                        lineNumber: 40,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -451,13 +450,13 @@ const TestimonialCard = ({ image, text, name })=>/*#__PURE__*/ (0, __TURBOPACK__
                         children: name
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                        lineNumber: 42,
+                        lineNumber: 41,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/landing/Testimonials.tsx",
-                lineNumber: 40,
+                lineNumber: 39,
                 columnNumber: 9
             }, this)
         ]
@@ -480,7 +479,7 @@ function Testimonials() {
                             children: "DEPOIMENTOS REAIS:"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 53,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -492,19 +491,19 @@ function Testimonials() {
                                     children: "transformar a sua paixão em lucro."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 53,
                                     columnNumber: 75
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 54,
+                            lineNumber: 53,
                             columnNumber: 12
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                    lineNumber: 52,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -518,12 +517,12 @@ function Testimonials() {
                                     name: testimonial.name
                                 }, index, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 58,
                                     columnNumber: 21
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 57,
+                            lineNumber: 56,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -541,28 +540,28 @@ function Testimonials() {
                                                 children: "1500€ por mês"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 69,
                                                 columnNumber: 41
                                             }, this),
                                             " a criar cartões decorativos a partir de sua casa. Com o meu método Estampa Mágica, não precisa de investir quase nada em materiais, e na sua primeira semana já pode ter resultados reais."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 69,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "Diferente de outros artesanatos que consomem muito tempo, os cartões decorativos são rápidos de fazer, estão em alta em toda a América Latina e qualquer pessoa pode aprender, mesmo sem experiência prévia."
+                                        children: "Diferente de outros artesanatos que consomem muito tempo, os cartões decorativos são rápidos de fazer, estão em alta em toda a Europa e qualquer pessoa pode aprender, mesmo sem experiência prévia."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 70,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Com o método, receberá moldes prontos e vídeos passo a passo para criar cartões lindos e começar a vender hoje mesmo."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 71,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -571,25 +570,25 @@ function Testimonials() {
                                                 children: "Uma dica estratégica:"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 72,
                                                 columnNumber: 22
                                             }, this),
                                             " os cartões para chá de bebé e revelação de género são dos mais procurados e vendem muito rápido, sendo um excelente ponto de partida para gerar rendimento imediato."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 72,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                lineNumber: 69,
+                                lineNumber: 68,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 68,
+                            lineNumber: 67,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -606,17 +605,17 @@ function Testimonials() {
                                             children: "GARANTIR AGORA COM DESCONTO"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 79,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 78,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 77,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -629,7 +628,7 @@ function Testimonials() {
                                     children: "Quanto Tempo Leva Para Receber o Meu Acesso?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 84,
                                     columnNumber: 16
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -645,14 +644,14 @@ function Testimonials() {
                                                     children: "receberá automaticamente"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                    lineNumber: 95,
+                                                    lineNumber: 94,
                                                     columnNumber: 51
                                                 }, this),
                                                 " no seu e-mail os dados de acesso para login e poderá começar os seus estudos imediatamente."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 94,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -662,43 +661,43 @@ function Testimonials() {
                                                     children: "área de membros exclusiva"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 95,
                                                     columnNumber: 58
                                                 }, this),
                                                 " para alunos, para que possa aceder com segurança, quando e de onde estiver."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 95,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 90,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/landing/Testimonials.tsx",
-                            lineNumber: 77,
+                            lineNumber: 76,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/landing/Testimonials.tsx",
-                    lineNumber: 56,
+                    lineNumber: 55,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/landing/Testimonials.tsx",
-            lineNumber: 51,
+            lineNumber: 50,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/landing/Testimonials.tsx",
-        lineNumber: 50,
+        lineNumber: 49,
         columnNumber: 5
     }, this);
 }

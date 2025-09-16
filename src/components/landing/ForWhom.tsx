@@ -159,7 +159,6 @@ export function ForWhom() {
                                                 width={400}
                                                 height={400}
                                                 className="w-full h-full object-cover rounded-lg"
-                                                priority
                                             />
                                         </div>
                                     </div>
