@@ -91,7 +91,7 @@ export function ForWhom() {
                     <div className="max-w-md mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-red-500"><s>DE 12€</s></h2>
                         <h2 className="text-xl md:text-2xl font-bold uppercase mt-2 text-black">POR APENAS</h2>
-                        <h2 className="text-6xl md:text-7xl font-extrabold text-green-600 mt-1">4€</h2>
+                        <h2 className="text-6xl md:text-7xl font-extrabold text-green-600 mt-1">9,90€</h2>
                         <h2 className="text-2xl md:text-3xl font-bold text-black mt-4">RISCO ZERO!</h2>
                         <a href="#plans" className="mt-6 inline-block">
                             <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl h-auto py-4 px-8 rounded-lg shadow-lg animate-pulse-green">

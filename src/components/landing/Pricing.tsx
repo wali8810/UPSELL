@@ -173,7 +173,7 @@ export function Pricing() {
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                     viewport={{ once: true, amount: 0.8 }}
                     className="text-5xl md:text-6xl font-extrabold text-green-500">
-                    4€
+                    9,90€
                 </motion.p>
               </div>
 
