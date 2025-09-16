@@ -91,7 +91,7 @@ export function Pricing() {
                     <h3 className="text-xl font-bold uppercase">Plano Básico:</h3>
                   </div>
                    <p className="font-bold text-lg uppercase text-black">Pagamento único</p>
-                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">2€</p>
+                  <p className="text-5xl md:text-6xl font-extrabold text-green-500">7€</p>
                 </div>
                 <div className="flex-grow">
                   <ul className="text-left space-y-3 my-4 text-gray-600 text-sm md:text-base">
