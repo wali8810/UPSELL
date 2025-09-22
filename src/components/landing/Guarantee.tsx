@@ -16,7 +16,7 @@ export function Guarantee() {
                     priority
                 />
                 <div className="text-center mt-8">
-                    <h3 className="text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2">A Minha Garantia Pessoal Risco Zero!</h3>
+                    <h3 className="text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2">A minha garantia pessoal Risco Zero!</h3>
                     <div className="max-w-2xl mx-auto text-muted-foreground text-lg">
                         <p className="mb-4">Adicione o curso ao seu pedido agora. Mergulhe no conteúdo, aplique o método, crie as suas primeiras caixas. Se dentro de 30 dias você não sentir que este foi o melhor investimento de €9,90 que já fez para a sua independência financeira, eu devolvo cada cêntimo.</p>
                         <p className="font-bold">Sem perguntas, sem ressentimentos. O risco é todo meu.</p>
@@ -37,7 +37,7 @@ export function Guarantee() {
                   </Button>
                 </a>
             </div>
-            <a href="#" className="text-gray-500 underline text-sm">Não, Eugênia, obrigado. Eu dispenso a sua ajuda e prefiro aprender da maneira mais difícil, mesmo que isso signifique errar, frustrar-me e gastar mais dinheiro em material do que o valor deste curso.</a>
+            <a href="#" className="text-gray-500 underline text-sm">Não, obrigado. Eu recuso esta oferta especial e entendo que nunca mais a verei. Prefiro seguir sozinha e arriscar cometer os erros caros que poderiam ser evitados, mesmo que isso custe mais do que os €9,90 do curso.</a>
             
         </div>
     </section>

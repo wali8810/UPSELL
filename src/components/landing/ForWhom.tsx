@@ -5,23 +5,23 @@ import { Button } from "@/components/ui/button";
 const whatYouGetItems = [
     {
         icon: "✅",
-        title: "O ORGULHO",
-        description: "de criar caixas de luxo para momentos especiais (casamentos, nascimentos), feitas pelas suas próprias mãos."
+        title: "TRANSFORMAR",
+        description: "papelão e tecido em Caixas de Luxo para eventos (casamentos, batizados) que os clientes pagam centenas de euros para ter."
     },
     {
         icon: "✅",
-        title: "A CONFIANÇA",
-        description: "de dominar o meu \"Método das 3 Peças\", para que nunca mais desperdice material e cada caixa saia perfeita."
+        title: "DOMINAR",
+        description: "o \"Método das 3 Peças\" para produzir caixas perfeitas em tempo recorde, sem desperdício de material (o maior inimigo do lucro)."
     },
     {
         icon: "✅",
-        title: "A ALEGRIA",
-        description: "de ver o lucro real a entrar na sua conta, transformando menos de €1 de material em produtos desejados."
+        title: "OBTER LUCROS REAIS",
+        description: "de até 312%, criando produtos que custam menos de €1 para fazer e são vendidos por €3, €4 ou mais."
     },
     {
         icon: "✅",
-        title: "A LIBERDADE",
-        description: "de construir algo seu, a partir de casa, e ter uma fonte de rendimento que lhe dá segurança e independência."
+        title: "CONSTRUIR UMA RENDA EXTRA SÓLIDA",
+        description: "a partir da sua mesa de cozinha, com a flexibilidade de trabalhar quando quiser e receber encomendas que pagam as suas contas."
     }
 ]
 
@@ -32,10 +32,10 @@ export function ForWhom() {
             <section className="relative w-full pb-10 overflow-hidden text-white pt-12 md:pt-20 bg-gradient-to-br from-pink-500 via-red-500 to-orange-500">
               <div className="relative container mx-auto px-4 text-center z-10">
                 <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-tighter text-white" style={{ fontFamily: '"Montserrat", Sans-serif', letterSpacing: '-0.9px', lineHeight: '1.1' }}>
-                ESPERE! <span className="text-white">O seu caminho ainda não terminou...</span>
+                ESPERE! <span className="text-white">O Seu Pedido Está Incompleto.</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
-                Parabéns pela sua decisão! Agora, deixe-me entregar-lhe pessoalmente o meu método completo para transformar a sua nova habilidade numa fonte de orgulho e lucro. Adicione o curso completo ao seu pedido por um pagamento único e simbólico de apenas €9,90.
+                Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para criar caixas que vendem em 48h por um pagamento único e ridículo de €9,90.
                 </p>
                 <div className="mt-8 flex justify-center">
                     <Image
@@ -51,7 +51,7 @@ export function ForWhom() {
                  <div className="mt-8">
                     <a href="#plans" className="inline-block">
                         <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-xl md:text-2xl h-auto py-4 px-10 rounded-lg shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
-                            SIM, EU QUERO! Adicione o método completo ao meu pedido por €9,90.
+                            SIM! QUERO ADICIONAR O MÉTODO COMPLETO AO MEU PEDIDO POR APENAS €9,90!
                         </Button>
                     </a>
                     <p className="mt-2 text-sm text-white/80">
@@ -65,7 +65,7 @@ export function ForWhom() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-2xl md:text-3xl font-extrabold mb-8 uppercase tracking-wide">
-                           Isto é o que eu quero que você sinta e consiga, talvez já na próxima semana:
+                           Isto é exatamente o que você vai conseguir fazer nos próximos dias (sem precisar de experiência, atelier ou máquinas caras):
                         </h2>
 
                         <div className="text-left space-y-6 mb-8 max-w-2xl mx-auto">
