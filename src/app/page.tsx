@@ -10,7 +10,7 @@ import { CountdownTimer } from '@/components/landing/CountdownTimer';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
-       <div className="bg-destructive text-destructive-foreground text-center p-2 text-sm font-bold">
+       <div className="bg-red-600 text-white text-center p-2 text-sm font-bold">
         ATENÇÃO: A SUA COMPRA AINDA NÃO FOI CONCLUÍDA. LEIA ABAIXO.
       </div>
        <CountdownTimer />
