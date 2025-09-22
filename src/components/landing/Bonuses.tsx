@@ -3,31 +3,19 @@ import Image from "next/image";
 const bonusData = [
   {
     bonusNumber: "#01",
-    title: "Kit de Estampas Prontas: 100 designs testados para usar agora mesmo!",
-    image: "https://i.imgur.com/ggAJSGi.png",
-    alt: "Bónus de Kit de Estampas",
-    price: "10€",
+    title: "A Minha Lista Secreta de Fornecedores em Portugal",
+    image: "https://picsum.photos/seed/bonus1/300/300",
+    alt: "Bónus de Lista de Fornecedores",
+    price: "19,90€",
+    "data-ai-hint": "supplier list document"
   },
   {
     bonusNumber: "#02",
-    title: "Mini Guia de Preços Inteligentes",
-    image: "https://i.imgur.com/hdbzMRu.png",
-    alt: "Bónus manual de vendas",
-    price: "8€",
-  },
-  {
-    bonusNumber: "#03",
-    title: "Checklist de Impressão Perfeita",
-    image: "https://i.imgur.com/Q5sChOg.png",
-    alt: "Bónus guia de inspiração",
-    price: "12€",
-  },
-    {
-    bonusNumber: "#04",
-    title: "Guia Rápido de Aplicação com Ferro de Engomar",
-    image: "https://i.imgur.com/P07oK5g.png",
-    alt: "Bónus aplicação com prancha",
-    price: "6€",
+    title: "Moldes Prontos das 5 Medidas Mais Vendidas",
+    image: "https://picsum.photos/seed/bonus2/300/300",
+    alt: "Bónus de Moldes Prontos",
+    price: "29,90€",
+    "data-ai-hint": "box templates mock-up"
   },
 ];
 
@@ -37,18 +25,16 @@ export function Bonuses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12" id="bonuses-section">
           <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-tighter leading-tight mb-4 text-black font-montserrat">
-            BÓNUS POR <br />
-            <u className="text-black underline" style={{textDecorationColor: 'black'}}>PRIMEIRA VISITA</u>...
+            E ainda leva estes BÓNUS EXCLUSIVOS
           </h2>
           <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-2 font-montserrat text-black">
             <span className="bg-yellow-400 text-black px-2 py-1">
-              4 bónus exclusivos
-            </span>{" "}
-            para quem comprar o CURSO NESTA PÁGINA
+              (Valor Total: 49,80€)
+            </span>
           </h3>
-          <h4 className="text-xl md:text-2xl font-bold uppercase text-destructive font-montserrat">
-            <span style={{ color: "#FF0845" }}>
-              (<u>ACABA HOJE!</u>)
+          <h4 className="text-xl md:text-2xl font-bold uppercase text-green-600 font-montserrat">
+            <span>
+              Hoje é GRÁTIS!
             </span>
           </h4>
         </div>
@@ -67,6 +53,7 @@ export function Bonuses() {
                       width={300}
                       height={300}
                       className="w-auto h-auto max-w-full rounded-lg"
+                      data-ai-hint={bonus['data-ai-hint']}
                       priority
                     />
                 </div>

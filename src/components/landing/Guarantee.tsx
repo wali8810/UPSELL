@@ -16,12 +16,10 @@ export function Guarantee() {
                     priority
                 />
                 <div className="text-center mt-8">
-                    <h3 className="text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2">PRODUTO COM RISCO ZERO!</h3>
-                    <h4 className="text-2xl md:text-3xl font-bold mb-4">O CURSO TEM GARANTIA <br/>INCONDICIONAL DE 30 DIAS</h4>
+                    <h3 className="text-3xl md:text-4xl font-extrabold text-destructive uppercase tracking-wide mb-2">A Minha Garantia Pessoal Risco Zero!</h3>
                     <div className="max-w-2xl mx-auto text-muted-foreground text-lg">
-                        <p className="mb-4">Está protegido pelas leis de proteção ao consumidor.</p>
-                        <p className="mb-4">Se por algum motivo achar que não é para si ou não se adaptar, basta entrar em contacto connosco (E-mail: contato@cartoesdecorativos.shop) <b>dentro do prazo de 30 dias</b> e solicitar o reembolso total do seu investimento.</p>
-                        <p>Receberá de volta cada cêntimo que pagou.</p>
+                        <p className="mb-4">Adicione o curso ao seu pedido agora. Mergulhe no conteúdo, aplique o método, crie as suas primeiras caixas. Se dentro de 30 dias você não sentir que este foi o melhor investimento de €9,90 que já fez para a sua independência financeira, eu devolvo cada cêntimo.</p>
+                        <p className="font-bold">Sem perguntas, sem ressentimentos. O risco é todo meu.</p>
                     </div>
                 </div>
             </div>
@@ -29,26 +27,18 @@ export function Guarantee() {
             <hr className="border-border my-12" />
 
             <h2 className="text-2xl md:text-3xl font-bold mb-6">
-                CLIQUE NO BOTÃO ABAIXO PARA GARANTIR <strong className="text-destructive">O CURSO COM 89% DE DESCONTO!</strong>
+                ÚLTIMA OPORTUNIDADE DE ADICIONAR COM DESCONTO
             </h2>
 
-            <div className="mb-8">
+            <div className="mb-4">
                 <a href="#plans" className="inline-block">
-                  <Button size="lg" className="cta-button shadow-lg text-center h-auto whitespace-normal">
-                    LIBERE SEU ACESSO AO CURSO
+                  <Button size="lg" className="cta-button shadow-lg text-center h-auto whitespace-normal animate-pulse-green">
+                    SIM, EU QUERO O ACESSO COMPLETO E OS BÓNUS POR APENAS €9,90!
                   </Button>
                 </a>
             </div>
-
-            <Image 
-                src="https://i.imgur.com/VdsGY9a.png"
-                alt="Compra segura, métodos de pagamento"
-                width={500}
-                height={100}
-                className="mx-auto max-w-full h-auto"
-                data-ai-hint="secure purchase logos payment methods"
-                priority
-            />
+            <a href="#" className="text-gray-500 underline text-sm">Não, obrigado. Eu recuso esta oferta especial e entendo que nunca mais a verei. Prefiro seguir sozinha e arriscar cometer os erros caros que poderiam ser evitados, mesmo que isso custe mais do que os €9,90 do curso.</a>
+            
         </div>
     </section>
   );

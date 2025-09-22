@@ -2,48 +2,20 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "O que é o ebook 'Personalizando com Ferro de Engomar'?",
-    answer: "É um guia prático que ensina a personalizar tecidos usando um ferro e uma impressora comum, sem necessidade de experiência ou máquinas caras."
+    question: "Quanto tempo demora até aprender?",
+    answer: "Pode começar a aplicar o método e a ver resultados nas primeiras 24 a 48 horas. O curso é direto ao ponto."
   },
   {
-    question: "Preciso ter experiência?",
-    answer: "Não. O método foi criado para iniciantes. Qualquer pessoa pode aplicá-lo."
+    question: "Preciso de máquinas ou materiais caros?",
+    answer: "Não. Só vai precisar de tesoura, régua, cola e papel ou tecido. O investimento em material é baixíssimo."
   },
   {
-    question: "Quanto tempo preciso dedicar por dia?",
-    answer: "De 30 a 60 minutos por dia são suficientes para começar a praticar e a criar as suas primeiras peças."
+    question: "E se eu não gostar do curso?",
+    answer: "Você tem 30 dias de garantia incondicional. Se não ficar satisfeita por qualquer motivo, devolvemos 100% do seu dinheiro sem perguntas."
   },
   {
-    question: "Por quanto tempo tenho acesso ao ebook?",
-    answer: "Acesso vitalício. Pode aceder quando quiser, ler online ou descarregar o material."
-  },
-  {
-    question: "Existe alguma garantia?",
-    answer: "Sim. Tem 7 dias de garantia para testar tudo. Se não ficar satisfeito, devolvemos 100% do seu investimento."
-  },
-  {
-    question: "Como funciona o suporte?",
-    answer: "Terá acesso ao nosso Suporte VIP individual, com atendimento direto e personalizado."
-  },
-  {
-    question: "O que acontece depois de comprar?",
-    answer: "Recebe um e-mail automático da Kiwify com acesso imediato ao ebook. É simples e rápido."
-  },
-  {
-    question: "Preciso investir em máquinas caras?",
-    answer: "Não. Só precisará de: ✔ Um ferro de engomar ✔ Uma impressora comum ✔ Papel específico (eu ensino qual usar no ebook)."
-  },
-  {
-    question: "Em quantos dispositivos posso usar os ficheiros?",
-    answer: "Depois de descarregar os ficheiros, pode copiá-los e partilhá-los em todos os seus dispositivos."
-  },
-  {
-    question: "Por quanto tempo e quantas vezes posso descarregar os templates?",
-    answer: "Poderá aceder aos ficheiros quando quiser, sem limites de tempo ou acesso. Entendemos que, após a compra, o ficheiro é seu e não há limites de tempo. O acesso é vitalício!"
-  },
-  {
-    question: "Preciso de algum programa especial para abrir os ficheiros?",
-    answer: "Só precisa de um leitor de PDF para abrir e imprimir os ficheiros. Atualmente, todos os dispositivos (PC, Android, iOS) suportam este formato."
+    question: "O acesso é vitalício?",
+    answer: "Sim! Paga uma vez e tem acesso para sempre, incluindo todas as futuras atualizações do curso."
   }
 ];
 

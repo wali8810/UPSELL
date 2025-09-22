@@ -4,8 +4,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Curso de Cartões Decorados',
-  description: 'Ganhe de 600€ a 900€ por mês a criar cartões decorados que se vendem sozinhos.',
+  title: '(1) A sua encomenda está quase pronta...',
+  description: 'Adicione o método completo e validado para criar caixas que vendem em 48h por um pagamento único de €9,90.',
 };
 
 export default function RootLayout({
@@ -53,65 +53,6 @@ export default function RootLayout({
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '768977436001525');
             fbq('track', 'PageView');
-          `}
-        </Script>
-        <Script id="notiflix-sales" strategy="afterInteractive">
-          {`
-            var position = "right-top";
-            var color = "verde";
-            var animation = "from-right";
-            var product_name = "";
-            var phrase = "acaba de comprar";
-            var timeout = 4000;
-            var type_name = "masc, fem";
-            var msg_final = "";
-            var min_time = 4;
-            var max_time = 20;
-
-            var names_masc = ['José', 'João', 'Luiz', 'Carlos', 'Pedro', 'Lucas', 'Miguel', 'Rafael', 'Daniel', 'Marcelo', 'Bruno', 'Eduardo', 'Felipe', 'Rodrigo', 'Manuel', 'Mateus', 'André', 'Fernando', 'Fabio', 'Leonardo', 'Gustavo', 'Guilherme', 'Leandro', 'Thiago', 'Anderson', 'Ricardo', 'Jorge', 'Alexandre', 'Roberto', 'Edson', 'Diego', 'Victor', 'Sergio', 'Claudio', 'Matheus', 'Adriano', 'Luciano', 'Julio', 'Renato', 'Alex', 'Vinicius', 'Samuel', 'Ronaldo', 'Mario', 'Flavio', 'Douglas', 'Igor', 'David', 'Javier', 'Francisco', 'Antonio', 'Jesus', 'Martim', 'Santiago', 'Sebastião', 'Nicolas', 'Gabriel', 'Pablo', 'Emiliano', 'Cristian', 'Estevão'];
-            var names_fem = ['Maria', 'Ana', 'Francisca', 'Antonia', 'Adriana', 'Juliana', 'Marcia', 'Fernanda', 'Patricia', 'Aline', 'Sandra', 'Camila', 'Amanda', 'Bruna', 'Jessica', 'Leticia', 'Julia', 'Luciana', 'Vanessa', 'Mariana', 'Gabriela', 'Vera', 'Victoria', 'Larissa', 'Claudia', 'Beatriz', 'Rita', 'Luana', 'Sonia', 'Renata', 'Eliana', 'Sofia', 'Isabella', 'Valentina', 'Emma', 'Valeria', 'Daniela', 'Carolina', 'Alejandra', 'Andrea', 'Paula', 'Laura', 'Natalia'];
-            var option = {
-                position: position,
-                cssAnimationStyle: animation,
-                plainText: false,
-                timeout: timeout
-            };
-
-            function show_notification() {
-                if (typeof Notiflix === 'undefined') {
-                    setTimeout(show_notification, 100);
-                    return;
-                }
-                
-                if (type_name == "masc") {
-                    msg_final = "<strong>" + names_masc[Math.floor(Math.random() * names_masc.length)] + "</strong>";
-                } else if (type_name == "fem") {
-                    msg_final = "<strong>" + names_fem[Math.floor(Math.random() * names_fem.length)] + "</strong>";
-                } else {
-                    var array_aux = ["masc", "fem"];
-                    if (array_aux[Math.floor(Math.random() * array_aux.length)] == "masc") {
-                        msg_final = "<strong>" + names_masc[Math.floor(Math.random() * names_masc.length)] + "</strong>";
-                    } else {
-                        msg_final = "<strong>" + names_fem[Math.floor(Math.random() * names_fem.length)] + "</strong>";
-                    }
-                }
-                msg_final += " " + phrase + " " + product_name;
-                if (color == "verde") {
-                    Notiflix.Notify.Success(msg_final, option);
-                }
-                if (color == "azul") {
-                    Notiflix.Notify.Info(msg_final, option);
-                }
-                if (color == "vermelho") {
-                    Notiflix.Notify.Failure(msg_final, option);
-                }
-                if (color == "amarelo") {
-                    Notiflix.Notify.Warning(msg_final, option);
-                }
-                var rand = Math.floor(Math.random() * (max_time - min_time + 1) + min_time);
-                setTimeout(show_notification, rand * 1000);
-            }
-            setTimeout(show_notification, 4 * 1000);
           `}
         </Script>
       </body>

@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 export function CountdownTimer() {
-  const [timeLeft, setTimeLeft] = useState(6 * 60 + 54); // 6 minutos e 54 segundos
+  const [timeLeft, setTimeLeft] = useState(20 * 60); // 20 minutos
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -19,11 +19,26 @@ export function CountdownTimer() {
     }
 
     const timer = setInterval(() => {
-      setTimeLeft(prevTime => prevTime > 0 ? prevTime - 1 : 0);
+      setTimeLeft(prevTime => {
+        if (prevTime > 0) {
+          sessionStorage.setItem('upsell_timer_vivendo_da_caixa', String(prevTime - 1));
+          return prevTime - 1;
+        }
+        return 0;
+      });
     }, 1000);
 
     return () => clearInterval(timer);
   }, [timeLeft, isVisible]);
+
+  useEffect(() => {
+    if (isVisible) {
+      const savedTime = sessionStorage.getItem('upsell_timer_vivendo_da_caixa');
+      if (savedTime && !isNaN(Number(savedTime)) && Number(savedTime) > 0) {
+        setTimeLeft(Number(savedTime));
+      }
+    }
+  }, [isVisible]);
 
   if (!isVisible) {
     return null;
@@ -33,15 +48,22 @@ export function CountdownTimer() {
   const seconds = timeLeft % 60;
 
   return (
-    <div className="text-center mt-4">
-      <p className="text-white/80 mb-2 uppercase font-bold text-accent">
-        🚨 A OFERTA TERMINA EM:
+    <div className="bg-black text-white text-center py-2">
+      <p className="text-sm uppercase font-bold">
+        <span className="text-destructive">Atenção:</span> Oferta especial <span className="underline">só nesta página</span>. Se sair, não terá acesso novamente a este preço.
       </p>
-      <div className="inline-block bg-black/70 backdrop-blur-sm text-white font-bold rounded-lg px-6 py-3 shadow-lg border border-white/30">
-        <span className="text-4xl tracking-widest">
-          {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
-        </span>
-      </div>
+      {timeLeft > 0 ? (
+        <div className="mt-1">
+          <span className="text-white/80 text-xs">A oferta expira em: </span>
+          <div className="inline-block bg-white/10 text-white font-bold rounded px-2 py-1 text-sm">
+            <span>
+              {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
+            </span>
+          </div>
+        </div>
+      ) : (
+         <p className="text-destructive font-bold mt-1">Oferta expirada!</p>
+      )}
     </div>
   );
 }
