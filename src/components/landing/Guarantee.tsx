@@ -32,12 +32,12 @@ export function Guarantee() {
 
             <div className="mb-4">
                 <a href="#plans" className="inline-block">
-                  <Button size="lg" className="cta-button shadow-lg text-center h-auto whitespace-normal animate-pulse-green">
+                  <Button size="lg" className="cta-button shadow-lg text-center h-auto whitespace-normal animate-pulse-green leading-tight">
                     SIM, EU QUERO O ACESSO COMPLETO E OS BÓNUS POR APENAS €9,90!
                   </Button>
                 </a>
             </div>
-            <a href="#" className="text-gray-500 underline text-sm">Não, obrigado. Eu recuso esta oferta especial e entendo que nunca mais a verei. Prefiro seguir sozinha e arriscar cometer os erros caros que poderiam ser evitados, mesmo que isso custe mais do que os €9,90 do curso.</a>
+            <a href="#" className="text-gray-500 underline text-sm">Não, Eugênia, obrigado. Eu dispenso a sua ajuda e prefiro aprender da maneira mais difícil, mesmo que isso signifique errar, frustrar-me e gastar mais dinheiro em material do que o valor deste curso.</a>
             
         </div>
     </section>
