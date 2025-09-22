@@ -2,16 +2,16 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqItems = [
   {
-    question: "Quanto tempo demora até aprender?",
-    answer: "Pode começar a aplicar o método e a ver resultados nas primeiras 24 a 48 horas. O curso é direto ao ponto."
+    question: "Quanto tempo demoro a aprender?",
+    answer: "Pode começar a aplicar o método e a ver resultados nas primeiras 24 a 48 horas. O curso é muito direto."
   },
   {
     question: "Preciso de máquinas ou materiais caros?",
-    answer: "Não. Só vai precisar de tesoura, régua, cola e papel ou tecido. O investimento em material é baixíssimo."
+    answer: "Não. Só vai precisar de tesoura, régua, cola e cartão ou tecido. O investimento em material é muito baixo."
   },
   {
     question: "E se eu não gostar do curso?",
-    answer: "Você tem 30 dias de garantia incondicional. Se não ficar satisfeita por qualquer motivo, devolvemos 100% do seu dinheiro sem perguntas."
+    answer: "Tem 30 dias de garantia incondicional. Se não ficar satisfeita por qualquer motivo, devolvemos 100% do seu dinheiro, sem perguntas."
   },
   {
     question: "O acesso é vitalício?",

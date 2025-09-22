@@ -6,7 +6,7 @@ const whatYouGetItems = [
     {
         icon: "✅",
         title: "TRANSFORMAR",
-        description: "papelão e tecido em Caixas de Luxo para eventos (casamentos, batizados) que os clientes pagam centenas de euros para ter."
+        description: "cartão e tecido em Caixas de Luxo para eventos (casamentos, batizados) que os clientes pagam centenas de euros para ter."
     },
     {
         icon: "✅",
@@ -20,8 +20,8 @@ const whatYouGetItems = [
     },
     {
         icon: "✅",
-        title: "CONSTRUIR UMA RENDA EXTRA SÓLIDA",
-        description: "a partir da sua mesa de cozinha, com a flexibilidade de trabalhar quando quiser e receber encomendas que pagam as suas contas."
+        title: "CONSTRUIR UM RENDIMENTO EXTRA SÓLIDO",
+        description: "a partir da sua mesa da cozinha, com a flexibilidade de trabalhar quando quiser e receber encomendas que pagam as suas contas."
     }
 ]
 
@@ -65,7 +65,7 @@ export function ForWhom() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-2xl md:text-3xl font-extrabold mb-8 uppercase tracking-wide">
-                           Isto é exatamente o que você vai conseguir fazer nos próximos dias (sem precisar de experiência, atelier ou máquinas caras):
+                           Isto é exatamente o que vai conseguir fazer nos próximos dias (sem precisar de experiência, ateliê ou máquinas caras):
                         </h2>
 
                         <div className="text-left space-y-6 mb-8 max-w-2xl mx-auto">

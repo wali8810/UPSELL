@@ -26,7 +26,7 @@ export function Pricing() {
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto bg-white text-black rounded-2xl shadow-2xl border-4 border-yellow-400 p-6 md:p-8 w-full">
             <div className="text-center mb-6">
-                <h2 className="text-2xl md:text-3xl font-extrabold uppercase tracking-wide text-black">O Que Você Leva Nesta Oferta Exclusiva:</h2>
+                <h2 className="text-2xl md:text-3xl font-extrabold uppercase tracking-wide text-black">O Que Leva Nesta Oferta Exclusiva:</h2>
             </div>
             
             <ul className="text-left space-y-3 my-4 text-gray-700 flex-grow text-sm md:text-base">
