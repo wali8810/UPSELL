@@ -37,8 +37,6 @@ export function Guarantee() {
                   </Button>
                 </a>
             </div>
-            <a href="#" className="text-gray-500 underline text-sm">Não, obrigado. Eu recuso esta oferta especial e entendo que nunca mais a verei. Prefiro seguir sozinha e arriscar cometer os erros caros que poderiam ser evitados, mesmo que isso custe mais do que os €9,90 do curso.</a>
-            
         </div>
     </section>
   );
