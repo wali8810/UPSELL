@@ -3,7 +3,7 @@ import Image from "next/image";
 const bonusData = [
   {
     bonusNumber: "#01",
-    title: "A Minha Lista Secreta de Fornecedores em Portugal",
+    title: "A Minha Lista Secreta de Fornecedores",
     image: "https://i.imgur.com/anfzjEp.png",
     alt: "Bónus de Lista de Fornecedores",
     price: "19,90€",
