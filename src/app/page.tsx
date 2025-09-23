@@ -6,6 +6,7 @@ import { Footer } from '@/components/landing/Footer';
 import { ForWhom } from '@/components/landing/ForWhom';
 import { Guarantee } from '@/components/landing/Guarantee';
 import { CountdownTimer } from '@/components/landing/CountdownTimer';
+import { WhatYouWillMake } from '@/components/landing/WhatYouWillMake';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
        <CountdownTimer />
       <main className="flex-grow">
         <ForWhom />
+        <WhatYouWillMake />
         <Bonuses />
         <Pricing />
         <Testimonials />
