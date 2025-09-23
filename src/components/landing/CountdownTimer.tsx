@@ -50,7 +50,7 @@ export function CountdownTimer() {
   return (
     <div className="bg-black text-white text-center py-2">
       <p className="text-sm uppercase font-bold">
-        <span className="text-destructive">Atenção:</span> Oferta especial <span className="underline">só nesta página</span>. Se sair, não terá acesso novamente a este preço.
+        Oferta especial <span className="underline">só nesta página</span>. Se sair, não terá acesso novamente a este preço.
       </p>
       {timeLeft > 0 ? (
         <div className="mt-1">
