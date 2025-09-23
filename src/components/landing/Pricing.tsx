@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const includedFeatures = [
   "O Curso Completo 'Vivendo da Caixa' (Valor Real: €47,00)",
@@ -27,6 +28,17 @@ export function Pricing() {
         <div className="max-w-2xl mx-auto bg-white text-black rounded-2xl shadow-2xl border-4 border-yellow-400 p-6 md:p-8 w-full animate-pulse-yellow">
             <div className="text-center mb-6">
                 <h2 className="text-2xl md:text-3xl font-extrabold uppercase tracking-wide text-black">O Que Leva Nesta Oferta Exclusiva:</h2>
+            </div>
+
+            <div className="my-6 flex justify-center">
+                <Image
+                    src="https://i.imgur.com/rOdUlLf.png"
+                    alt="Mockup do curso Vivendo da Caixa"
+                    width={400}
+                    height={267}
+                    className="max-w-full h-auto rounded-lg shadow-lg"
+                    data-ai-hint="course bundle mockup"
+                />
             </div>
             
             <ul className="text-left space-y-3 my-4 text-gray-700 flex-grow text-sm md:text-base">
