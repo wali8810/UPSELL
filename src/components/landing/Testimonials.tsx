@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    image: "https://i.imgur.com/T0pZGgp.png",
+    image: "https://i.imgur.com/ItpWTli.png",
     text: "Vendi 20 caixinhas no fim de semana — recuperei o investimento logo na primeira encomenda.",
     name: "Ana P.",
     "data-ai-hint": "woman avatar"
   },
   {
-    image: "https://i.imgur.com/sGU7mbE.png",
+    image: "https://i.imgur.com/2HhcYh8.png",
     text: "As medidas certas mudaram tudo. Agora aceito encomendas grandes sem medo de errar!",
     name: "Mariana F.",
      "data-ai-hint": "woman avatar"
   },
     {
-    image: "https://i.imgur.com/1PiJQAb.png",
+    image: "https://i.imgur.com/kKBQA4B.png",
     text: "Simples, rápido e com um acabamento que parece de loja. As minhas clientes adoram.",
     name: "Sofia R.",
      "data-ai-hint": "woman avatar"
