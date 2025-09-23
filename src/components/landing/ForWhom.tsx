@@ -43,7 +43,7 @@ export function ForWhom() {
                         alt="Mockup do curso Vivendo da Caixa"
                         width={608}
                         height={405}
-                        className="max-w-full h-auto rounded-lg shadow-2xl"
+                        className="max-w-full h-auto"
                         data-ai-hint="course bundle mockup"
                         priority
                     />
