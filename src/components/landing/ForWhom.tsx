@@ -38,13 +38,13 @@ export function ForWhom() {
                 Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para criar caixas que vendem em 48h por um pagamento único de €9,90.
                 </p>
                 <div className="mt-8 flex justify-center">
-                    <div className="rounded-lg shadow-2xl p-4">
+                    <div>
                         <Image
                             src="https://i.imgur.com/qpMY3qq.png"
                             alt="Mockup do curso Vivendo da Caixa"
                             width={608}
                             height={405}
-                            className="max-w-full h-auto"
+                            className="max-w-2xl h-auto mx-auto"
                             data-ai-hint="course bundle mockup"
                             priority
                         />
