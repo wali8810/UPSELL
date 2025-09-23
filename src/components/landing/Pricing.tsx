@@ -32,7 +32,7 @@ export function Pricing() {
 
             <div className="flex justify-center">
                 <Image
-                    src="https://i.imgur.com/rOdUlLf.png"
+                    src="https://i.imgur.com/qpMY3qq.png"
                     alt="Mockup do curso Vivendo da Caixa"
                     width={400}
                     height={267}

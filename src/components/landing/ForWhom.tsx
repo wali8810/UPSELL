@@ -40,7 +40,7 @@ export function ForWhom() {
                 <div className="mt-8 flex justify-center">
                     <div className="rounded-lg shadow-2xl p-4">
                         <Image
-                            src="https://i.imgur.com/rOdUlLf.png"
+                            src="https://i.imgur.com/qpMY3qq.png"
                             alt="Mockup do curso Vivendo da Caixa"
                             width={608}
                             height={405}
