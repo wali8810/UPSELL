@@ -34,7 +34,7 @@ export function Guarantee() {
             <div className="mb-4">
                 <a href="#plans" className="inline-block">
                   <Button size="lg" className="cta-button shadow-lg text-center h-auto whitespace-normal animate-pulse-green leading-tight text-lg md:text-xl py-3 px-6 md:py-4">
-                    SIM, EU QUERO O ACESSO COMPLETO E OS BÓNUS POR APENAS €9,90!
+                    SIM, EU QUERO O ACESSO COMPLETO POR APENAS €9,90!
                   </Button>
                 </a>
             </div>

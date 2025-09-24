@@ -4,8 +4,6 @@ import imageData from '@/app/lib/placeholder-images.json';
 
 const includedFeatures = [
   "O Curso Completo 'Caixas Lucrativas'",
-  "BÓNUS #1: A Minha Lista Secreta de Fornecedores",
-  "BÓNUS #2: Moldes Prontos das 5 Medidas Mais Vendidas",
   "Acesso vitalício e imediato",
   "Garantia Incondicional de 30 Dias"
 ];
@@ -53,7 +51,7 @@ export function Pricing() {
             </ul>
 
             <div className="text-center my-6">
-              <p className="text-red-500 line-through text-xl">Valor Total: €96,80</p>
+              <p className="text-red-500 line-through text-xl">Valor Total: €47,00</p>
               <p className="uppercase font-bold text-black text-md mt-2">O SEU PREÇO HOJE: APENAS</p>
               <p className="text-6xl md:text-7xl font-extrabold text-green-500 animate-gentle-pulse">
                   €9,90
@@ -64,7 +62,7 @@ export function Pricing() {
                 <div className="flex justify-center flex-col items-center gap-4">
                 <a href="https://pay.hotmart.com/J102041316Q?checkoutMode=10&bid=1758655455979" rel="noopener noreferrer" className="block w-full">
                     <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 rounded-lg text-lg md:text-xl shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
-                      SIM, EU QUERO O ACESSO COMPLETO E OS BÓNUS POR APENAS €9,90!
+                      SIM, EU QUERO O ACESSO COMPLETO POR APENAS €9,90!
                     </button>
                 </a>
                 <p className="text-sm font-bold text-gray-700 text-center">ATENÇÃO: <span className="font-normal">Esta oferta <u className="font-bold">expira</u> assim que sair desta página.</span></p>

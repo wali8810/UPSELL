@@ -1,4 +1,3 @@
-import { Bonuses } from '@/components/landing/Bonuses';
 import { Pricing } from '@/components/landing/Pricing';
 import { Testimonials } from '@/components/landing/Testimonials';
 import { Faq } from '@/components/landing/Faq';
@@ -18,7 +17,6 @@ export default function Home() {
       <main className="flex-grow">
         <ForWhom />
         <WhatYouWillMake />
-        <Bonuses />
         <Pricing />
         <Testimonials />
         <Guarantee />
