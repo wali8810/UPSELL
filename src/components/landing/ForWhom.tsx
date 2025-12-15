@@ -37,7 +37,7 @@ export function ForWhom() {
                   <span className="bg-green-500 text-white px-2 rounded">ESPERE! A SUA COMPRA ESTÁ INCOMPLETA.</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto text-white/90">
-                Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para <span className="bg-green-500 text-white px-1 rounded-sm">criar caixas que vendem em 48h por um pagamento único de €9,90</span>.
+                Transforme o que acabou de adquirir na sua maior fonte de lucro. Adicione o meu método completo e validado para <span className="bg-green-500 text-white px-1 rounded-sm">criar caixas que vendem em 48h por um pagamento único de €17</span>.
                 </p>
                 <div className="mt-6 flex justify-center">
                     <div className="w-full max-w-lg">
@@ -55,7 +55,7 @@ export function ForWhom() {
                  <div className="mt-6">
                     <a href="#plans" className="inline-block">
                         <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg md:text-xl h-auto py-3 px-6 md:py-4 md:px-10 rounded-lg shadow-lg animate-pulse-green whitespace-normal text-center leading-tight">
-                            SIM! QUERO ADICIONAR O MÉTODO COMPLETO AO MEU PEDIDO POR APENAS €9,90!
+                            SIM! QUERO ADICIONAR O MÉTODO COMPLETO AO MEU PEDIDO POR APENAS €17!
                         </Button>
                     </a>
                 </div>
